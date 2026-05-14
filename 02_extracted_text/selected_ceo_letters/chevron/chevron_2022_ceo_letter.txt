@@ -1,0 +1,193 @@
+# Chevron 2022 - Chevron 2022 To our stockholders letter
+
+Source extract: 02_extracted_text/chevron/chevron_2022_annual_report.txt
+Source line range used: 83-288
+Selected text type: annual-report stockholder letter
+Extraction note: Official annual-report stockholder letter signed by Chairman/CEO; financial-report sections excluded.
+
+---
+
+to our stockholders
+The events of 2022 demonstrated the vital role
+that affordable and reliable energy plays in the
+world economy.
+The past year’s volatility illustrates the need for an
+energy system that balances economic prosperity,
+energy security and environmental protection.
+Affordable energy is vital for economies to flourish.
+Reliable energy is essential for national security.
+And we all share a stake in a lower carbon future.
+executing our strategy; delivering results
+Chevron’s strategy has remained clear: Leverage our
+strengths to safely deliver lower carbon energy to a
+growing world.
+In 2022, we increased investment by more than
+75% versus 2021, helping us deliver the highest U.S.
+production in our history, at 1.2 million barrels of
+oil‑equivalent per day.
+Execution of our strategy also enabled delivery on
+our financial priorities:
+• Grow the dividend consistently
+• Invest capital efficiently
+• Maintain a strong balance sheet, and
+• Repurchase shares steadily
+2022 marked the 35th consecutive year of higher
+per‑share annual dividends, with the company paying
+out $11 billion to stockholders. And we raised the
+per‑share dividend another 6% in early 2023. We also
+returned an additional $11.25 billion to stockholders
+by repurchasing nearly 70 million shares.
+Through disciplined investment in high-quality
+assets, Chevron achieved a return on capital
+employed of more than 20%, the highest since 2011.
+We strengthened our industry-leading balance
+sheet, reducing our debt ratio to 12.8% and net debt
+ratio to 3.3%. Our efficient deployment of capital is
+expected to drive the growth of both traditional and
+new energy businesses while continuing to deliver
+strong returns to investors.
+Our financial priorities have remained consistent
+for decades. We reward stockholders with
+predictable dividend growth, invest for long-term
+returns, maintain a strong balance sheet to mitigate
+commodity price risk and buy back shares through
+the cycle.
+the energy landscape
+Post‑pandemic demand recovery, coupled with
+supply uncertainty, created energy market volatility
+during the past year. Geopolitical events threatened
+to disrupt energy supply, OPEC spare capacity
+declined and inventories were at low levels relative
+to demand. At the same time, in much of the world,
+strong consumer spending and increased travel
+drove an oil demand increase estimated at 2.3
+million barrels per day. In 2023 demand is projected
+to grow to greater than 101 million barrels per day,
+an all‑time high.
+Natural gas demand declined slightly last year, as
+higher prices related to supply disruptions resulting
+from the Russia-Ukraine conflict prompted fuel
+substitution and demand destruction, especially in
+Europe. Global trade flows of liquefied natural gas
+(LNG) pivoted to Europe, keeping LNG capacity
+tight. Global natural gas demand is projected to
+grow in 2023.
+As growth in the global economy drives greater
+overall energy demand, investment in lower carbon
+energy technologies will also continue to grow.
+
+advancing energy progress
+Our capabilities, assets and customer relationships
+are distinct advantages. We’re building on these
+strengths as we aim to lead in lower carbon intensity
+oil, products and natural gas and at the same time
+advance new products and solutions that reduce the
+carbon intensity of major industries.
+In 2022, our upstream operations produced 3 million
+oil‑equivalent barrels per day, and we increased
+upstream capital expenditures by over 40% relative
+to the prior year. We added 1.1 billion barrels of net
+oil‑equivalent proved reserves, which equates to
+approximately 97% of net oil-equivalent production
+for the year.
+In the Permian Basin, unconventional production
+averaged 707,000 barrels of oil-equivalent
+per day, a 16% increase from 2021 and all-time
+high. We expect Permian production to grow
+nearly 10% in 2023. Additional U.S. production
+increases are expected as deepwater projects
+in the U.S. Gulf of Mexico come online, including
+Mad Dog 2 in 2023, Anchor and Whale in 2024
+and Ballymore in 2025. By 2026, Chevron’s
+Gulf of Mexico production is expected to
+increase ~50% – to around 300,000 barrels of
+oil‑equivalent per day.
+We continue to reduce upstream greenhouse
+gas intensity, which is down 30% from 2016 as
+teams around the world advance projects focused
+on energy efficiency, flaring reduction and
+methane management. Our U.S. Gulf of Mexico
+facilities are some of the lowest carbon intensity
+producing assets in the world, and our Permian
+Basin operations are among the lowest methane
+emissions per site of any operator. We plan to
+continue making progress through technology
+development and partnerships.
+Our refining system continues to evolve. We
+received permits for a project at our Pasadena
+Refinery that is expected to increase light crude
+oil throughput capacity to 125,000 barrels per day
+in 2024, allowing the refinery to run more equity
+crude from the Permian Basin. And we’re doing
+capital‑efficient unit conversions to process
+renewable feedstocks at our El Segundo and
+Pascagoula refineries.
+As a result of the acquisition of Renewable Energy
+Group, Chevron is now the second largest U.S. bio‑
+based diesel producer. We are steadily advancing
+toward our guidance of renewable fuels production
+capacity of 100,000 barrels per day by 2030.
+We’re using existing distribution channels to place
+these products in markets where we believe we
+can capture the highest margin. And we have a
+renewable diesel expansion project underway at
+the Geismar biorefinery, which is expected to come
+online next year and is projected to increase our
+overall capacity by 30%.
+Our Chevron Phillips Chemical Company affiliate,
+along with Qatar Energy, announced final
+investment decision on construction of a $6
+billion integrated polymers complex in Ras Laffan
+Industrial City, Qatar, and an $8.5 billion integrated
+polymers complex in Orange, Texas.
+Chevron New Energies remains focused on helping
+customers meet their lower carbon ambitions and
+reducing the carbon intensity of our operations.
+We’re taking actions to advance the development
+of larger‑scale carbon capture, utilization and
+storage projects.
+And we’re making strategic investments to lower
+costs, using our own assets to pilot new technologies.
+Investments and partnerships with companies like
+Svante and Carbon Clean are helping advance the
+innovation required to reduce the cost of CO2 capture
+at different types of industrial facilities. We have
+acquired pore space on the U.S. Gulf Coast that we
+believe can store over 1 billion tons of CO2, and are
+evaluating other potential storage hubs, including
+three assessment permits offshore Australia.
+We are leveraging our experience with carbon
+offsets through our partnership with Restore the
+Earth Foundation. We have collaborated to plant
+approximately 3.7 million trees in Louisiana,
+reforestation work that is expected to deliver
+nature‑based carbon reductions.
+Chevron has been investing in hydrogen research
+and development for decades, and we continue to
+lay the foundation for a high-growth, competitive
+business. We are working on multiple projects
+across California and the U.S. Gulf Coast to support
+future demand. In the Asia-Pacific region, we’re
+continuing to work with JERA, a long-time partner
+and customer, to explore codeveloping lower
+carbon intensity fuels in Australia.
+In addition, Chevron is exploring opportunities
+to commercialize and scale the next generation
+of emerging technologies, including geothermal
+energy, to grow lower carbon solutions.
+looking to the future
+We believe Chevron is well positioned to lead
+in both traditional and new energy while safely
+delivering higher returns, lower carbon and superior
+shareholder value.
+We’re at the center of one of the world’s greatest
+challenges – meeting the energy needs of a growing
+world and doing so in lower carbon ways. We are
+confident that by harnessing our human energy, we
+will continue to advance energy progress.
+Thank you for your support and the continued trust
+you place in us.
+Sincerely,
+Michael K. Wirth
+Chairman of the Board
+and Chief Executive Officer

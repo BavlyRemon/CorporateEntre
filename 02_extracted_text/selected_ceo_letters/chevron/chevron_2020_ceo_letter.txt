@@ -1,0 +1,159 @@
+# Chevron 2020 - Chevron 2020 To our stockholders letter
+
+Source extract: 02_extracted_text/chevron/chevron_2020_annual_report.txt
+Source line range used: 151-367
+Selected text type: annual-report stockholder letter
+Extraction note: Official annual-report stockholder letter signed by Chairman/CEO; financial-report sections excluded. 19 broken fi/fl Unicode ligature instances corrected: fnancial→financial, fexibility→flexibility (×2), fow→flow (×3), fows→flows, frst→first (×3), efciency→efficiency, efcient→efficient, difcult→difficult, confdence→confidence, afordable→affordable, refects→reflects, refecting→reflecting, olefns→olefins, ofsets→offsets.
+
+---
+
+To our stockholders:
+The COVID-19 pandemic and resulting disruption
+to world energy markets tested the resilience of
+Chevron and our strategies like never before. As
+we look toward economic recovery, we are grateful
+for our people and our partners. They have risen to
+the challenge, keeping global supply chains moving,
+powering manufacturing and transportation systems
+to deliver equipment and supplies to frontline workers,
+and ensuring essential products are available to those
+in need. The opportunity to leverage our assets and
+global relationships to give aid to others has been an
+honor for all of us at Chevron.
+
+building on strengths
+Even before COVID-19, we were preparing to lead in a future marked by change. Our actions were proactive and disciplined –
+simplifying and modernizing work; integrating teams, processes and value chains across business units and geographies; elevating
+leadership capabilities; advancing digital solutions; and empowering our workforce to make decisions quickly, safely and with
+greater accountability.
+We leveraged our strengths to design a better company for the long term – one that can act deliberately, seize opportunity and
+generate stronger returns. And we remained true to our values, prepared to succeed in any environment, and adaptive in a dynamic
+world where disruption is routine.
+Our financial priorities have not changed:
+growing
+the dividend
+While others are lowering dividends, we have maintained ours
+as we know it is a vital source of stockholder income. In 2020, we
+increased our payout 8 percent, the 33rd consecutive annual
+increase in per-share dividend payout.
+maintaining a strong
+balance sheet
+Financial strength – demonstrated by our industry-leading
+net debt ratio – gives us the flexibility to navigate uncertain
+market conditions and address emerging opportunities.
+reinvesting to
+grow future cash flows
+Improving capital efficiency allows us to sustain our future
+at a lower reinvestment rate. The Noble Energy acquisition is
+expected to generate free cash flow and added $13 billion in
+enterprise value.
+returning excess
+cash to stockholders
+After meeting the first three priorities, we return excess cash
+to stockholders through buybacks. We have repurchased
+shares in 13 of the last 17 years, including returning $1.75 billion
+to stockholders in 2020.
+Our priorities anchor our commitment to deliver higher returns. They guide us in good times – and we stand by them in difficult
+times. They dictate a disciplined approach to capital allocation. They inform actions to strengthen our already advantaged
+portfolio through smart acquisitions and prudent divestments – focusing on assets that deliver higher returns. Our success in
+reliably delivering value for stockholders will be commemorated this year when we celebrate a full century on the New York Stock
+Exchange – one of only 29 companies to reach this milestone.
+operating with resilience
+During 2020, global oil demand fell by some 9 percent, while
+natural gas demand fell by a more modest 3 percent. Stress
+in energy markets was compounded by intense competition
+for market share among the world’s key oil producers. These
+disruptions occurred against the backdrop of geopolitical
+uncertainty and growing economic distress.
+We demonstrated both resilience and agility in adjusting to
+extreme market conditions, balancing short-term cash flow
+and long-term value. Our portfolio is anchored in businesses
+that are low cost, large scale and long-lived – from our royalty-
+advantaged position in the Permian and growing natural
+gas business in the Eastern Mediterranean to our feedstock-
+advantaged chemicals business and leading fuels brands on
+the U.S. West Coast. We expect to deliver results through the
+business cycle, creating greater value for our stockholders and
+stronger cash flow for decades.
+When market conditions deteriorated in 2020, we swiftly
+reduced capital spending by 35 percent from 2019. We also
+reduced operating costs, reflecting our commitment to
+both capital and cost discipline. In the Permian Basin, we
+demonstrated our flexibility to cut short-cycle capital. At the
+same time, we redoubled internal transformation eforts to
+become more agile, cost efficient and streamlined.
+In our Upstream business, the acquisition of Noble Energy
+added complementary high-quality assets in Texas’s
+Permian Basin, Colorado’s DJ Basin and the Eastern
+Mediterranean. Portfolio additions in 2020 included
+approximately 5.67 million net exploration acres. We added
+832 million barrels of net oil-equivalent proved reserves
+in 2020, with the largest net additions coming from the
+Noble Energy acquisition.
+Despite the challenges presented by the COVID-19 pandemic,
+we advanced construction of the Future Growth Project-
+Wellhead Pressure Management Project at Tengizchevroil
+in Kazakhstan. Over three years, we safely delivered by sea
+408 modules, many of which weighed between 500 and
+1,800 tons, to the Tengiz Field from fabrication sites in Italy,
+Kazakhstan and South Korea.
+In our Downstream business, we completed the acquisition
+of Puma Energy (Australia) Holdings Pty Ltd., adding a
+network of more than 360 company- and retailer-owned
+service stations, a commercial and industrial fuels business,
+owned and leased seaboard import terminals and fuel
+distribution depots. And we made excellent progress on
+GS Caltex’s olefins mixed-feed cracker project at the Yeosu
+Refnery in South Korea.
+In 2020, we also increased production of renewable products
+and investments in low-carbon technologies, consistent
+with our energy transition strategy to help advance a lower-
+carbon future. During the year, Chevron announced first gas
+production at our CalBioGas renewable natural gas (RNG)
+joint venture in California, formed a new RNG partnership with
+Brightmark and announced first production of renewable base
+oil through a joint venture with Novvi.
+During a year of unprecedented challenges, we also delivered
+one of our safest years ever. This reflects our commitment to
+protecting people and the environment – and our unwavering
+determination to keep getting better.
+advancing a lower-carbon future
+Helping advance a lower-carbon future requires actions that
+drive measurable progress, demonstrating the improvements
+we are making today and our intention to do more tomorrow.
+Our energy transition strategy focuses on three action areas:
+y We are reducing the carbon intensity of our operations
+and assets, prioritizing the projects that return the largest
+reduction in carbon emissions at the lowest cost to
+customers and society.
+y We are increasing renewables and offsets in support of
+our business.
+y And we are investing in low-carbon technologies to enable
+commercial solutions while leveraging our capabilities
+and operations to advance technologies such as carbon
+capture and hydrogen.
+These actions will help make energy and global supply chains
+more sustainable – so industries and customers who use our
+products can work toward building a lower-carbon world.
+looking ahead
+We are coming out of a year like none other: a global pandemic;
+a historic lockdown of economic activity; and unprecedented
+disruption in energy markets.
+Yet the greatest challenges can call forth the greatest responses.
+Through the power of innovation, markets and partnership,
+scientists developed multiple COVID-19 vaccines in record time.
+The tide is beginning to turn, and the pandemic will eventually
+recede. This inspiring example points the way to meeting other
+great challenges – eliminating poverty, creating prosperity for all and delivering the sustainable environment everyone desires.
+On this foundation of hope, optimism and confidence, we can
+work together to achieve an even brighter future.
+At Chevron, our people are helping to build this future,
+providing the affordable, reliable, ever-cleaner energy that
+billions of people rely on every day. We take great pride in
+enabling human progress around the world. And we are deeply
+grateful to all our employees, partners and stockholders who
+make this work possible.
+Thank you for your support and the trust you place in us.
+Sincerely,
+Michael K. Wirth
+Chairman of the Board and Chief Executive Ofcer

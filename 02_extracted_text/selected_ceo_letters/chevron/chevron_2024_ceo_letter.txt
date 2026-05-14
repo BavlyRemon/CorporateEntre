@@ -1,0 +1,185 @@
+# Chevron 2024 - Chevron 2024 To our stockholders letter
+
+Source extract: 02_extracted_text/chevron/chevron_2024_annual_report.txt
+Source line range used: 110-302
+Selected text type: annual-report stockholder letter
+Extraction note: Official annual-report stockholder letter signed by Chairman/CEO; financial-report sections excluded.
+
+---
+
+to our stockholders
+Events of the past year affirmed the crucial role
+energy plays in powering the world economy. Growing
+demand for all types of energy – including oil and
+natural gas – occurred amid continued instability in the
+Middle East and Europe, highlighting the link between
+energy and geopolitics.
+As nations seek to strengthen their energy security and
+ensure the reliable supplies needed to drive economic
+productivity, Chevron remains focused on our belief
+that affordable, reliable, ever-cleaner energy enables
+human progress.
+executing our strategy
+Our strategy remains consistent: leverage our
+strengths to safely deliver lower carbon energy
+to a growing world. This begins with a portfolio
+of world-class assets, which positions us for profitable
+growth, unlocked through the capabilities of our
+people, technologies and
+strong customer relationships.
+Our strategy is underpinned by our long-standing
+financial priorities:
+• Grow the dividend consistently: In January 2025, we
+raised the per-share dividend 5% to $1.71 per quarter.
+2024 marked the 37th consecutive year of higher
+annual per-share dividend payout.
+• Invest capital efficiently: We delivered growth with a
+disciplined capital investment of $16.4 billion. These
+investments allowed us to deliver
+record production in the Permian Basin, while
+bringing new projects on line in the United States,
+Kazakhstan and West Africa.
+• Maintain a strong balance sheet: We finished the
+year with a debt ratio of 13.9% and a net debt ratio
+of 10.4%, both well below our historical average.
+Our balance sheet provides the financial strength
+and flexibility to navigate volatility, consistently
+reward stockholders and opportunistically
+capture value.
+• Return excess cash to stockholders: In 2024, we
+returned a record $27.0 billion to stockholders,
+including $15.2 billion in share repurchases,
+extending our track record of repurchasing
+shares to 17 of the past 21 years.
+the energy landscape
+In 2024, global energy demand set record highs.
+Oil consumption reached an estimated 103 million
+barrels per day and natural gas demand reached an
+estimated 4.2 trillion cubic meters. In 2025, global
+energy demand is projected to once again set
+records, with oil and natural gas remaining essential.
+Global energy investment topped an estimated
+$3 trillion for the first time in 2024, with just over
+one-third directed to traditional energy, including
+oil and gas.
+Continued investment across the energy system
+will be critical, with more than $3 trillion of annual
+investment expected through the end of this
+decade to meet projected growth in demand.
+delivering profitable growth
+Our upstream business achieved another
+record year of production, driven by the
+Permian and Denver-Julesburg (DJ) basins.
+We produced more than 3.3 million net barrels
+of oil-equivalent (boe) per day in 2024, up 7%
+from 2023 – and the highest in our history.
+Permian Basin production averaged an
+all-time high of 921,000 net boe per day, a
+nearly 18% increase from 2023, accounting for
+more than half of our total U.S. production of
+nearly 1.6 million net boe per day. We expect
+Permian production to reach 1 million boe
+per day in 2025.
+Project milestones achieved in 2024 set
+Chevron on a trajectory to deliver profitable
+future growth. Technological and engineering
+innovation is enabling Chevron’s Gulf of
+America operations, where our Anchor project
+achieved first oil. This breakthrough was
+made possible by safely deploying technology
+that can handle pressures up to 20,000
+pounds per square inch to unlock resources
+previously difficult to access.
+
+In August, we achieved first water injection
+at our St. Malo field, making it Chevron’s first
+waterflood project in the deepwater Wilcox trend.
+The project is expected to add approximately
+175 million barrels of oil-equivalent to the St. Malo
+field’s gross ultimate recovery.
+We also expanded waterflood operations at our
+Tahiti facility. The sixth-largest asset in the Gulf
+of America by total oil-equivalent output to date,
+Tahiti recently surpassed 500 million gross barrels
+of oil-equivalent cumulative production. With
+incremental investment, Tahiti could continue
+producing beyond 2040.
+In Kazakhstan, Tengizchevroil (TCO), Chevron’s
+50%-owned affiliate, completed the Wellhead
+Pressure Management Project (WPMP) designed to
+optimize the producing field. And in January 2025,
+TCO started oil production at the Future Growth
+Project (FGP), designed to add 260,000 barrels of
+oil per day to production and ramp up total output
+to 1 million barrels of oil-equivalent per day.
+Over the past year, we continued to expand our
+exploration portfolio by adding new positions
+in Australia, Angola, Brazil, Equatorial Guinea,
+Namibia and Uruguay.
+We marked the 70-year anniversary of our
+partnership with Angola by achieving first gas on
+the Sanha Lean Gas Connection project, which
+will provide secure supply to the Angola Liquefied
+Natural Gas facility.
+Our transaction with Hess Corporation received
+approval from Hess’ stockholders and clearance
+by the Federal Trade Commission. We remain
+confident ongoing arbitration proceedings will
+confirm Hess’ position.
+In 2024, we took action to optimize our portfolio,
+selling the Athabasca Oil Sands and Duvernay shale
+assets in Canada, North Slope assets in Alaska,
+and we withdrew from Myanmar. We also sold
+our assets in Congo in early 2025.
+In downstream, we completed a retrofit of our
+refinery in Pasadena, Texas, allowing Chevron
+to process more equity crude from the Permian
+Basin, supply more products to our customers in
+the U.S. Gulf Coast and realize synergies with our
+Pascagoula, Mississippi, refinery.
+advancing lower carbon solutions
+In 2024, we completed projects and operational
+changes designed to abate over 700,000 tonnes
+of carbon dioxide-equivalent annually from
+our operations.
+Chevron continues to advance lower
+carbon-intensity fuel solutions, including the
+construction of an oilseed processing plant in
+Louisiana through our joint venture, Bunge
+Chevron Ag Renewables LLC and an expansion
+project at our Geismar, Louisiana, biorefinery. The
+Geismar expansion is expected to start up in 2025,
+increasing renewable diesel nameplate capacity
+from 7,000 to 22,000 barrels per day.
+We drilled onshore and offshore test wells at
+Bayou Bend on the U.S. Gulf Coast and expanded
+our carbon dioxide storage portfolio by adding
+2.6 million acres offshore Western Australia.
+Our ACES Delta green hydrogen project in Utah is
+expected to begin commercial operation in 2025.
+This large-scale hydrogen project aims to convert
+water into hydrogen, using renewable energy
+and utilizing salt caverns for dispatchable energy
+storage for power generation.
+In January 2025, we announced a partnership
+to develop scalable power solutions for U.S.
+data centers to run on U.S. natural gas to provide affordable, reliable energy to support
+AI advancements. These projects are considering
+flexible designs to potentially incorporate CCUS,
+renewables or other lower carbon-intensity
+enhancements in the future.
+looking to the future
+At Chevron, we’re proud of the role we play as a
+global leader in energy. Our capabilities, assets and
+relationships are helping customers, industries and
+nations achieve their goals for economic prosperity,
+energy security and environmental protection.
+As energy needs grow and geopolitical volatility
+continues, oil and natural gas will remain vital to
+people and markets around the world.
+We look ahead with optimism and are grateful
+for the continued trust you place in us.
+Sincerely,
+Michael K. Wirth
+Chairman of the Board
+and Chief Executive Officer

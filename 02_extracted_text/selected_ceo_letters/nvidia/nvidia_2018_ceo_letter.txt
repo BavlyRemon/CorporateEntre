@@ -1,0 +1,233 @@
+# Nvidia 2018 - NVIDIA 2018 CEO/stakeholder letter
+
+Source extract: 02_extracted_text/nvidia/nvidia_2018_annual_report.txt
+Source line range used: 155-423
+Selected text type: CEO/stakeholder letter
+Extraction note: Official annual-review letter signed by Jensen Huang. 4 Unicode fi ligature characters (U+FB01) replaced with ASCII "fi" equivalents (field, artificial, first, benefit).
+
+---
+
+DEAR NVIDIANS AND STAKEHOLDERS,
+GPU COMPUTING
+HAS TAKEN HOLD.
+What began 25 years ago with our work in
+computer graphics has evolved to address
+some of the most important technological
+trends the world has ever seen. From
+gaming to AI and from self-driving cars
+to supercomputers, we approach all of
+our work and exploration with a common
+philosophy: focus on the hardest problems
+that only we can solve. We’re enabling
+the most demanding computer users
+in the world—scientists, designers,
+artists, and gamers—to do their life’s
+work. Our computers let them create
+and see the future. To them, NVIDIA
+has built a time machine.
+
+Revenue for the year was up 41% to reach
+a record $9.71 billion, and gross margins
+expanded to 59.9%. GAAP earnings per
+share were $4.82, up 88%. And we
+returned $1.25 billion to shareholders
+through dividends and stock repurchases.
+Our gaming business grew 36% this year
+to a record $5.51 billion. Gaming will be
+the world’s largest entertainment medium
+someday, with ever-expanding genres,
+rich characters and stories, and incredible
+production values. Gaming can be a sport,
+an adventure, a puzzle, a battle, or just a
+way to connect with friends in a virtual
+world. Gaming is essentially virtual reality
+and the possibilities are endless. We
+extended our leadership in gaming with
+new innovations like Max-Q, a design
+approach to make GeForce gaming laptops
+amazingly thin and quiet; GeForce
+Experience ShadowPlay Highlights, which
+automatically records and shares players’
+heroic moments; and GeForce NOW, a
+cloud-based service that turns ordinary
+laptops into powerful gaming machines.
+NVIDIA is the largest computer graphics
+company in the world, seeing double-digit
+growth in our professional visualization
+business and advancing the field with
+our introduction of the Holodeck virtual
+reality design studio. We imagine a future
+where products will be entirely designed
+in Holodeck, with collaborators beaming
+in from remote locations as artificial
+intelligence robots assist them. For
+the 10th consecutive year, every movie
+nominated for Best Visual Effects at
+the Academy Awards was created
+using NVIDIA.
+AI fueled our datacenter business,
+which grew 133% to reach $1.93 billion.
+In the near future, software development
+will require large supercomputers that
+are continuously training software to be
+smarter and do more. The AI software
+stack is essentially a giant learning
+machine running software that writes
+new software. Volta is the first GPU
+created for these AI supercomputers,
+and it reduces the learning cycle from
+days to hours. Its new Tensor Core
+architecture boosts deep learning
+performance by almost 10 times.
+Volta-based Tesla V100 accelerators
+are now available through every major
+computer maker and have been chosen
+by every major cloud service provider
+to deliver AI and high-performance
+computing. We also introduced the
+breakthrough TensorRT3 neural machine
+optimizing compiler to deploy trained
+models at gigantic scale in cloud
+datacenters. The combination of NVIDIA
+Tesla V100 and TensorRT lets AI
+developers use the NVIDIA architecture
+from end-to-end for fast training and
+cloud-scale deployment.
+Someday, every car will be autonomous.
+Machines that move—from cars, taxis,
+trucks, shuttles, delivery bots, and
+drones, to agriculture and construction
+equipment—will operate autonomously
+or help drivers operate more safely and
+easily. We created the NVIDIA DRIVE
+autonomous vehicle platform to enable
+the $10 trillion transportation industry
+to realize this future. Doing this at a global
+scale is an incredible challenge—one
+that NVIDIA is perfectly suited to tackle.
+We create the autonomous car computer,
+the “brains” of the vehicle, from processor
+to AI and robotics software. We create
+the development environment, from
+AI training to virtual reality driving
+simulation. NVIDIA DRIVE is the most
+complex computer system we have ever
+built, and NVIDIA builds the most complex
+computer systems in the world. Solving
+this challenge will greatly benefit society.
+In all, more than 320 automakers, ride-
+hailing services, startups, mapping
+companies, sensor makers, and research
+universities—in every geography—have
+adopted NVIDIA DRIVE to build the
+autonomous future.
+Our ultimate purpose is to build a
+company that makes a great and positive
+impact on the world. We strive to make
+singular and valuable contributions to
+human progress. We play the long game,
+balancing short-term profits and the
+dream of building a wonderful future. We
+take pride in our social and environmental
+responsibility. But beyond responsibility,
+we are truly joyed and privileged to care
+for our employees and families, our
+partners, and our communities who make
+it possible for us to do our life’s work.
+Our company regularly receives top
+marks on prominent lists of the most
+socially and environmentally responsible
+companies, including Fortune’s Best
+Places to Work, the Corporate Equality
+Index, and the Dow Jones Sustainability
+Index. We debuted in Fiscal Year 2018 on
+the Global100 and Bloomberg’s Gender
+Equality Index.
+We innovate to conserve energy in
+everything we do. To improve the
+environment as we expand, we designed
+our corporate headquarters building
+to use natural light while moderating
+the need for cooling. The GPU computing
+technology we pioneered can improve
+energy efficiency by 10 times for
+datacenters that are consuming electricity
+at the rate of many cities. Our work in
+self-driving cars could be our largest
+contribution to the environment in the
+long term, as autonomous driving
+increases the utilization of cars and
+reduces overall energy consumption
+and carbon emissions.
+Within NVIDIA, we believe a diverse,
+inclusive culture enables us to innovate,
+create groundbreaking products, and
+build one of the world’s great technology
+companies. It all starts with attracting
+diverse talent and creating an environment
+where the best people can do their life’s
+work. We want to create a company where
+great people can enrich their lives and
+build their families. This year, we greatly
+expanded our parenting benefits to
+fund adoptions, in vitro fertilization,
+and egg freezing.
+We have more than 40 offices around the
+world and are grateful for the support
+of these local communities. NVIDIANs
+are passionate about giving back to
+their communities, with a long history
+of volunteerism and strong support for
+fighting cancer and improving education.
+Our philanthropic giving this year, which
+includes charitable contributions and
+community partnerships, exceeded
+$6 million.
+Our fully employee-governed NVIDIA
+Foundation invested more than $4
+million to advance the fight against
+cancer through its Compute the Cure
+initiative. And last year, our employees
+raised more than $550,000 for cancer
+organizations around the world.
+Our new Techsplorer program, launched
+at GTC 2017, introduces underserved
+youth to AI through hands-on design
+challenges and encourages them to
+explore STEM careers. We’ve already
+reached nearly 2,500 students near
+our Silicon Valley headquarters.
+Twenty-five years ago we set out to solve
+3D graphics and virtual reality for video
+games, because it would be one of the
+great, and fun, computing challenges of
+all time. We believed it would lead us to
+discover new technologies and build an
+engineering machine of great capability.
+We were right. The challenges of
+simulating the virtual worlds of video
+games share much in common with the
+challenges a scientist faces in simulating
+molecules or discovering new materials.
+Today, we’ve greatly advanced this new
+computing model called GPU computing.
+It stands at the intersection of computer
+graphics, high performance computing,
+and AI—technologies that promise to
+fundamentally reshape trillion-dollar
+industries like transportation, healthcare,
+and manufacturing, and foster entirely
+new industries that are just taking root.
+We have a responsibility to make sure that
+we keep this platform vibrant and make
+it available to all. The responsibility of
+carrying that torch is deeply ingrained in
+the people who make up NVIDIA, and the
+success we’ve had to-date reminds us of
+the importance of our work and fuels our
+path to the next grand challenge.
+It’s going to be an incredible ride.
+CARING FOR OUR COMMUNITIES GRAND CHALLENGES
+Jensen Huang
+CEO and Founder, NVIDIA
+April 2018

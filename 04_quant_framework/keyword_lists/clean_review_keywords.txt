@@ -1,0 +1,127 @@
+THEME 1: Strategic Leadership
+
+Subtheme: Founder / Ownership Mentality
+Keywords: founder; ownership; entrepreneurial; Day 1; stewardship
+
+Subtheme: Ambidexterity / Strategic Tension
+Keywords: ambidextrous; ambidexterity; paradox; trade-off; tradeoff; dual mandate
+
+Subtheme: Boldness / Discipline
+Keywords: conviction; disciplined; high standards; capital discipline; decisive
+
+Subtheme: Accountability / Stewardship
+Keywords: accountability; accountable; stewardship; integrity; board accountability
+
+Subtheme: Entrepreneurial Leadership
+Keywords: invention; experimentation; risk-taking; long-term owner
+
+
+THEME 2: Horizon Scanning / Context
+
+Subtheme: Disruption / Uncertainty
+Keywords: disruption; disruptive; uncertainty; volatility; turbulence; crisis; shock
+
+Subtheme: Long-Term Future Orientation
+Keywords: long-term; long term; next decade; next wave; future generation
+
+Subtheme: Discovery / Exploration
+Keywords: exploration; explore; discovery; experimentation; pilot
+
+Subtheme: Technology Transition
+Keywords: artificial intelligence; AI; GPU; accelerated computing; cloud computing; automation; electrification; energy transition; decarbonization
+
+Subtheme: External Environment
+Keywords: regulation; regulatory; policy; geopolitical; commodity cycle; energy security; export controls
+
+
+THEME 3: Purpose, Vision, Governance
+
+Subtheme: Customer Orientation
+Keywords: customer obsession; customer experience; customers; clients; users
+
+Subtheme: Shareholder Orientation
+Keywords: shareholder; stockholder; dividend; share repurchase; buyback; total shareholder return; cash return
+
+Subtheme: Market / Category Position
+Keywords: category leadership; market leadership; competitive advantage; ecosystem; scale advantage
+
+Subtheme: Mission / Purpose / Identity
+Keywords: mission; purpose; values; identity; human progress; energy progress; Day 1
+
+Subtheme: Governance / Responsibility
+Keywords: governance; board oversight; ethics; lower carbon; climate oversight
+
+
+THEME 4: Strategic Options, Experimentation, and Choices
+
+Subtheme: Internal Invention / R&D
+Keywords: invent; invention; research and development; R&D; engineering; technology development; innovation
+
+Subtheme: Partnerships / Ecosystems
+Keywords: partnership; alliance; collaboration; joint venture; ecosystem; developer ecosystem; supplier partnership
+
+Subtheme: Acquisition / Integration
+Keywords: acquire; acquisition; merger; integration; divest; divestment; portfolio optimization
+
+Subtheme: Experiment / Pilot / Learn
+Keywords: experiment; experimentation; pilot; prototype; test-and-learn; iterate
+
+Subtheme: Portfolio Options / Strategic Bets
+Keywords: strategic option; investment option; selective bet; capital allocation; portfolio optimization
+
+Subtheme: Decide / Commercialize / Exit
+Keywords: prioritize; commercialize; deploy; phase out; exit
+
+
+THEME 5: Agile Execution and Organization
+
+Subtheme: Speed / Agility
+Keywords: agile; agility; high-velocity; rapid execution; accelerate
+
+Subtheme: Adaptability
+Keywords: adapt; adaptable; pivot; flexibility
+
+Subtheme: Operational Excellence
+Keywords: operational excellence; efficiency; productivity; reliability; process safety; execution discipline
+
+Subtheme: Talent / Capability Building
+Keywords: talent; capability building; workforce capability; culture
+
+Subtheme: Scaling / Implementation
+Keywords: deployment; implementation; infrastructure buildout; capacity expansion; ramp-up
+
+
+CROSS-CUTTING THEME: Explore vs Exploit
+
+Subtheme: Explore
+Keywords: exploration; experimentation; discovery; pilot; new business
+
+Subtheme: Exploit
+Keywords: operational excellence; cash generation; capital discipline; returns; portfolio optimization
+
+
+CROSS-CUTTING THEME: Customer vs Shareholder
+
+Subtheme: Customer
+Keywords: customer obsession; customer experience; customers; clients; users
+
+Subtheme: Shareholder
+Keywords: shareholder; stockholder; dividend; buyback; share repurchase; cash return; total shareholder return
+
+
+CROSS-CUTTING THEME: Internal vs External Innovation
+
+Subtheme: Internal Innovation
+Keywords: invent; invention; R&D; engineering; technology development; internal development
+
+Subtheme: External Innovation
+Keywords: acquisition; merger; partnership; alliance; joint venture; collaboration; ecosystem
+
+
+CROSS-CUTTING THEME: Crisis / Risk vs Performance
+
+Subtheme: Crisis / Risk
+Keywords: crisis; shock; volatility; disruption; geopolitical; supply constraint
+
+Subtheme: Performance
+Keywords: cash flow; dividend; buyback; productivity; record production; margin improvement; return on capital

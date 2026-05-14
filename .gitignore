@@ -1,0 +1,29 @@
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+.vite/
+*.log
+
+# Raw source PDFs — too large for GitHub (the 2013 Nvidia annual report
+# alone is 103 MB) and regenerable by 00_admin/build_research_workspace.py.
+01_raw_sources/
+
+# Local-only data dumps (regenerable)
+00_admin/review_app/data/
+
+# Local plan/notes scratch
+.claude/plans/

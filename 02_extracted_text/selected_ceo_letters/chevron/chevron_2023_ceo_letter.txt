@@ -1,0 +1,165 @@
+# Chevron 2023 - Chevron 2023 To our stockholders letter
+
+Source extract: 02_extracted_text/chevron/chevron_2023_annual_report.txt
+Source line range used: 100-257
+Selected text type: annual-report stockholder letter
+Extraction note: Official annual-report stockholder letter signed by Chairman/CEO; financial-report sections excluded.
+
+---
+
+to our stockholders
+In a year of geopolitical turmoil and economic
+uncertainty, Chevron remained focused on its
+purpose: providing the affordable, reliable, ever-
+cleaner energy that enables human progress. We
+fulfill that purpose by executing our strategy:
+leveraging our strengths to safely deliver lower
+carbon energy to a growing world.
+We believe a resilient energy system must be
+capable of enabling economic prosperity, energy
+security and environmental protection. This will
+be advanced by human ingenuity, innovation,
+leadership and action. These beliefs inform our
+strategy and decisions.
+executing our strategy
+Leveraging our strengths starts with the right mix of
+high-quality assets. Value is delivered through the
+capabilities of our people and technology to meet
+customer needs now and in the future.
+Our advantaged portfolio delivered annual
+production of 3.1 million barrels of oil-equivalent per
+day in 2023 – the highest in our history.
+To further strengthen that portfolio, in October,
+we agreed to acquire Hess Corporation. This
+is Chevron’s fourth major deal in recent years,
+following the acquisitions of Noble Energy in 2020,
+Renewable Energy Group in 2022 and PDC Energy
+in 2023.
+These actions support our longstanding
+financial priorities:
+• Grow the dividend consistently: In January 2024,
+we raised the per-share dividend 8% to $1.63 per
+quarter. And 2023 marked 36 consecutive years of
+higher annual dividends per share.
+• Invest capital efficiently: We strengthened our
+portfolio to grow both traditional and new energy
+supplies, advanced major capital projects and
+completed several strategic acquisitions.
+• Maintain a strong balance sheet: We maintained
+our financial strength with a net debt ratio of
+7.3% and eliminated more than $4 billion of debt,
+including all debt assumed in the PDC acquisition.
+• Return excess cash to stockholders: We returned
+a record $26.3 billion to stockholders in 2023
+through dividends of $11.3 billion and share
+repurchases of $14.9 billion.
+the energy landscape
+In 2023, global energy consumption set new records,
+demonstrating the important role of oil and natural
+gas in powering the world’s economy. Global oil
+consumption reached a new high of ~102 million
+barrels per day; U.S. natural gas demand set new
+records; and global LNG demand continued to grow.
+In 2024, oil and gas consumption are projected to
+surpass 2023 records even as significant growth in
+new energies is also expected to continue.
+Global energy investment totaled a record
+~$2.8 trillion in 2023, with just over one-third
+directed to traditional energy, including oil and
+gas. Annual global energy investment is projected
+to reach $3 trillion for the balance of this decade to
+meet expected demand growth.
+Chevron Corporation 2023 Annual Report
+IV
+
+delivering results
+Amid this evolving landscape, Chevron
+continues to play a leading role in supplying the
+energy the world needs and helping to build the
+lower carbon energy system of the future.
+In 2023, our upstream operations produced
+3.1 million oil-equivalent barrels per day,
+with upstream capital expenditures of over
+$13 billion. We added approximately 980 million
+barrels of net oil-equivalent proved reserves,
+which equates to approximately 86% of net
+oil-equivalent production for the year.
+The PDC Energy acquisition added 275,000 net
+acres adjacent to Chevron’s existing Colorado
+operations in the DJ Basin and an additional
+25,000 net acres in the Permian Basin.
+In the Permian Basin, production averaged an
+all-time high of 783,000 barrels of oil-eq uivalent
+per day, a 10% increase from 2022. We expect to
+achieve Permian production of 1 million barrels
+of oil-equivalent per day in 2025.
+In the Gulf of Mexico, we reached first oil at the
+Mad Dog 2 project and completed installation of
+the floating production unit for the Anchor Field,
+an important milestone toward achieving first
+production, expected in 2024.
+
+chevron new energies continues to advance lower carbon
+solutions to help customers meet their lower carbon ambitions
+In Kazakhstan, we achieved mechanical completion
+on the Future Growth Project, which is designed
+to further increase total daily production from
+the Tengiz reservoir and maximize the ultimate
+recovery of resources. In Australia, we achieved
+first natural gas production from the Gorgon
+Stage Two development, and in Israel, we reached
+final investment decision to construct a third
+gathering pipeline, expected to increase natural gas
+production capacity at the Leviathan Field.
+Throughout the company, we are implementing
+projects designed to reduce the carbon intensity of
+our operations. In 2023, we launched a solar power
+project with a joint venture partner in New Mexico
+to provide renewable energy for our Permian Basin
+operations. And we plan to install new technologies
+on Chevron’s LNG vessels that are expected to
+reduce the carbon intensity of our fleet.
+In downstream, we continue to evolve our refining
+system to produce lower carbon intensity fuels
+and products. We successfully converted the
+diesel hydrotreater at our El Segundo Refinery
+to process either 100% renewable feedstock or
+traditional feedstocks.
+We also announced a commercial collaboration with
+Corteva Inc. and Bunge to purchase next generation
+renewable feedstocks to meet increasing demand
+for these products. And the renewable diesel
+expansion of our Geismar Biorefinery is on track to
+start up this year.
+Our Chevron Phillips Chemical Company affiliate
+reached final investment decision on a joint venture
+with QatarEnergy to build an integrated polymers
+facility in Qatar, and continued the construction of a
+similar facility in Texas.
+Chevron New Energies continues to advance lower
+carbon solutions to help customers meet their lower
+carbon ambitions and to reduce the carbon intensity
+of our operations.
+We expanded our Bayou Bend CCS Hub project,
+positioning it to be one of the largest carbon
+storage projects in the U.S.
+We also acquired a majority stake in ACES Delta,
+a green hydrogen production and storage hub
+in Utah. And we are exploring development of a
+hydrogen and ammonia production facility on the
+U.S. Gulf Coast and the potential use of hydrogen
+fuel cells in powering locomotives.
+looking to the future
+As we navigate a world of uncertainty, we remain
+grounded in the vision, purpose and values of
+The Chevron Way. We’ll continue to provide the
+energy that powers the world today, as we build
+new businesses capable of becoming a larger part
+of the energy system that powers tomorrow.
+That’s human progress.
+Thank you for your support and the continued
+trust you place in us.
+Sincerely,
+Michael K. Wirth
+Chairman of the Board
+and Chief Executive Officer

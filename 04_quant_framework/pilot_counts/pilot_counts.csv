@@ -1,0 +1,21 @@
+company,year,local_text_path,word_count,theme,strict_theme_count,count_per_1000_words
+amazon,1997,02_extracted_text/amazon/amazon_1997_shareholder_letter.txt,1647,Strategic Leadership,10,6.072
+amazon,1997,02_extracted_text/amazon/amazon_1997_shareholder_letter.txt,1647,Horizon Scanning / Context,13,7.893
+amazon,1997,02_extracted_text/amazon/amazon_1997_shareholder_letter.txt,1647,"Purpose, Vision, Governance",24,14.572
+amazon,1997,02_extracted_text/amazon/amazon_1997_shareholder_letter.txt,1647,"Strategic Options, Experimentation, and Choices",14,8.5
+amazon,1997,02_extracted_text/amazon/amazon_1997_shareholder_letter.txt,1647,Agile Execution and Organization,14,8.5
+nvidia,2025,02_extracted_text/nvidia/nvidia_2025_ceo_letter.txt,4692,Strategic Leadership,12,2.558
+nvidia,2025,02_extracted_text/nvidia/nvidia_2025_ceo_letter.txt,4692,Horizon Scanning / Context,215,45.823
+nvidia,2025,02_extracted_text/nvidia/nvidia_2025_ceo_letter.txt,4692,"Purpose, Vision, Governance",51,10.87
+nvidia,2025,02_extracted_text/nvidia/nvidia_2025_ceo_letter.txt,4692,"Strategic Options, Experimentation, and Choices",47,10.017
+nvidia,2025,02_extracted_text/nvidia/nvidia_2025_ceo_letter.txt,4692,Agile Execution and Organization,57,12.148
+shell,2024,02_extracted_text/shell/shell_2024_annual_report.txt,299504,Strategic Leadership,1579,5.272
+shell,2024,02_extracted_text/shell/shell_2024_annual_report.txt,299504,Horizon Scanning / Context,1601,5.346
+shell,2024,02_extracted_text/shell/shell_2024_annual_report.txt,299504,"Purpose, Vision, Governance",2334,7.793
+shell,2024,02_extracted_text/shell/shell_2024_annual_report.txt,299504,"Strategic Options, Experimentation, and Choices",1151,3.843
+shell,2024,02_extracted_text/shell/shell_2024_annual_report.txt,299504,Agile Execution and Organization,1136,3.793
+chevron,2024,02_extracted_text/chevron/chevron_2024_annual_report.txt,51752,Strategic Leadership,242,4.676
+chevron,2024,02_extracted_text/chevron/chevron_2024_annual_report.txt,51752,Horizon Scanning / Context,252,4.869
+chevron,2024,02_extracted_text/chevron/chevron_2024_annual_report.txt,51752,"Purpose, Vision, Governance",282,5.449
+chevron,2024,02_extracted_text/chevron/chevron_2024_annual_report.txt,51752,"Strategic Options, Experimentation, and Choices",243,4.695
+chevron,2024,02_extracted_text/chevron/chevron_2024_annual_report.txt,51752,Agile Execution and Organization,95,1.836

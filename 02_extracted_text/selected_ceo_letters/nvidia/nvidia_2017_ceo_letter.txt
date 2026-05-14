@@ -1,0 +1,157 @@
+# Nvidia 2017 - NVIDIA 2017 CEO/stakeholder letter
+
+Source extract: 02_extracted_text/nvidia/nvidia_2017_annual_report.txt
+Source line range used: 173-356
+Selected text type: CEO/stakeholder letter
+Extraction note: Official annual-review letter signed by Jensen Huang. Page 8 philanthropy section (lines 289-306 of source, "NVIDIANs are passionate...") was missing from initial extraction; restored 2026-05-11. Two-column section headers ("GIVING BACK TO OUR COMMUNITIES" / "SHAPING THE FUTURE") separated.
+
+---
+
+DEAR NVIDIANS AND STAKEHOLDERS,
+GPU COMPUTING
+HAS ARRIVED.
+The tool that we built for the da Vincis and Einsteins
+of our time is the force behind today's most promising
+trends, from gaming and VR to AI and self-driving cars.
+We leverage our powerful platform by focusing on the
+hardest problems that only we can solve. They require
+deep technical integration, from processor to software
+to systems to domain expertise. They are worth the
+efforts of our talented, dedicated employees.
+And they matter to the world.
+Revenue was up 38% to reach a record
+$6.9 billion and gross margins expanded
+270 basis points to hit 58.8 percent. GAAP
+earnings per share were $2.57, up 138
+percent. And we returned $1 billion to
+shareholders through dividends and
+stock repurchases.
+Our gaming business grew 44% this year
+to a record $4.1 billion. The breakthrough
+Pascal architecture solidified our market
+leadership. And we expanded our
+platform with solutions to ride the
+massive waves of blockbuster games,
+eSports, and social media.
+We continued to lead visual computing,
+seeing double digit growth in our
+professional visualization business
+and advancing the field with our latest
+Iray and VR technologies.
+AI fueled the rapid growth of our
+datacenter business, which tripled year
+over year in the fourth quarter, bringing
+total annual revenue to $830 million. We
+have a multi-year lead in AI computing.
+We've built an end-to-end platform that
+starts with a GPU optimized for AI. Our
+single architecture spans computers of
+every shape and size—PCs, servers, IoT
+devices—and is available from every
+cloud service provider—Alibaba, Amazon,
+Google, IBM, Microsoft. GPU deep
+learning is the most advanced, most
+accessible platform for AI.
+Adoption of DRIVE PX 2 spurred our
+multi-year lead in AI car computing.
+Our AI car platform spans the range of
+autonomous vehicles, from auto-piloted
+cars to driverless shuttles, from training
+to cloud mapping to in-car AI capabilities.
+Some of the world's most innovative
+automakers, the world's largest auto
+suppliers, and the leading mapping
+companies have adopted DRIVE PX.
+Transformed from chips to platforms
+and products. Along with our moves
+to build platforms for select vertical
+markets, we've also evolved from
+building chips to building systems.
+NVIDIA SHIELD is one example of
+this transformation. SHIELD is a tiny
+supercomputer for the home. It brings
+NVIDIA's famed gaming capabilities
+to the living room, serves up 4K HDR
+movies, and is the AI computer that will
+one day let you talk to and control your
+home. The DGX-1 AI supercomputer,
+our main thrust to bring AI to every
+enterprise, is another example of our
+systems approach.
+Today, NVIDIA is capable of innovating
+across the entire computing stack—
+from the most advanced GPUs to
+innovative systems, from graphics to AI,
+from device to cloud—to serve the most
+exciting growth industries of our time.
+OUR COMPANY IS UNIQUE IN ITS EVOLUTION AND MARKET
+POSITION. OUR STRATEGY IS FIRING ON ALL CYLINDERS.
+GIVING BACK TO OUR COMMUNITIES
+NVIDIANs are passionate about giving
+back to their communities, with a long
+history of volunteerism and strong
+support for fighting cancer and improving
+education. Our philanthropic giving this
+year exceeded $5 million.
+Our company regularly receives top
+marks on prominent lists of the most
+socially and environmentally responsible
+companies, including debuting at No. 20
+on the 100 Best Corporate Citizens
+list in 2016.
+Our employee-run NVIDIA Foundation
+sets the priorities for our philanthropic
+efforts. We have invested more than $3
+million in Compute the Cure, which aids
+researchers using GPU computing
+techniques to accelerate their cancer-
+fighting work as well as nonprofits
+providing care and support services
+to those affected by the disease.
+This includes $200,000 grants this year
+to the Translational Genomics Research
+Institute for research to discover
+individualized therapeutic vulnerability
+in cancer, and to a team at the University
+of North Texas that aims to discover
+new cancer biomarkers to improve
+diagnosis and treatment.
+With Project Inspire, our employees and
+their families come together each year
+to enhance their local communities. In
+Santa Clara, we celebrated our 10th
+annual and largest yet event, which
+brought together 1,650 of us to transform
+a local high school in an underserved
+neighborhood. In Pune, India, nearly
+200 employees and their families
+improved a rural high school and junior
+college. In the U.K., NVIDIANs teamed
+up to improve a facility for people with
+learning disabilities.
+SHAPING THE FUTURE
+NVIDIA is a learning machine. For
+over two decades, we've continuously
+reinvented ourselves. Our work today
+is shaping the industries and society
+of tomorrow.
+The computing model that we pioneered
+is at the convergence of visual computing,
+high performance computing, and AI—
+technologies that will redefine the
+relationship between man and machine.
+The world we inhabit will increasingly
+be expanded by virtual realities. And
+our natural abilities will be amplified
+by artificial intelligence.
+This is undoubtedly the most exciting
+time in our industry. AI will revolutionize
+the very structure and fabric of society,
+from transportation to healthcare, and
+allow us to finally tackle those challenges
+that matter most, like finding a cure
+for cancer.
+We, at NVIDIA, are seizing the moment.
+Jensen Huang
+CEO and Founder, NVIDIA
+April 2017

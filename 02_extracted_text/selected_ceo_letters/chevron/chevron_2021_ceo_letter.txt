@@ -1,0 +1,221 @@
+# Chevron 2021 - Chevron 2021 To our stockholders letter
+
+Source extract: 02_extracted_text/chevron/chevron_2021_annual_report.txt
+Source line range used: 123-352
+Selected text type: annual-report stockholder letter
+Extraction note: Official annual-report stockholder letter signed by Chairman/CEO; table of contents/theme preface and financial-report sections excluded.
+
+---
+
+to our
+stockholders
+The critical role energy plays in the global
+economy was evident in 2021, as world events
+demonstrated that affordable, reliable and
+ever-cleaner energy remains vital to progress,
+prosperity and security. I’m proud of how our
+people, under challenging circumstances, met
+the needs of customers and markets around
+the world.
+In addition to meeting the needs of customers,
+companies must also reward shareholders.
+Chevron delivered a strong financial
+performance, achieving best-ever free cash
+flow and growing shareholder returns once
+again. We are an even stronger company today
+than we were just a few years ago.
+Our strategy is clear: Leverage our strengths
+to deliver lower carbon energy to a growing
+world. Our capabilities, assets and customers
+are distinct advantages. We’re building on
+these strengths as we aim to lead in lower
+carbon intensity oil, products and natural gas
+and to advance new products and solutions
+that reduce the carbon emissions of major
+industries – driving energy progress essential
+to a dynamic world.
+a winning combination
+Our focus on “higher returns, lower carbon”
+reflects a firm belief in business resilience –
+underpinned by operational excellence, cost
+discipline and capital discipline – and financial
+strength. Both are essential to any organization
+aiming to advance meaningful, durable
+progress in the modern energy economy.
+We’re executing a strategy built on strength
+– and one which positions us differently
+from others. In 2021, we completed the
+transformation of our organization and the
+integration of Noble Energy and delivered on
+our financial priorities:
+• Increased quarterly dividend payout by 4%
+• Invested in oil, products, gas and new energy
+opportunities with discipline
+• Strengthened our balance sheet
+• Reinstated share repurchases
+We demonstrated the ability to sustain and
+grow our business with less capital, generating
+higher returns and record free cash flow,
+positioning us to better reward stockholders.
+
+taking on tomorrow, today
+Future progress will require applying
+our world-class capabilities as we aim
+to deliver higher returns in a lower
+carbon world. Some look to the energy
+transition and describe solutions in
+the distant future. We’re focused on
+making progress today. This means
+setting ambitious targets for emissions
+intensity reductions, developing
+new technologies and working with
+customers to develop solutions that
+help them lower their emissions.
+Having achieved our 2023 carbon
+intensity reduction goals, we set new
+targets last year. We’re executing
+projects to make progress toward our
+2050 net zero aspiration for upstream
+Scope 1 and Scope 2 emissions. As
+part of these efforts, we’re improving
+methane detection, rethinking facility
+designs, optimizing equipment and
+utilizing more renewable power.
+
+Security and reliability of energy supply
+emerged as a major theme for energy markets
+in 2021 in places like California, Texas and
+Europe. Meanwhile, governments representing
+approximately 92% of global greenhouse gas
+emissions in 2021 have announced net zero
+goals or ambitions.
+Reaching the ambitions of the Paris Agreement
+will require innovation, breakthroughs in
+technology, more ambitious government
+policy and the ability to attract and forge new
+partnerships. No one country, no one industry,
+no one company acting alone can meet the
+world’s energy and climate goals. That’s why we
+intend to be the partner of choice for those with
+complementary strengths.
+In our Downstream business, we have the
+capabilities, assets and supply chains needed
+to produce and distribute alternative fuels –
+renewable diesel, sustainable aviation fuel,
+renewable natural gas and hydrogen. These
+offer the potential for scalable, lower carbon
+options for critical segments of the economy
+that are difficult to decarbonize. Sustainable
+aviation fuel, for example, can lower emissions
+by up to 80% on a lifecycle basis compared
+to traditional jet fuel. It is compatible with
+modern aircraft engines and airport fueling
+infrastructure. We’ve produced an initial batch
+at our El Segundo Refinery that we estimate to
+lower emissions by 59% on a lifecycle basis.
+In 2021, we announced the formation of
+Chevron New Energies, a new organization
+dedicated to growing lower carbon businesses
+in hydrogen; carbon capture, utilization
+and storage; offsets; and other emerging
+energies. We’re seeking to accelerate these
+lower carbon solutions for our customers, such
+as those in the aviation, marine, heavy-duty
+transportation and industrial sectors, so they
+can achieve their emission reduction goals.
+In total, Chevron is planning $10 billion in
+lower carbon capital investment between
+2021 and 2028 with the goal of reducing the
+carbon intensity of our oil, products and gas
+business and building new lower carbon
+energy businesses.
+
+strengthening the business
+Global oil demand rose by 5.5 million barrels
+per day in 2021 and is expected to return to
+pre-pandemic levels in 2022. The emergence
+of new COVID-19 variants in 2021 slowed this
+recovery in demand, with air travel and jet fuel
+most affected. Global natural gas demand rose
+4.1% in 2021, erasing the losses from 2020.
+In Upstream, we produced 3.1 million oil-
+equivalent barrels per day in 2021, a record high
+and a slight increase from 2020. We added
+1.3 billion barrels of net oil-equivalent proved
+reserves, which equates to approximately 112%
+of net oil-equivalent production for the year.
+The largest net additions were from assets
+in the Permian Basin, the Gulf of Mexico and
+Australia. The largest net reductions were from
+assets in Kazakhstan, primarily due to higher
+prices and their negative effect on reserves.
+In Kazakhstan, the Future Growth Project
+and Wellhead Pressure Management Project
+is 89% complete. In Australia, we sanctioned
+the Jansz-Io Compression project, which is
+expected to support an important source of
+natural gas to customers in countries across
+the Asia-Pacific region. We advanced the
+Anchor project in the U.S. Gulf of Mexico. In
+addition, we completed the sales of several
+conventional Permian Basin properties in the
+second half of 2021.
+In Downstream & Chemicals, GS Caltex, a 50%
+owned affiliate, started up an olefins mixed-
+feed cracker and associated polyethylene unit
+at its refinery in Yeosu, South Korea, ahead of
+schedule and under budget.
+We announced an agreement with Neste Oyj
+to acquire its Group III base oil business and
+brand and completed the acquisition of an
+equity interest in American Natural Gas (now
+Beyond6) and its network of 60 compressed
+natural gas stations. Our 2022 capital
+budget excludes expected inorganic capital
+of $600 million expected for the formation
+of a renewable fuel feedstocks joint venture
+with Bunge.
+We completed the acquisition of the publicly
+held units of Noble Midstream Partners not
+already owned by Chevron or our affiliates.
+
+We signed a letter of intent with Gevo to jointly
+produce sustainable aviation fuel (SAF). We
+tested a batch of SAF with Delta Air Lines and
+Google and tracked emissions data using cloud-
+based technology. Chevron and Delta will share
+results from the SAF pilot with Google to better
+understand emissions reporting.
+We reached separate agreements to collaborate
+with Caterpillar, Cummins and Toyota to
+advance our goal of building a commercially
+viable, large-scale hydrogen business.
+With Enterprise Products Partners, we
+announced a framework to evaluate
+opportunities for carbon capture, utilization
+and storage (CCUS) from our respective
+business operations in the U.S. Midcontinent
+and Gulf Coast.
+And we invested in developing new
+technologies for geothermal power, floating
+offshore wind turbines and green ammonia.
+looking ahead
+At Chevron, we look to the future with optimism.
+We go forward with confidence in the power
+of human creativity, ingenuity and imagination.
+We embrace engineering and innovation as a
+means to develop new solutions, knowing that
+the prospects for the human condition have
+never been brighter.
+We believe that optimism is the fuel that
+accelerates progress. It’s the spark of innovation,
+risk-taking and discovery. If we can harness
+this powerful force, our human energy, we can
+overcome the biggest obstacles, solve the most
+difficult problems and achieve our goals.
+Thank you for your support and the trust you
+place in us.
+Sincerely,
+Michael K. Wirth
+Chairman of the Board
+and Chief Executive Officer

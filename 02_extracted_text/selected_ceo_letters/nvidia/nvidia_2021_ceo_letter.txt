@@ -1,0 +1,549 @@
+# Nvidia 2021 - NVIDIA 2021 CEO/stakeholder letter
+
+Source extract: 02_extracted_text/nvidia/nvidia_2021_annual_report.txt
+Source line range used: 257-734
+Selected text type: CEO/stakeholder letter
+Extraction note: Official annual-review letter signed by Jensen Huang.
+
+---
+
+DEAR NVIDIANS
+AND STAKEHOLDERS,
+None of us can forget this year—the year
+COVID-19 changed the world. A full-out
+global pandemic, the world is at war with an
+invisible enemy. The facts and figures of the
+pandemic are staggering. The loss of
+millions is unimaginable. Yet, it is the loss of
+one among our families that makes
+COVID-19 so real.
+The pandemic tested the character of people,
+nations, and companies and shined a
+spotlight on what we truly value.
+Our core purpose is to impact by pioneering
+computing that can solve problems ordinary
+computers cannot and be a platform for
+scientists, developers, partners, industries,
+and employees to create a better future.
+We want to build a one-of-a-kind company
+that invents the future, builds amazing
+technologies, and strives to achieve the
+highest level of craft.
+We prioritize our employees and create a
+place where the world's best come to do
+their life's work and build a great life for
+their families.
+At NVIDIA, the spirit of invention, the drive
+for perfection, and a compassionate culture
+that cares for our families and communities
+are harmonious.
+TAKING CARE OF FAMILY
+DURING COVID
+We confronted the reality of the pandemic
+early and mobilized quickly. We directed
+employees to stay home and stay safe and
+reduce spread. People were scared and
+uncertain. We assured employees no one's
+job would be affected and even pulled in
+raises by six months, giving them confidence
+and a little cushion to ride out the pandemic.
+We continued to pay the facility and cafeteria
+contractors who take such great care of us.
+We first kept our employees safe, and then
+we tackled the massive undertakings to
+keep the company running while working
+from home. We mobilized efforts worldwide
+to figure out how to engineer and launch a
+record number of new products, collaborate
+with a record number of new partners in
+new markets, and ramp the most complex
+products the world has ever made—Ampere,
+BlueField, RTX, DGX. Our employees rose to
+the occasion, worked around the clock, and
+invented new and even better ways to do
+our work.
+USING OUR SUPERPOWERS
+Then we set sights on the virus. Joining with
+national labs, research hospitals, universities,
+startups, and pharma companies, NVIDIA
+researchers and engineers, armed with our
+unique technologies, our superpowers—image
+processing, high-speed simulation, and AI
+expertise—looked for ways to detect, treat,
+and, at the speed of light, find a vaccine for
+the virus.
+Let me highlight just a few of the hundreds
+of initiatives.
+We partnered with 20 hospitals from eight
+countries and developed an AI model that
+predicts COVID patients' need for supplemental
+oxygen in the next 24 hours. Using NVIDIA
+Clara federated learning, we trained the AI
+model on data from all of the hospitals
+without sharing patient-private data.
+Researchers at UC San Diego did the largest,
+longest, and most accurate simulation of a
+coronavirus. Simulating 305 million atoms
+on the 28,000-GPU Summit supercomputer,
+the team created a virtual microscope and
+saw how COVID-19 infects human cells. They
+did in a few months what previously took five
+years with the flu virus. Their work was
+critical to vaccine design.
+Over a thousand of the almost 8,000 AI
+startups we work with are using AI to
+revolutionize healthcare. They're doing
+amazing work across the entire spectrum.
+We partnered with many to counter
+COVID-19—from the highest-ever resolution
+cryo-EM imaging, inferring the 3D atomic
+structure of COVID-19 from 2D cryo-EM
+images, using AI natural language understanding
+to read the amino acids of COVID-19 and
+predict the protein's 3D structure, doing
+high-throughput gene sequencing to
+accurately detect infection, simulating the
+physical behavior of COVID-19, using AI to
+generate potential drug candidates, fusing
+physics simulation and AI to do virtual
+screening, to using AI to accelerate lab
+screening by automating the analysis of cell
+images so millions of experiments can be
+run each week.
+The pandemic was a tragedy, but we didn't
+let it go to waste. The world's scientific and
+healthcare community is in a race against
+time, armed with the latest technologies to
+do in months what previously took years.
+These new accelerated methods will
+profoundly impact the pace of drug discov-
+ery for all diseases. We may have advanced
+science a decade in the past year.
+COVID-19 will not be the last killer virus, but
+will hopefully be the last pandemic. Next
+time, the world will be better prepared.
+NVIDIA GPU computers and NVIDIA Clara,
+with our suite of imaging, atomic and
+quantum physics simulations, and genome-
+reading AI libraries, is our computational
+defense system that lets the world respond
+at the speed of light.
+Our work this year is set in the context of the
+powerful forces shaping the computer
+industry. These forces, which will influence
+every industry in the future, will shape
+the world.
+ACCELERATED COMPUTING IS THE
+PATH FORWARD
+NVIDIA pioneered accelerated computing,
+which supercharges computationally
+intensive applications like computer
+graphics, scientific computing, AI, and
+robotics. We accomplish this with a special
+processor and full-stack computer science
+that reinvents chips and systems, system
+software, and applications. Our work spans
+the largest cloud data centers to tiny
+autonomous machines.
+Our dedication to accelerated computing has
+built a community of more than 2.5 million
+researchers and developers, nearly 8,000 AI
+startups, and all major IT platform leaders.
+Developers have downloaded CUDA and
+NVIDIA AI software over 24 million times.
+What developers do on NVIDIA is extraordi -
+nary, tackling society's greatest challenges
+and inventing a future that is impossible
+otherwise. It gives us profound joy to
+supercharge their work.
+RTX RESETS COMPUTER GRAPHICS
+Computer graphics is the driving force of our
+company. At its core, computer graphics is
+about simulations—using mathematics and
+computer science to simulate the interaction
+of light and materials; the physics of objects,
+particles, and waves; and now simulating
+intelligence and animation.
+The science, engineering, and artistry that
+we dedicate to simulate mother nature's
+physics have led to incredible advances.
+In simplistic terms, NVIDIA GPU
+processing has increased 100,000-fold
+in 25 years and has allowed us to advance
+the basic sciences, the arts, and the
+world's industries.
+Last year, we introduced the second
+generation of NVIDIA RTX—a new rendering
+approach that fuses rasterization and
+programmable shading with hardware-
+accelerated ray tracing and AI. The
+culmination of 10 years of research, RTX has
+reset computer graphics. Real-time ray
+tracing has arrived.
+RTX is a home run—our most successful
+GPU generation ever. Demand for the
+GeForce 30 Series is incredible, driving our
+gaming business to grow over 40 percent
+this year.
+We are at the outset of the biggest upgrade
+cycle of our user base since we invented the
+GPU two decades ago. And it's just getting
+started. More than 85 percent of our
+GeForce installed base has yet to upgrade
+to RTX.
+THE NEW UNIT OF COMPUTING
+We completed the acquisition of Mellanox
+and combined our companies during the
+shutdown. The teams have melded
+incredibly well. The combination of NVIDIA
+and Mellanox has expanded the scope of our
+vision and positioned us to help rearchitect
+the data center.
+For decades, we considered the CPU the
+basic unit of computing. The rise of cloud
+computing and AI services is driving
+fundamental changes in computer
+architecture. Hyperscale applications are
+composed of microservices and run across
+the entire data center as if it’s one
+computer—the data center is a new unit
+of computing.
+Data center-scale applications require
+computer architects to optimize across all
+three fundamental processors: the CPU for
+general-purpose computing, the GPU for
+accelerated computing, and the DPU, or data
+processing unit. An evolution of the
+networking chip, the DPU is programmable
+and processes the rapidly growing body of
+software that runs in data center
+infrastructure, such as virtualization,
+networking, storage, and security.
+NVIDIA pioneered GPU computing. Building
+on Mellanox’s world-class networking chip,
+we are pioneering the DPU. An estimated
+one-third of the CPUs in a data center are
+processing infrastructure software.
+With NVIDIA BlueField DPUs, we can offload
+and accelerate the infrastructure, increase
+performance and security, and free up a
+third of the CPUs for applications.
+During the year, we announced the Blue-
+Field-2 DPU, our data center infrastructure
+on a chip. It's a breakthrough in high-perfor-
+mance networking, storage, and security. In
+a large-scale data center, a single DPU can
+offload 200 CPU cores. Developers can use
+the NVIDIA DOCA SDK—the DPU equivalent
+Made in NVIDIA Omniverse
+
+to our CUDA SDK for GPUs—to easily create
+high-performance, software-defined,
+cloud-native applications and services
+for BlueField-2.
+In September, we announced an agreement
+to acquire Arm for $40 billion to create the
+world's premier computing company. Arm is
+the world's most popular CPU. They were
+first a breakout provider for the mobile
+market and have since expanded into new
+markets, including PCs, cloud, and high
+performance computing. They have an
+excellent business model. With NVIDIA's AI
+capabilities, we can enhance Arm's offering
+in mobile and embedded, build a thriving
+ecosystem, and advance computing from the
+cloud, smartphones, PCs, self-driving cars,
+robotics, and edge IoT. Together, we have the
+opportunity to provide greater choice in the
+data center ecosystem.
+When we announced the acquisition, we esti-
+mated the regulatory review process would
+take approximately 18 months, and it's
+moving forward as expected. We're
+confident that regulators will see the
+benefits to the entire tech ecosystem.
+NVIDIA INVENTS
+A COMPUTER FOR AI
+At the beginning of the big bang of modern
+AI, we recognized the need to create a whole
+new kind of computer for a new way of devel-
+oping software. Software will write software
+running on AI computers.
+The cornerstone of NVIDIA AI is the
+re-invention of the GPU to become Tensor
+Core GPUs. This year we surprised the
+industry with the advancement of the NVIDIA
+Ampere architecture. NVIDIA A100 is a
+54-billion transistor marvel and the first
+universal data center GPU—a rocket engine
+for data analytics and scientific computing,
+AI training, and inference workloads. What
+used to be done by two or three GPUs is
+unified within one. The versatility gives data
+centers greater flexibility and utilization.
+Two new inventions came with the A100. The
+first is a numerical format called Tensor-
+Float-32. It speeds up deep learning
+processing, so Ampere GPUs learn
+incredibly fast—20x faster than our previous
+generation Volta GPU. The second is
+Multi-Instance GPU (MIG) technology, which
+divides a single GPU into seven smaller
+instances. With processors growing larger,
+MIG provides another degree of versatility by
+letting services configure the computer with
+giant GPUs or many smaller ones.
+AI needs a whole new type of computer with
+new chips like the A100 Tensor Core GPU,
+new system architecture, new ways to
+network, new software, and new methodolo -
+gies and tools. We've invested billions into
+this intuition, and it has proven helpful to
+the industry.
+It all comes together as DGX—a computer
+for AI.
+We offer DGX as a fully integrated system, as
+well as offer the components to the industry
+to create differentiated options.
+I am pleased to see so much AI research
+advancing because of DGX—top universities,
+research hospitals, telcos, banks, consumer
+products companies, carmakers, and
+aerospace companies. DGX helps their
+AI researchers—whose expertise is rare,
+scarce, and their work strategic. It is
+imperative to make sure they have the right
+instrument. If software is to be written by
+computers, companies with the best
+software engineers will need the
+best computers.
+Along with the new Ampere GPU, we
+unveiled the new DGX, the most powerful
+computer we've ever made. Powered by
+eight A100 GPUs, the DGX A100 replaces
+hundreds of CPU-based servers. The
+performance is incredible—five petaflops
+in a single box.
+AI – SOFTWARE
+THAT WRITES SOFTWARE
+We reinvented every layer of computing for
+AI. First, we invented Tensor Core GPUs and
+DGX. Then the suite of system software and
+acceleration libraries we call NVIDIA AI.
+Using NVIDIA AI, our world-class AI experts
+developed pre-trained AI frameworks that
+customers can customize for their applica-
+tions. These are skills like computer vision,
+conversational AI, recommender systems,
+AI avatars, robotics, and autonomous
+vehicles. These AI skills are state of the art,
+trained to be used in production, and
+optimized for accuracy and performance.
+One example is our Jarvis conversational AI.
+It’s composed of a set of complex machine
+learning skills—speech recognition,
+language understanding, translation, and
+speech—that lets us carry on a conversation
+with an AI. Jarvis is trained on over a billion
+pages of text and can recognize speech at
+world-class 90 percent accuracy. Jarvis
+responds interactively and can run any -
+where there is NVIDIA.
+Another is our Merlin recommender system
+which learns our explicit and implicit
+preferences to suggest a new restaurant,
+movie, or song we might like based on what
+we've enjoyed before. Recommender
+systems are the personalization engines of
+the internet, filtering trillions of items to
+present the ones most relevant to you. It is
+the economic engine of internet services.
+And it is one of the largest computing
+infrastructures of most internet companies.
+NVIDIA Merlin simplifies the effort to build a
+state-of-the-art recommender system.
+THE FOUR WAVES OF AI
+AI—computers automating intelligence—is
+the most powerful technology force of our
+time. We see AI in four waves. The first was
+to reinvent computing for this new way of
+doing software. The second came as internet
+companies deployed AI in the cloud. AI
+services recognize our speech, understand
+our meaning, and make recommendations.
+The next wave is enterprise and the industri-
+al edge. AI will revolutionize the world's
+largest industries—manufacturing, logistics,
+agriculture, healthcare, financial services,
+transportation. Companies are integrating
+5G, AI, and autonomous machines to create
+smart services. It's the smartphone moment
+for the world's industries.
+Let me give you some examples of AI at the
+industrial edge.
+ > Artisight uses NVIDIA AI to create an AI
+nurse assistant that continuously
+watches over patients, converses with
+patients, and alerts nurses if it sees a
+patient has fallen.
+ > USPS uses NVIDIA AI to recognize
+features on a package as it flies by on a
+conveyor belt to sort 20 million packages
+a day.
+ > RecyclEye uses NVIDIA AI to recognize
+and sort items in a recycling plant.
+ > Datamonsters uses NVIDIA AI to find
+packaging defects on high-velocity
+conveyor belts.
+ > Everseen uses NVIDIA AI to do fast and
+error-free checkout for Kroger, the
+largest supermarket chain in the U.S.
+Someday, the industrial edge will be trillions
+of sensors streaming continuous data to AI
+systems that automate tasks impossible just
+a few years ago.
+EVERYTHING THAT MOVES
+WILL BE AUTONOMOUS
+Autonomous systems are the fourth wave.
+Self-driving cars are iconic examples.
+Everything that moves will someday be
+autonomous machines that perceive their
+environment, reason, plan, and act. Whether
+it's a robot assisting a factory worker or an
+autonomous car on the road, each has to
+make split-second decisions to do its job
+safely. The computation required is
+enormous, the software is complex, and
+safety and security are vital. For robotics,
+our platform is NVIDIA Isaac, and for
+self-driving cars, we have NVIDIA DRIVE.
+The world drives 10 trillion miles a year. At a
+few dollars per mile, transportation—mov -
+ing people and things—is one of the largest
+industries. DRIVE is an end-to-end AI
+system—from the robotic processors and
+computers, sensor architecture, data
+processing, mapping, developing the driving
+software, creating the simulator and digital
+twin, fleet command operations, to road
+testing—all of it to the highest functional
+safety and cybersecurity standards.
+Our new system-on-a-chip NVIDIA Orin
+will provide the immense compute
+demands inside the car. Orin is one of our
+greatest design feats. It's based on the
+NVIDIA Ampere architecture and can
+deliver 254 trillion operations per second
+to scale from driver assistance to fully
+autonomous robotaxis.
+Mercedes-Benz, Volvo, and SAIC have
+chosen Orin for their next-generation cars,
+as have electric vehicle startups like Nio,
+XPeng, Li Auto, IM Motors, and Faraday
+Future. Robotaxi leaders Cruise, Amazon
+Zoox, Oxbotica, Pony.AI, AutoX, and Didi; and
+autonomous trucking companies TuSimple,
+Volvo, Navistar, Plus, Einride, and Locomo-
+tion have also selected NVIDIA DRIVE.
+This year, we announced that Mercedes has
+chosen NVIDIA to build the world's most
+advanced cars. Starting in 2024, the entire
+Mercedes-Benz fleet will be powered by
+NVIDIA DRIVE—utilizing NVIDIA's end-to-
+end platform to offer autonomous driving
+software and services.
+Powered by NVIDIA AI, robotics will
+help every industry achieve new levels
+of productivity.
+John Deere built agriculture machines that
+"see and spray" to reduce chemical and
+herbicide use.
+Postmates uses delivery robots for last-mile
+food and grocery deliveries as the
+e-commerce trend booms.
+Plus One Robotics robots are used by
+FedEx to sort all kinds of packages
+at 1,300 packages per hour, helping FedEx
+deal with the exponential increase in
+e-commerce volume.
+Dole uses FarmWise Labs robots to remove
+weeds mechanically, eliminating the need
+for chemical herbicides. The machine covers
+up to 20 acres a day and uses models trained
+on over 20 million images of crops.
+AI is the engine of the fourth industrial
+revolution.
+NVIDIA OMNIVERSE – VIRTUAL
+WORLDS WHERE ROBOTS LEARN
+Thousands of companies are developing
+robots that perform repetitive tasks,
+dangerous tasks, or impossible-for-human
+tasks and work beside people to amplify
+our productivity.
+Training robots is problematic in the physical
+world. We need a virtual world that appears
+and behaves like our actual world so that
+robots can learn skills. This simulated
+virtual world will demand the most
+advanced graphics, physics simulation, and
+AI running on superfast computers.
+NVIDIA Omniverse is a virtual world
+simulator that is physically accurate. Unlike
+a game or movie, Omniverse is a real-time
+simulation. And though beautiful, Omniverse
+is not art, but pure science.
+One application of Omniverse is to create
+digital twins. Let’s use manufacturing as an
+example. In Omniverse, we will build
+virtual factories, train robots, and simulate
+the entire plant in operation. The actual and
+virtual factory will run in parallel. Inside
+Omniverse will be the digital twin,
+monitoring, tracking, and exploring ways to
+improve factory productivity. Digital twins
+will be needed for robotics, such as
+self-driving cars, surgical robots, and
+robotic warehouses.
+Omniverse is one of our most important
+initiatives. You are going to see a lot more
+of Omniverse.
+Made in NVIDIA Omniverse
+
+BUILDING A UNIQUE COMPANY
+We had an incredible year.
+I often say that we are "30 days from going
+out of business." True or not, I've believed
+this since our founding. Relevance and
+growth are not the natural state of any
+company—the opposite is. So, we must work
+to stay relevant, fight the gravity of good-
+enough, and seek the extraordinary. It's a
+struggle—easy for no one. But it is a
+struggle we love.
+Our company lives by a few principles:
+ > Build a company that attracts the world's
+best people in our field, giving them a
+place to do their life's work, where they
+can build a great life, and promising
+never to squander their talents.
+ > Do the really hard things that no one has
+done, and in the event that we do it, will
+move the needle for society.
+ > Do things that we are uniquely built to do.
+ > Do things that bring us incredible joy as
+the journey will be paved with failure
+and suffering.
+If we do these things, we will build a special
+company that makes unique and meaningful
+contributions to the world.
+We were true to our values, we did great
+work, and in these ways, we had an
+incredible year.
+I want to thank all the NVIDIA families,
+who could work anywhere but volunteered
+to be with us in this great adventure we
+call NVIDIA.
+Jensen Huang
+CEO and Founder, NVIDIA
+April 2021

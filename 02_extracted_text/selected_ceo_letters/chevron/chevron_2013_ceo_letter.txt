@@ -1,0 +1,150 @@
+# Chevron 2013 - Chevron 2013 Letter to Stockholders
+
+Source extract: 02_extracted_text/chevron/chevron_2013_annual_report.txt
+Source line range used: 59-203 (paragraphs reordered to reading sequence; print artifacts and page markers removed)
+Selected text type: annual-report stockholder letter
+Extraction note: Official annual-report stockholder letter signed by Chairman/CEO; financial-report sections excluded. PDF layout caused the salutation (line 94) and first two body paragraphs (lines 59-93) to extract out of reading order; corrected here to match reading sequence. Print-production artifacts (color-bar line, InDesign filename) and page-break markers removed. PDF column-layout artifact (double spaces between every word in first two paragraphs) collapsed to single spaces; "12 3" corrected to "123". 14 Unicode fi/fl ligature characters (U+FB01/U+FB02) replaced with ASCII equivalents (benefit, refining, final, significant, reflects, etc.).
+
+---
+
+To Our Stockholders
+
+Throughout 2013 our major businesses generated strong
+operating results. In the upstream, we ranked No. 1 in earnings
+per barrel relative to our peers for the fourth continuous
+year. We began production at the Angola liquefied natural gas
+(LNG) plant and achieved first oil from the Papa-Terra project
+offshore Brazil. In 2013 we also advanced our two world-class
+LNG projects in Western Australia. Construction at Gorgon
+is approximately 75 percent complete, and construction at
+Wheatstone is approximately 25 percent complete. Over the
+next four years we anticipate 15 project startups with a Chevron
+investment of more than $1 billion each, including two key
+deepwater projects in the U.S. Gulf of Mexico — Jack/St. Malo
+and Big Foot, which are expected to come online in 2014 and
+2015, respectively.
+We continued to add resources to our portfolio through both
+exploration and targeted acquisitions in 2013. The success rate
+of our exploration wells was nearly 59 percent, and we added
+crude oil and natural gas resources through discoveries in 10
+countries. We grew our portfolio of opportunities with a new
+operating interest in the Kurdistan Region of Iraq, new acreage
+in the Bight Basin offshore South Australia, and finalized
+agreements to pursue unconventional resources in Argentina
+as well as assume full operatorship of the Kitimat LNG plant and
+Pacific Trail Pipeline in Canada. We also successfully completed
+the first phase of our Duvernay Shale program in Canada. We
+added approximately 800 million barrels of net oil-equivalent
+proved reserves, replacing almost 85 percent of production in
+2013. The company's three-year average reserve replacement
+ratio is 123 percent of net oil-equivalent production.
+Chevron delivered solid financial and operating results in 2013 while advancing our industry-leading
+queue of major capital projects. Our sound financial performance was reflected in net income of
+$21.4 billion on sales and other operating revenues of $220 billion. We achieved a competitive
+13.5 percent return on capital employed. And for the 26th consecutive year, we increased our
+annual dividend payout to stockholders. Our total stockholder returns of just under 15 percent
+over the past five- and 10-year periods continue to lead our peer group.
+In downstream and chemicals,
+we continued to benefit from the
+investments we have made in
+our refining system and from our
+competitive position in additives,
+petrochemicals and lubricants. In
+2013 we ranked No. 2 in earnings
+per barrel relative to our peer group.
+And we neared completion on the
+construction of our Pascagoula Base
+Oil Plant, which will position us as the
+world's leading supplier of premium
+base oil when it starts up in 2014.
+We also reached final investment
+decision on Chevron Phillips Chemical
+Company's (CPChem) U.S. Gulf Coast
+ethylene cracker and derivatives unit.
+These projects allow CPChem to take
+advantage of the growth in U.S. shale
+gas and associated ethane.
+Delivering results the right way is a
+responsibility that our company takes
+seriously. Our Operational Excellence
+Management System guides us as we
+seek to achieve increasingly higher
+levels of safety, operational and
+environmental performance. This
+focus helped us deliver our lowest
+number on record of serious process
+safety-related loss-of-containment
+events and liquid spills. In 2013 we
+continued to be a leader in personal
+safety as measured by injuries
+requiring time away from work.
+Despite statistically strong safety
+performance, we are not yet incident-
+free. In 2013 we undertook extensive
+actions to enhance process safety to
+prevent serious incidents. Chevron is
+deeply committed to our goal of zero
+incidents and achieving world-class
+performance in all measures of safety.
+Meeting the world's long-term
+demand for energy requires significant
+investment. We enter 2014 with a
+capital and exploratory budget of
+$39.8 billion. This reflects the
+company's confidence in our
+unparalleled queue of projects that
+will help us deliver valuable growth.
+Chevron's capital investments enable
+us to grow our production while
+continuing to deliver industry-leading
+performance. We anticipate that
+2014 will be the peak year for spending
+on our Australian LNG projects as we
+move them closer to first production.
+Overall, our long-term production
+growth outlook is compelling, and we
+are investing today in projects that
+will deliver production, cash flow and
+earnings growth to the end of the
+decade.
+Chevron's business success is deeply
+linked to society's progress. We partner
+with governments, nongovernmental
+organizations and communities to build
+beneficial and enduring relationships,
+manage the impacts of our operations,
+and invest in programs to create
+measurable and lasting value. Our
+business and social investments
+boost local economies by creating
+jobs, improving livelihoods and
+supporting local businesses. Beyond
+direct business investment and
+taxes, over the past eight years we
+contributed almost $1.5 billion to
+local communities through social
+investments that foster economic
+growth, with a significant focus on
+health, education and economic
+development programs. You can
+find more information in our 2013
+Corporate Responsibility Report.
+The men and women of Chevron
+are committed to our vision of being
+the global energy company most
+admired for its people, partnership
+and performance. We remain
+focused on finding and producing the
+affordable, reliable energy that drives
+global economic growth and human
+prosperity. And due to our unparalleled
+project portfolio and proven business
+strategies, I am confident that we are
+strongly positioned to contribute to
+these aspirations, as well as create
+enduring value for our stockholders.
+Thank you for investing in Chevron.
+John S. Watson
+Chairman of the Board and
+Chief Executive Officer
+February 21, 2014

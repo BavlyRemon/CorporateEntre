@@ -187,9 +187,10 @@ function StatRow({ label, left, right, delay = 0, visible }) {
 export default function Slide06_ShellVsChevron({ stage = 0 }) {
   // Flex weights per section per stage — the three regions ALWAYS share the
   // full height; non-visible regions get weight 0 so they collapse to nothing.
-  const chartGrow = stage === 0 ? 4 : 2.2
-  const cardsGrow = stage >= 1 ? 2 : 0
-  const stripGrow = stage >= 2 ? 1.1 : 0
+  // Tuned so all three sections fit comfortably above the floating nav pill.
+  const chartGrow = stage === 0 ? 4 : 1.7
+  const cardsGrow = stage >= 1 ? 1.9 : 0
+  const stripGrow = stage >= 2 ? 1.3 : 0
 
   return (
     <Slide
@@ -244,7 +245,6 @@ export default function Slide06_ShellVsChevron({ stage = 0 }) {
               <ul className="mt-2 space-y-1 text-xs text-slate-300 leading-relaxed">
                 <li>• <span className="text-yellow-200">Strategic Leadership 6.1 /1k</span> — twice Chevron's</li>
                 <li>• Lower-carbon vocabulary <span className="text-yellow-200">persistent</span> from 2014 onward</li>
-                <li>• Stakeholder framing, not deal-maker framing</li>
               </ul>
             </div>
 
@@ -269,7 +269,6 @@ export default function Slide06_ShellVsChevron({ stage = 0 }) {
               <ul className="mt-2 space-y-1 text-xs text-slate-300 leading-relaxed">
                 <li>• <span className="text-blue-300">Agile Execution 10.9 /1k</span> — top of the corpus</li>
                 <li>• Lower-carbon language <span className="text-blue-300">episodic</span> — spikes 2021, recedes by 2024</li>
-                <li>• Customer share 0.30 — lowest in corpus (audience = shareholder)</li>
               </ul>
             </div>
           </div>

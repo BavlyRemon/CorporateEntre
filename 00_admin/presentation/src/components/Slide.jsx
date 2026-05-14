@@ -121,7 +121,7 @@ export default function Slide({ company, companies, eyebrow, title, kicker, chil
         </div>
       )}
 
-      <div className="flex-1 px-20 pb-12 pt-2 relative z-10 min-h-0 overflow-hidden">
+      <div className="flex-1 px-20 pb-20 pt-2 relative z-10 min-h-0 overflow-hidden">
         {children}
       </div>
     </div>

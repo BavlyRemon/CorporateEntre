@@ -14,56 +14,93 @@ import Slide09_Patterns from './slides/Slide07_Patterns'
 import Slide10_Conclusions from './slides/Slide08_Conclusions'
 import SlideNav from './components/SlideNav'
 
+// Each slide declares how many stages it has. The space bar / right-arrow
+// advances stage within a slide; once at the last stage, advancing moves
+// to the next slide. left-arrow walks back one stage at a time.
 const SLIDES = [
-  { Component: Slide01_Hook,            label: 'Hook' },
-  { Component: Slide02_Companies,       label: 'Scope — 4 firms, 2 industries' },
-  { Component: Slide03_Themes,          label: 'Framework — IPM themes' },
-  { Component: Slide04_Methodology,     label: 'Methodology' },
-  { Component: Slide05_TechVsOil,       label: 'Tech vs Oil' },
-  { Component: Slide06_Amazon,          label: 'Amazon — eras' },
-  { Component: Slide07_Nvidia,          label: 'NVIDIA — AI flip' },
-  { Component: Slide08_ShellVsChevron,  label: 'Shell vs Chevron' },
-  { Component: Slide09_Patterns,        label: 'Patterns' },
-  { Component: Slide10_Conclusions,     label: 'Conclusions' },
+  { Component: Slide01_Hook,            label: 'Hook',                       stages: 1 },
+  { Component: Slide02_Companies,       label: 'Scope — 4 firms, 2 industries', stages: 1 },
+  { Component: Slide03_Themes,          label: 'Framework — IPM themes',     stages: 1 },
+  { Component: Slide04_Methodology,     label: 'Methodology',                stages: 1 },
+  { Component: Slide05_TechVsOil,       label: 'Tech vs Oil',                stages: 1 },
+  { Component: Slide06_Amazon,          label: 'Amazon — eras',              stages: 3 },
+  { Component: Slide07_Nvidia,          label: 'NVIDIA — AI flip',           stages: 3 },
+  { Component: Slide08_ShellVsChevron,  label: 'Shell vs Chevron',           stages: 3 },
+  { Component: Slide09_Patterns,        label: 'Patterns',                   stages: 1 },
+  { Component: Slide10_Conclusions,     label: 'Conclusions',                stages: 1 },
 ]
 
+function parseHash() {
+  const m = window.location.hash.match(/^#(\d+)(?:\.(\d+))?$/)
+  if (!m) return { slide: 0, stage: 0 }
+  return {
+    slide: Math.max(0, Math.min(SLIDES.length - 1, parseInt(m[1], 10) - 1)),
+    stage: Math.max(0, parseInt(m[2] || '1', 10) - 1),
+  }
+}
+
 export default function App() {
-  const [index, setIndex] = useState(() => {
-    const fromHash = parseInt(window.location.hash.replace('#', '')) - 1
-    return Number.isFinite(fromHash) && fromHash >= 0 && fromHash < SLIDES.length ? fromHash : 0
-  })
+  const init = parseHash()
+  const [index, setIndex] = useState(init.slide)
+  const [stage, setStage] = useState(Math.min(init.stage, (SLIDES[init.slide].stages || 1) - 1))
   const [dir, setDir] = useState(1)
 
-  const goTo = useCallback((next) => {
+  const totalStages = SLIDES[index].stages || 1
+
+  // Keep the URL hash in sync so refresh and deep-link work.
+  useEffect(() => {
+    window.location.hash = `#${index + 1}.${stage + 1}`
+  }, [index, stage])
+
+  const goToSlide = useCallback((next) => {
     setIndex((i) => {
       const clamped = Math.max(0, Math.min(SLIDES.length - 1, next))
       setDir(clamped > i ? 1 : -1)
-      window.location.hash = `#${clamped + 1}`
+      setStage(0)
       return clamped
     })
   }, [])
 
-  const prev = useCallback(() => goTo(index - 1), [goTo, index])
-  const next = useCallback(() => goTo(index + 1), [goTo, index])
+  const advance = useCallback(() => {
+    if (stage < totalStages - 1) {
+      setStage(stage + 1)
+    } else if (index < SLIDES.length - 1) {
+      setDir(1)
+      setIndex(index + 1)
+      setStage(0)
+    }
+  }, [stage, totalStages, index])
+
+  const retreat = useCallback(() => {
+    if (stage > 0) {
+      setStage(stage - 1)
+    } else if (index > 0) {
+      setDir(-1)
+      const prevIdx = index - 1
+      setIndex(prevIdx)
+      // Land on the *last* stage of the previous slide so backward feels continuous.
+      setStage((SLIDES[prevIdx].stages || 1) - 1)
+    }
+  }, [stage, index])
 
   useEffect(() => {
     const onKey = (e) => {
       if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') {
-        e.preventDefault(); next()
+        e.preventDefault(); advance()
       } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
-        e.preventDefault(); prev()
+        e.preventDefault(); retreat()
       } else if (e.key === 'Home') {
-        e.preventDefault(); goTo(0)
+        e.preventDefault(); goToSlide(0)
       } else if (e.key === 'End') {
-        e.preventDefault(); goTo(SLIDES.length - 1)
+        e.preventDefault(); goToSlide(SLIDES.length - 1)
       } else if (/^[1-9]$/.test(e.key)) {
         const n = parseInt(e.key, 10) - 1
-        if (n < SLIDES.length) goTo(n)
+        if (n < SLIDES.length) goToSlide(n)
       }
     }
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
-  }, [next, prev, goTo])
+  }, [advance, retreat, goToSlide])
 
   const toggleFullscreen = () => {
     if (!document.fullscreenElement) document.documentElement.requestFullscreen?.()
@@ -84,16 +121,18 @@ export default function App() {
           transition={{ duration: 0.55, ease: easings.expoOut }}
           className="absolute inset-0"
         >
-          <Component />
+          <Component stage={stage} />
         </motion.div>
       </AnimatePresence>
 
       <SlideNav
         index={index}
         total={SLIDES.length}
-        onPrev={prev}
-        onNext={next}
-        onJump={goTo}
+        stage={stage}
+        totalStages={totalStages}
+        onPrev={retreat}
+        onNext={advance}
+        onJump={goToSlide}
         onFullscreen={toggleFullscreen}
         label={label}
       />

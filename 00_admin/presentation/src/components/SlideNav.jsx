@@ -1,6 +1,6 @@
 import { ChevronLeft, ChevronRight, Maximize2 } from 'lucide-react'
 
-export default function SlideNav({ index, total, onPrev, onNext, onJump, onFullscreen, label }) {
+export default function SlideNav({ index, total, stage = 0, totalStages = 1, onPrev, onNext, onJump, onFullscreen, label }) {
   return (
     <div className="fixed bottom-4 left-1/2 -translate-x-1/2 z-50 flex items-center gap-3 backdrop-blur-md bg-black/40 border border-white/10 rounded-full px-3 py-2 shadow-lg">
       <button
@@ -35,6 +35,18 @@ export default function SlideNav({ index, total, onPrev, onNext, onJump, onFulls
         <div className="text-[10px] uppercase tracking-widest text-white/50 font-mono">
           {String(index + 1).padStart(2, '0')} / {String(total).padStart(2, '0')}
         </div>
+        {totalStages > 1 && (
+          <div className="flex items-center gap-0.5">
+            {Array.from({ length: totalStages }).map((_, s) => (
+              <div
+                key={s}
+                className={`h-2.5 w-2.5 rounded-full transition-all ${
+                  s === stage ? 'bg-blue-400' : s < stage ? 'bg-white/40' : 'bg-white/15'
+                }`}
+              />
+            ))}
+          </div>
+        )}
         <div className="text-xs text-white/80 max-w-[180px] truncate">{label}</div>
         <button
           onClick={onFullscreen}

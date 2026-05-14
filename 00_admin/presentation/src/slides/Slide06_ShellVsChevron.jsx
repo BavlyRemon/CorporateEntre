@@ -150,31 +150,39 @@ function ChartLegend({ visible }) {
   )
 }
 
-// Compact stat row: label on top, two bars side-by-side underneath.
-// Less horizontal crunch than the prior 3-column grid.
+// Stat row: metric label + two stacked horizontal bars on a shared scale,
+// each tagged with its firm name. Bars are thick enough to read, values
+// sit at the right edge of each bar.
 function StatRow({ label, left, right, delay = 0, visible }) {
-  const max = Math.max(left.v, right.v) * 1.1
+  const max = Math.max(left.v, right.v) * 1.15
+  const bars = [
+    { firm: 'Shell',   ...left },
+    { firm: 'Chevron', ...right },
+  ]
   return (
     <motion.div
       initial={{ opacity: 0, x: -10 }}
       animate={{ opacity: visible ? 1 : 0, x: visible ? 0 : -10 }}
       transition={{ duration: 0.5, delay: visible ? delay : 0, ease: easings.expoOut }}
-      className="py-1.5 border-b border-white/5 last:border-0"
+      className="py-2 border-b border-white/5 last:border-0"
     >
-      <div className="text-[10px] uppercase tracking-widest text-slate-400 mb-1">{label}</div>
-      <div className="grid grid-cols-2 gap-3">
-        {[left, right].map((s, i) => (
-          <div key={i} className="flex items-center gap-2">
-            <div className="flex-1 h-2 rounded bg-white/5 overflow-hidden min-w-0">
+      <div className="text-[10px] uppercase tracking-widest text-slate-400 mb-1.5">{label}</div>
+      <div className="space-y-1.5">
+        {bars.map((s, i) => (
+          <div key={s.firm} className="grid grid-cols-[60px_1fr_42px] items-center gap-2.5">
+            <div className="text-[11px] font-semibold uppercase tracking-wider" style={{ color: s.color }}>
+              {s.firm}
+            </div>
+            <div className="h-3 rounded bg-white/5 overflow-hidden">
               <motion.div
                 className="h-full rounded"
                 initial={{ width: 0 }}
                 animate={{ width: visible ? `${(s.v / max) * 100}%` : 0 }}
-                transition={{ duration: 0.9, delay: (visible ? delay : 0) + 0.15, ease: easings.expoOut }}
+                transition={{ duration: 0.9, delay: (visible ? delay : 0) + 0.15 + i * 0.08, ease: easings.expoOut }}
                 style={{ background: s.color }}
               />
             </div>
-            <div className="text-[11px] font-mono w-9 text-right flex-shrink-0" style={{ color: s.color }}>
+            <div className="text-xs font-mono text-right tabular-nums" style={{ color: s.color }}>
               {s.label}
             </div>
           </div>

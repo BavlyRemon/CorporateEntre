@@ -17,7 +17,7 @@ function CombinedTimeline({ visible }) {
 
   const allYears = [2013, 2014, 2015, 2016, 2018, 2020, 2021, 2022, 2023, 2024, 2025]
   const yearX = (y) => pad + ((y - 2013) / (2025 - 2013)) * innerW
-  const shareY = (s) => top + (1 - s / 0.6) * innerH // y-axis 0 → 0.6 share
+  const shareY = (s) => top + (1 - s / 0.6) * innerH
   const ambidextrousY = shareY(0.5)
 
   const shellPts = SHELL_TIMELINE.map(d => ({ ...d, x: yearX(d.year), y: shareY(d.share) }))
@@ -26,7 +26,6 @@ function CombinedTimeline({ visible }) {
 
   return (
     <svg viewBox={`0 0 ${w} ${h}`} className="w-full h-full" preserveAspectRatio="xMidYMid meet">
-      {/* y-axis grid + labels */}
       {[0, 0.2, 0.4, 0.6].map(v => (
         <g key={v}>
           <line x1={pad} y1={shareY(v)} x2={w - pad} y2={shareY(v)}
@@ -36,7 +35,6 @@ function CombinedTimeline({ visible }) {
         </g>
       ))}
 
-      {/* ambidextrous threshold */}
       <motion.line
         x1={pad} y1={ambidextrousY} x2={w - pad} y2={ambidextrousY}
         stroke="#FBBF24" strokeOpacity="0.4" strokeDasharray="5 5" strokeWidth="1.5"
@@ -52,7 +50,6 @@ function CombinedTimeline({ visible }) {
         ambidextrous threshold (0.50)
       </motion.text>
 
-      {/* x-axis years */}
       {allYears.map(y => (
         <text key={y} x={yearX(y)} y={h - 14} textAnchor="middle" fontSize={11}
               fontFamily="monospace" fill="#64748b">{y}</text>
@@ -60,7 +57,6 @@ function CombinedTimeline({ visible }) {
       <text x={pad - 12} y={top - 12} textAnchor="end" fontSize={10}
             fontFamily="monospace" fill="#64748b">explore share</text>
 
-      {/* Shell line */}
       <motion.polyline
         fill="none" stroke={SHELL} strokeWidth="2.5"
         points={shellPts.map(p => `${p.x},${p.y}`).join(' ')}
@@ -76,7 +72,6 @@ function CombinedTimeline({ visible }) {
         />
       ))}
 
-      {/* Chevron line */}
       <motion.polyline
         fill="none" stroke={CHEVRON} strokeWidth="2.5"
         points={chevronPts.map(p => `${p.x},${p.y}`).join(' ')}
@@ -97,7 +92,6 @@ function CombinedTimeline({ visible }) {
         )
       })}
 
-      {/* Annotation arrow on Chevron 2021 peak */}
       {chevronPeak && (
         <motion.g
           initial={{ opacity: 0 }} animate={{ opacity: visible ? 1 : 0 }}
@@ -119,7 +113,6 @@ function CombinedTimeline({ visible }) {
         </motion.g>
       )}
 
-      {/* Legend */}
       <motion.g
         initial={{ opacity: 0 }} animate={{ opacity: visible ? 1 : 0 }}
         transition={{ delay: 1.5 }}
@@ -136,37 +129,47 @@ function CombinedTimeline({ visible }) {
   )
 }
 
+// Compact stat row: label on top, two bars side-by-side underneath.
+// Less horizontal crunch than the prior 3-column grid.
 function StatRow({ label, left, right, delay = 0, visible }) {
   const max = Math.max(left.v, right.v) * 1.1
   return (
     <motion.div
       initial={{ opacity: 0, x: -10 }}
       animate={{ opacity: visible ? 1 : 0, x: visible ? 0 : -10 }}
-      transition={{ duration: 0.6, delay: visible ? delay : 0, ease: easings.expoOut }}
-      className="grid grid-cols-[120px_1fr_1fr] gap-3 items-center py-1.5 border-b border-white/5 last:border-0"
+      transition={{ duration: 0.5, delay: visible ? delay : 0, ease: easings.expoOut }}
+      className="py-1.5 border-b border-white/5 last:border-0"
     >
-      <div className="text-[10px] uppercase tracking-widest text-slate-400">{label}</div>
-      {[left, right].map((s, i) => (
-        <div key={i} className="flex items-center gap-2">
-          <div className="flex-1 h-2 rounded bg-white/5 overflow-hidden">
-            <motion.div
-              className="h-full rounded"
-              initial={{ width: 0 }}
-              animate={{ width: visible ? `${(s.v / max) * 100}%` : 0 }}
-              transition={{ duration: 0.9, delay: (visible ? delay : 0) + 0.15, ease: easings.expoOut }}
-              style={{ background: s.color }}
-            />
+      <div className="text-[10px] uppercase tracking-widest text-slate-400 mb-1">{label}</div>
+      <div className="grid grid-cols-2 gap-3">
+        {[left, right].map((s, i) => (
+          <div key={i} className="flex items-center gap-2">
+            <div className="flex-1 h-2 rounded bg-white/5 overflow-hidden min-w-0">
+              <motion.div
+                className="h-full rounded"
+                initial={{ width: 0 }}
+                animate={{ width: visible ? `${(s.v / max) * 100}%` : 0 }}
+                transition={{ duration: 0.9, delay: (visible ? delay : 0) + 0.15, ease: easings.expoOut }}
+                style={{ background: s.color }}
+              />
+            </div>
+            <div className="text-[11px] font-mono w-9 text-right flex-shrink-0" style={{ color: s.color }}>
+              {s.label}
+            </div>
           </div>
-          <div className="text-[11px] font-mono w-9 text-right" style={{ color: s.color }}>
-            {s.label}
-          </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </motion.div>
   )
 }
 
 export default function Slide06_ShellVsChevron({ stage = 0 }) {
+  // Flex weights per section per stage — the three regions ALWAYS share the
+  // full height; non-visible regions get weight 0 so they collapse to nothing.
+  const chartGrow = stage === 0 ? 4 : 2.2
+  const cardsGrow = stage >= 1 ? 2 : 0
+  const stripGrow = stage >= 2 ? 1.1 : 0
+
   return (
     <Slide
       splitBg="linear-gradient(95deg, #1A1505 0%, #2A2208 35%, #0A1733 65%, #050C1F 100%)"
@@ -177,109 +180,115 @@ export default function Slide06_ShellVsChevron({ stage = 0 }) {
     >
       <div className="h-full flex flex-col gap-3 min-h-0">
 
-        {/* Stage 0 — the chart, always visible */}
-        <div className="relative flex-shrink-0" style={{ height: stage === 0 ? '80%' : '38%' }}
-             /* Chart grows when it's the only thing on screen, shrinks once cards appear */>
-          <motion.div
-            className="absolute inset-0"
-            animate={{ height: stage === 0 ? '100%' : '100%' }}
-            transition={{ duration: 0.6, ease: easings.expoOut }}
-          >
-            <CombinedTimeline visible={true} />
-          </motion.div>
-        </div>
-
-        {/* Stage 1 — the two firm cards (each with a real quote) */}
+        {/* Chart */}
         <motion.div
-          initial={{ opacity: 0, y: 18 }}
-          animate={{ opacity: stage >= 1 ? 1 : 0, y: stage >= 1 ? 0 : 18,
-                     height: stage >= 1 ? 'auto' : 0 }}
+          className="relative min-h-0"
+          animate={{ flexGrow: chartGrow }}
           transition={{ duration: 0.6, ease: easings.expoOut }}
-          className="grid grid-cols-2 gap-5 overflow-hidden"
+          style={{ flexBasis: 0 }}
         >
-          <div className="rounded-xl p-4 border border-yellow-500/25 bg-gradient-to-br from-yellow-500/[0.07] to-transparent">
-            <div className="flex items-baseline justify-between mb-2">
-              <div>
-                <div className="text-[10px] uppercase tracking-[0.3em] font-mono text-yellow-400">Shell · UK/NL</div>
-                <h3 className="font-display font-bold text-xl mt-0.5">Discipline-as-virtue</h3>
-              </div>
-              <div className="text-right">
-                <div className="font-display text-2xl font-bold leading-none" style={{ color: SHELL }}>0.11</div>
-                <div className="text-[9px] uppercase tracking-widest text-slate-400 mt-0.5">explore share</div>
-              </div>
-            </div>
-            <Quote
-              text="Powering Progress combines our ambitions under four goals: generating shareholder value, achieving net-zero emissions, powering lives, and respecting nature."
-              cite="Shell 2020 CEO Review · Ben van Beurden"
-              color={SHELL}
-              visible={stage >= 1}
-              delay={0.2}
-            />
-            <ul className="mt-2 space-y-1 text-xs text-slate-300 leading-relaxed">
-              <li>• <span className="text-yellow-200">Strategic Leadership 6.1 /1k</span> — twice Chevron's</li>
-              <li>• Lower-carbon vocabulary <span className="text-yellow-200">persistent</span> from 2014 onward</li>
-              <li>• Stakeholder framing, not deal-maker framing</li>
-            </ul>
-          </div>
+          <CombinedTimeline visible={true} />
+        </motion.div>
 
-          <div className="rounded-xl p-4 border border-blue-500/25 bg-gradient-to-bl from-blue-500/[0.08] to-transparent">
-            <div className="flex items-baseline justify-between mb-2">
-              <div>
-                <div className="text-[10px] uppercase tracking-[0.3em] font-mono text-blue-300">Chevron · USA</div>
-                <h3 className="font-display font-bold text-xl mt-0.5">Operational excellence</h3>
+        {/* Firm cards (stage >= 1) */}
+        <motion.div
+          className="min-h-0 overflow-hidden"
+          animate={{
+            flexGrow: cardsGrow,
+            opacity: stage >= 1 ? 1 : 0,
+          }}
+          transition={{ duration: 0.6, ease: easings.expoOut }}
+          style={{ flexBasis: 0 }}
+        >
+          <div className="grid grid-cols-2 gap-4 h-full">
+            <div className="rounded-xl p-4 border border-yellow-500/25 bg-gradient-to-br from-yellow-500/[0.07] to-transparent overflow-hidden flex flex-col">
+              <div className="flex items-baseline justify-between mb-2 flex-shrink-0">
+                <div>
+                  <div className="text-[10px] uppercase tracking-[0.3em] font-mono text-yellow-400">Shell · UK/NL</div>
+                  <h3 className="font-display font-bold text-xl mt-0.5">Discipline-as-virtue</h3>
+                </div>
+                <div className="text-right">
+                  <div className="font-display text-2xl font-bold leading-none" style={{ color: SHELL }}>0.11</div>
+                  <div className="text-[9px] uppercase tracking-widest text-slate-400 mt-0.5">explore share</div>
+                </div>
               </div>
-              <div className="text-right">
-                <div className="font-display text-2xl font-bold leading-none" style={{ color: CHEVRON }}>0.27</div>
-                <div className="text-[9px] uppercase tracking-widest text-slate-400 mt-0.5">explore share</div>
-              </div>
+              <Quote
+                text="Powering Progress combines our ambitions under four goals: generating shareholder value, achieving net-zero emissions, powering lives, and respecting nature."
+                cite="Shell 2020 CEO Review · Ben van Beurden"
+                color={SHELL}
+                visible={stage >= 1}
+                delay={0.15}
+              />
+              <ul className="mt-2 space-y-1 text-xs text-slate-300 leading-relaxed">
+                <li>• <span className="text-yellow-200">Strategic Leadership 6.1 /1k</span> — twice Chevron's</li>
+                <li>• Lower-carbon vocabulary <span className="text-yellow-200">persistent</span> from 2014 onward</li>
+                <li>• Stakeholder framing, not deal-maker framing</li>
+              </ul>
             </div>
-            <Quote
-              text="Our focus on 'higher returns, lower carbon' is underpinned by operational excellence, cost discipline and capital discipline — and financial strength."
-              cite="Chevron 2021 Letter to Stockholders · Mike Wirth"
-              color={CHEVRON}
-              visible={stage >= 1}
-              delay={0.35}
-            />
-            <ul className="mt-2 space-y-1 text-xs text-slate-300 leading-relaxed">
-              <li>• <span className="text-blue-300">Agile Execution 10.9 /1k</span> — top of the corpus</li>
-              <li>• Lower-carbon language <span className="text-blue-300">episodic</span> — spikes 2021, recedes by 2024</li>
-              <li>• Customer share 0.30 — lowest in corpus (audience = shareholder)</li>
-            </ul>
+
+            <div className="rounded-xl p-4 border border-blue-500/25 bg-gradient-to-bl from-blue-500/[0.08] to-transparent overflow-hidden flex flex-col">
+              <div className="flex items-baseline justify-between mb-2 flex-shrink-0">
+                <div>
+                  <div className="text-[10px] uppercase tracking-[0.3em] font-mono text-blue-300">Chevron · USA</div>
+                  <h3 className="font-display font-bold text-xl mt-0.5">Operational excellence</h3>
+                </div>
+                <div className="text-right">
+                  <div className="font-display text-2xl font-bold leading-none" style={{ color: CHEVRON }}>0.27</div>
+                  <div className="text-[9px] uppercase tracking-widest text-slate-400 mt-0.5">explore share</div>
+                </div>
+              </div>
+              <Quote
+                text="Our focus on 'higher returns, lower carbon' is underpinned by operational excellence, cost discipline and capital discipline — and financial strength."
+                cite="Chevron 2021 Letter to Stockholders · Mike Wirth"
+                color={CHEVRON}
+                visible={stage >= 1}
+                delay={0.3}
+              />
+              <ul className="mt-2 space-y-1 text-xs text-slate-300 leading-relaxed">
+                <li>• <span className="text-blue-300">Agile Execution 10.9 /1k</span> — top of the corpus</li>
+                <li>• Lower-carbon language <span className="text-blue-300">episodic</span> — spikes 2021, recedes by 2024</li>
+                <li>• Customer share 0.30 — lowest in corpus (audience = shareholder)</li>
+              </ul>
+            </div>
           </div>
         </motion.div>
 
-        {/* Stage 2 — comparison strip + cultural finding */}
+        {/* Comparison strip (stage >= 2) */}
         <motion.div
-          initial={{ opacity: 0, y: 18 }}
-          animate={{ opacity: stage >= 2 ? 1 : 0, y: stage >= 2 ? 0 : 18,
-                     height: stage >= 2 ? 'auto' : 0 }}
+          className="min-h-0 overflow-hidden"
+          animate={{
+            flexGrow: stripGrow,
+            opacity: stage >= 2 ? 1 : 0,
+          }}
           transition={{ duration: 0.6, ease: easings.expoOut }}
-          className="rounded-xl border border-white/10 bg-black/30 backdrop-blur-sm p-3 grid grid-cols-[1.2fr_1fr] gap-5 overflow-hidden"
+          style={{ flexBasis: 0 }}
         >
-          <div>
-            <div className="text-[10px] uppercase tracking-widest font-mono text-slate-400 mb-1.5">
-              Same lens · different choice
+          <div className="rounded-xl border border-white/10 bg-black/30 backdrop-blur-sm p-4 grid grid-cols-2 gap-6 h-full overflow-hidden">
+            <div className="min-w-0">
+              <div className="text-[10px] uppercase tracking-widest font-mono text-slate-400 mb-2">
+                Same lens · different choice
+              </div>
+              <StatRow visible={stage >= 2} delay={0.05} label="Strategic Leadership /1k"
+                left={{ v: 6.1, label: '6.1', color: SHELL }}
+                right={{ v: 3.0, label: '3.0', color: CHEVRON }} />
+              <StatRow visible={stage >= 2} delay={0.15} label="Agile Execution /1k"
+                left={{ v: 6.4, label: '6.4', color: SHELL }}
+                right={{ v: 10.9, label: '10.9', color: CHEVRON }} />
+              <StatRow visible={stage >= 2} delay={0.25} label="Customer share"
+                left={{ v: 0.38, label: '0.38', color: SHELL }}
+                right={{ v: 0.30, label: '0.30', color: CHEVRON }} />
             </div>
-            <StatRow visible={stage >= 2} delay={0.05} label="Strategic Leadership /1k"
-              left={{ v: 6.1, label: '6.1', color: SHELL }}
-              right={{ v: 3.0, label: '3.0', color: CHEVRON }} />
-            <StatRow visible={stage >= 2} delay={0.15} label="Agile Execution /1k"
-              left={{ v: 6.4, label: '6.4', color: SHELL }}
-              right={{ v: 10.9, label: '10.9', color: CHEVRON }} />
-            <StatRow visible={stage >= 2} delay={0.25} label="Customer share"
-              left={{ v: 0.38, label: '0.38', color: SHELL }}
-              right={{ v: 0.30, label: '0.30', color: CHEVRON }} />
-          </div>
-          <div className="text-xs leading-relaxed text-slate-300">
-            <div className="text-[10px] uppercase tracking-widest font-mono text-slate-400 mb-1.5">
-              The cultural finding
+            <div className="text-xs leading-relaxed text-slate-300 min-w-0">
+              <div className="text-[10px] uppercase tracking-widest font-mono text-slate-400 mb-2">
+                The cultural finding
+              </div>
+              <p>
+                Both share <span className="font-semibold text-white">Purpose, Vision &amp; Governance</span> at ~10 /1k, but the
+                <em> content</em> diverges: Shell's <span className="text-yellow-200">"energy progress"</span> /
+                lower carbon vs. Chevron's <span className="text-blue-300">"return capital to shareholders"</span>.
+                Same IPM theme, very different referents — <span className="font-semibold text-white">measurable in the vocabulary</span>.
+              </p>
             </div>
-            <p>
-              Both share <span className="font-semibold text-white">Purpose, Vision &amp; Governance</span> at ~10 /1k, but the
-              <em> content</em> diverges: Shell's <span className="text-yellow-200">"energy progress"</span> /
-              lower carbon vs. Chevron's <span className="text-blue-300">"return capital to shareholders"</span>.
-              Same IPM theme, very different referents — <span className="font-semibold text-white">measurable in the vocabulary</span>.
-            </p>
           </div>
         </motion.div>
 

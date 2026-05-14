@@ -164,16 +164,16 @@ function StatRow({ label, left, right, delay = 0, visible }) {
       initial={{ opacity: 0, x: -10 }}
       animate={{ opacity: visible ? 1 : 0, x: visible ? 0 : -10 }}
       transition={{ duration: 0.5, delay: visible ? delay : 0, ease: easings.expoOut }}
-      className="py-2 border-b border-white/5 last:border-0"
+      className="py-1 border-b border-white/5 last:border-0"
     >
-      <div className="text-[10px] uppercase tracking-widest text-slate-400 mb-1.5">{label}</div>
-      <div className="space-y-1.5">
+      <div className="text-[10px] uppercase tracking-widest text-slate-400 mb-1">{label}</div>
+      <div className="space-y-1">
         {bars.map((s, i) => (
-          <div key={s.firm} className="grid grid-cols-[60px_1fr_42px] items-center gap-2.5">
-            <div className="text-[11px] font-semibold uppercase tracking-wider" style={{ color: s.color }}>
+          <div key={s.firm} className="grid grid-cols-[64px_1fr_42px] items-center gap-2.5">
+            <div className="text-[10px] font-semibold uppercase tracking-wider" style={{ color: s.color }}>
               {s.firm}
             </div>
-            <div className="h-3 rounded bg-white/5 overflow-hidden">
+            <div className="h-2.5 rounded bg-white/5 overflow-hidden">
               <motion.div
                 className="h-full rounded"
                 initial={{ width: 0 }}
@@ -182,7 +182,7 @@ function StatRow({ label, left, right, delay = 0, visible }) {
                 style={{ background: s.color }}
               />
             </div>
-            <div className="text-xs font-mono text-right tabular-nums" style={{ color: s.color }}>
+            <div className="text-[11px] font-mono text-right tabular-nums" style={{ color: s.color }}>
               {s.label}
             </div>
           </div>
@@ -196,9 +196,9 @@ export default function Slide06_ShellVsChevron({ stage = 0 }) {
   // Flex weights per section per stage — the three regions ALWAYS share the
   // full height; non-visible regions get weight 0 so they collapse to nothing.
   // Tuned so all three sections fit comfortably above the floating nav pill.
-  const chartGrow = stage === 0 ? 4 : 1.7
-  const cardsGrow = stage >= 1 ? 1.9 : 0
-  const stripGrow = stage >= 2 ? 1.3 : 0
+  const chartGrow = stage === 0 ? 4 : 1.5
+  const cardsGrow = stage >= 1 ? 1.7 : 0
+  const stripGrow = stage >= 2 ? 1.9 : 0
 
   return (
     <Slide

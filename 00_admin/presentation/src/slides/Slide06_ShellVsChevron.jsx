@@ -41,8 +41,10 @@ function CombinedTimeline({ visible }) {
         initial={{ pathLength: 0 }} animate={{ pathLength: visible ? 1 : 0 }}
         transition={{ duration: 1.2, delay: 0.4, ease: easings.expoOut }}
       />
+      {/* Threshold label sits on the LEFT side of the chart so it never clashes
+          with the Chevron 2021 annotation on the right. */}
       <motion.text
-        x={w - pad - 6} y={ambidextrousY - 6} textAnchor="end"
+        x={pad + 6} y={ambidextrousY - 6} textAnchor="start"
         fontSize={10} fontFamily="monospace" fill="#FBBF24"
         initial={{ opacity: 0 }} animate={{ opacity: visible ? 0.75 : 0 }}
         transition={{ delay: 1.4 }}
@@ -54,7 +56,8 @@ function CombinedTimeline({ visible }) {
         <text key={y} x={yearX(y)} y={h - 14} textAnchor="middle" fontSize={11}
               fontFamily="monospace" fill="#64748b">{y}</text>
       ))}
-      <text x={pad - 12} y={top - 12} textAnchor="end" fontSize={10}
+      {/* y-axis label, anchored at start so it never gets clipped */}
+      <text x={pad} y={top - 14} textAnchor="start" fontSize={10}
             fontFamily="monospace" fill="#64748b">explore share</text>
 
       <motion.polyline
@@ -97,17 +100,23 @@ function CombinedTimeline({ visible }) {
           initial={{ opacity: 0 }} animate={{ opacity: visible ? 1 : 0 }}
           transition={{ delay: 1.9, duration: 0.6 }}
         >
-          <line x1={chevronPeak.x + 35} y1={chevronPeak.y - 30}
-                x2={chevronPeak.x + 8} y2={chevronPeak.y - 6}
+          {/* Arrow comes from BELOW the peak — keeps the upper-right area
+              clear so the threshold-label and annotation don't fight. */}
+          <line x1={chevronPeak.x} y1={chevronPeak.y + 12}
+                x2={chevronPeak.x} y2={chevronPeak.y + 56}
                 stroke="#FBBF24" strokeWidth="1.5" />
-          <polygon points={`${chevronPeak.x + 8},${chevronPeak.y - 6} ${chevronPeak.x + 17},${chevronPeak.y - 14} ${chevronPeak.x + 15},${chevronPeak.y - 6}`}
-                   fill="#FBBF24" />
-          <text x={chevronPeak.x + 38} y={chevronPeak.y - 38}
+          <polygon
+            points={`${chevronPeak.x},${chevronPeak.y + 12} ${chevronPeak.x - 5},${chevronPeak.y + 22} ${chevronPeak.x + 5},${chevronPeak.y + 22}`}
+            fill="#FBBF24"
+          />
+          <text x={chevronPeak.x} y={chevronPeak.y + 72}
+                textAnchor="middle"
                 fontSize={11} fontWeight={600} fill="#FBBF24">
-            2021 New Energies launch
+            2021 · New Energies launch
           </text>
-          <text x={chevronPeak.x + 38} y={chevronPeak.y - 24}
-                fontSize={10} fill="#FBBF24" fillOpacity="0.7">
+          <text x={chevronPeak.x} y={chevronPeak.y + 86}
+                textAnchor="middle"
+                fontSize={10} fill="#FBBF24" fillOpacity="0.75">
             the one ambidextrous year
           </text>
         </motion.g>

@@ -2,11 +2,15 @@
 // Each company maps to its own asset; intrinsic aspect ratios differ, so
 // callers pass a `size` (height in px) and the width is set to auto.
 
+// Resolve under whatever base path the bundle was built with
+// ('/' locally, '/CorporateEntre/' on GitHub Pages).
+const B = import.meta.env.BASE_URL
+
 const ASSETS = {
-  Amazon:  { src: '/logos/amazon.svg',  ratio: 1.00 },
-  Nvidia:  { src: '/logos/nvidia.svg',  ratio: 1.85 },
-  Shell:   { src: '/logos/shell.svg',   ratio: 1.08 },
-  Chevron: { src: '/logos/chevron.png', ratio: 0.88 },
+  Amazon:  { src: `${B}logos/amazon.svg`,  ratio: 1.00 },
+  Nvidia:  { src: `${B}logos/nvidia.svg`,  ratio: 1.85 },
+  Shell:   { src: `${B}logos/shell.svg`,   ratio: 1.08 },
+  Chevron: { src: `${B}logos/chevron.png`, ratio: 0.88 },
 }
 
 export default function Logo({ company, size = 80, className = '', style = {} }) {

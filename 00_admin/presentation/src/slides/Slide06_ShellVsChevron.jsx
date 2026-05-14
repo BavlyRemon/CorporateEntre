@@ -41,10 +41,10 @@ function CombinedTimeline({ visible }) {
         initial={{ pathLength: 0 }} animate={{ pathLength: visible ? 1 : 0 }}
         transition={{ duration: 1.2, delay: 0.4, ease: easings.expoOut }}
       />
-      {/* Threshold label sits on the LEFT side of the chart so it never clashes
-          with the Chevron 2021 annotation on the right. */}
+      {/* Threshold label sits in the middle of the empty area, above the line,
+          between Shell's and Chevron's curves where nothing else is plotted. */}
       <motion.text
-        x={pad + 6} y={ambidextrousY - 6} textAnchor="start"
+        x={pad + innerW * 0.18} y={ambidextrousY - 6} textAnchor="start"
         fontSize={10} fontFamily="monospace" fill="#FBBF24"
         initial={{ opacity: 0 }} animate={{ opacity: visible ? 0.75 : 0 }}
         transition={{ delay: 1.4 }}
@@ -122,19 +122,31 @@ function CombinedTimeline({ visible }) {
         </motion.g>
       )}
 
-      <motion.g
-        initial={{ opacity: 0 }} animate={{ opacity: visible ? 1 : 0 }}
-        transition={{ delay: 1.5 }}
-      >
-        <rect x={pad + 12} y={top + 6} width={14} height={3} fill={SHELL} />
-        <text x={pad + 32} y={top + 11} fontSize={12} fontWeight={600} fill={SHELL}>Shell</text>
-        <text x={pad + 78} y={top + 11} fontSize={11} fill="#94a3b8">— flat at 0.10</text>
-
-        <rect x={pad + 12} y={top + 26} width={14} height={3} fill={CHEVRON} />
-        <text x={pad + 32} y={top + 31} fontSize={12} fontWeight={600} fill={CHEVRON}>Chevron</text>
-        <text x={pad + 102} y={top + 31} fontSize={11} fill="#94a3b8">— one volatile spike</text>
-      </motion.g>
     </svg>
+  )
+}
+
+// Stand-alone legend rendered as HTML above the SVG, so it never collides
+// with anything inside the chart.
+function ChartLegend({ visible }) {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: -6 }}
+      animate={{ opacity: visible ? 1 : 0, y: visible ? 0 : -6 }}
+      transition={{ duration: 0.6, delay: 0.2, ease: easings.expoOut }}
+      className="absolute top-2 right-4 flex items-center gap-5 text-[11px] font-mono z-10"
+    >
+      <div className="flex items-center gap-2">
+        <div className="w-4 h-[3px] rounded" style={{ background: SHELL }} />
+        <span className="font-semibold" style={{ color: SHELL }}>Shell</span>
+        <span className="text-slate-400">— flat at 0.10</span>
+      </div>
+      <div className="flex items-center gap-2">
+        <div className="w-4 h-[3px] rounded" style={{ background: CHEVRON }} />
+        <span className="font-semibold" style={{ color: CHEVRON }}>Chevron</span>
+        <span className="text-slate-400">— one volatile spike</span>
+      </div>
+    </motion.div>
   )
 }
 
@@ -196,6 +208,7 @@ export default function Slide06_ShellVsChevron({ stage = 0 }) {
           transition={{ duration: 0.6, ease: easings.expoOut }}
           style={{ flexBasis: 0 }}
         >
+          <ChartLegend visible={true} />
           <CombinedTimeline visible={true} />
         </motion.div>
 

@@ -1,16 +1,16 @@
 company,year,theme,count,per_1000_words,source_file
 Amazon,1997,Strategic Leadership,7,4.258,02_extracted_text/selected_ceo_letters/amazon/amazon_1997_ceo_letter.txt
-Amazon,1997,Horizon Scanning / Sense-making,24,14.599,02_extracted_text/selected_ceo_letters/amazon/amazon_1997_ceo_letter.txt
+Amazon,1997,Horizon Scanning / Sense-making,25,15.207,02_extracted_text/selected_ceo_letters/amazon/amazon_1997_ceo_letter.txt
 Amazon,1997,"Purpose, Vision, and Governance",38,23.114,02_extracted_text/selected_ceo_letters/amazon/amazon_1997_ceo_letter.txt
 Amazon,1997,"Strategic Options, Experimentation, and Choices",6,3.650,02_extracted_text/selected_ceo_letters/amazon/amazon_1997_ceo_letter.txt
 Amazon,1997,Agile Execution and Organization,7,4.258,02_extracted_text/selected_ceo_letters/amazon/amazon_1997_ceo_letter.txt
 Amazon,2016,Strategic Leadership,12,6.561,02_extracted_text/selected_ceo_letters/amazon/amazon_2016_ceo_letter.txt
-Amazon,2016,Horizon Scanning / Sense-making,24,13.122,02_extracted_text/selected_ceo_letters/amazon/amazon_2016_ceo_letter.txt
+Amazon,2016,Horizon Scanning / Sense-making,32,17.496,02_extracted_text/selected_ceo_letters/amazon/amazon_2016_ceo_letter.txt
 Amazon,2016,"Purpose, Vision, and Governance",29,15.856,02_extracted_text/selected_ceo_letters/amazon/amazon_2016_ceo_letter.txt
 Amazon,2016,"Strategic Options, Experimentation, and Choices",5,2.734,02_extracted_text/selected_ceo_letters/amazon/amazon_2016_ceo_letter.txt
 Amazon,2016,Agile Execution and Organization,6,3.280,02_extracted_text/selected_ceo_letters/amazon/amazon_2016_ceo_letter.txt
 Amazon,2020,Strategic Leadership,8,1.931,02_extracted_text/selected_ceo_letters/amazon/amazon_2020_ceo_letter.txt
-Amazon,2020,Horizon Scanning / Sense-making,27,6.517,02_extracted_text/selected_ceo_letters/amazon/amazon_2020_ceo_letter.txt
+Amazon,2020,Horizon Scanning / Sense-making,28,6.758,02_extracted_text/selected_ceo_letters/amazon/amazon_2020_ceo_letter.txt
 Amazon,2020,"Purpose, Vision, and Governance",30,7.241,02_extracted_text/selected_ceo_letters/amazon/amazon_2020_ceo_letter.txt
 Amazon,2020,"Strategic Options, Experimentation, and Choices",13,3.138,02_extracted_text/selected_ceo_letters/amazon/amazon_2020_ceo_letter.txt
 Amazon,2020,Agile Execution and Organization,9,2.172,02_extracted_text/selected_ceo_letters/amazon/amazon_2020_ceo_letter.txt
@@ -20,12 +20,12 @@ Amazon,2021,"Purpose, Vision, and Governance",64,13.859,02_extracted_text/select
 Amazon,2021,"Strategic Options, Experimentation, and Choices",70,15.158,02_extracted_text/selected_ceo_letters/amazon/amazon_2021_ceo_letter.txt
 Amazon,2021,Agile Execution and Organization,17,3.681,02_extracted_text/selected_ceo_letters/amazon/amazon_2021_ceo_letter.txt
 Amazon,2022,Strategic Leadership,1,0.190,02_extracted_text/selected_ceo_letters/amazon/amazon_2022_ceo_letter.txt
-Amazon,2022,Horizon Scanning / Sense-making,103,19.615,02_extracted_text/selected_ceo_letters/amazon/amazon_2022_ceo_letter.txt
+Amazon,2022,Horizon Scanning / Sense-making,105,19.996,02_extracted_text/selected_ceo_letters/amazon/amazon_2022_ceo_letter.txt
 Amazon,2022,"Purpose, Vision, and Governance",68,12.950,02_extracted_text/selected_ceo_letters/amazon/amazon_2022_ceo_letter.txt
 Amazon,2022,"Strategic Options, Experimentation, and Choices",47,8.951,02_extracted_text/selected_ceo_letters/amazon/amazon_2022_ceo_letter.txt
 Amazon,2022,Agile Execution and Organization,30,5.713,02_extracted_text/selected_ceo_letters/amazon/amazon_2022_ceo_letter.txt
 Amazon,2024,Strategic Leadership,13,2.514,02_extracted_text/selected_ceo_letters/amazon/amazon_2024_ceo_letter.txt
-Amazon,2024,Horizon Scanning / Sense-making,55,10.636,02_extracted_text/selected_ceo_letters/amazon/amazon_2024_ceo_letter.txt
+Amazon,2024,Horizon Scanning / Sense-making,56,10.830,02_extracted_text/selected_ceo_letters/amazon/amazon_2024_ceo_letter.txt
 Amazon,2024,"Purpose, Vision, and Governance",77,14.891,02_extracted_text/selected_ceo_letters/amazon/amazon_2024_ceo_letter.txt
 Amazon,2024,"Strategic Options, Experimentation, and Choices",53,10.249,02_extracted_text/selected_ceo_letters/amazon/amazon_2024_ceo_letter.txt
 Amazon,2024,Agile Execution and Organization,43,8.316,02_extracted_text/selected_ceo_letters/amazon/amazon_2024_ceo_letter.txt
@@ -40,12 +40,12 @@ Chevron,2013,"Purpose, Vision, and Governance",5,5.537,02_extracted_text/selecte
 Chevron,2013,"Strategic Options, Experimentation, and Choices",3,3.322,02_extracted_text/selected_ceo_letters/chevron/chevron_2013_ceo_letter.txt
 Chevron,2013,Agile Execution and Organization,4,4.430,02_extracted_text/selected_ceo_letters/chevron/chevron_2013_ceo_letter.txt
 Chevron,2018,Strategic Leadership,3,1.889,02_extracted_text/selected_ceo_letters/chevron/chevron_2018_ceo_letter.txt
-Chevron,2018,Horizon Scanning / Sense-making,22,13.854,02_extracted_text/selected_ceo_letters/chevron/chevron_2018_ceo_letter.txt
+Chevron,2018,Horizon Scanning / Sense-making,23,14.484,02_extracted_text/selected_ceo_letters/chevron/chevron_2018_ceo_letter.txt
 Chevron,2018,"Purpose, Vision, and Governance",12,7.557,02_extracted_text/selected_ceo_letters/chevron/chevron_2018_ceo_letter.txt
 Chevron,2018,"Strategic Options, Experimentation, and Choices",8,5.038,02_extracted_text/selected_ceo_letters/chevron/chevron_2018_ceo_letter.txt
 Chevron,2018,Agile Execution and Organization,17,10.705,02_extracted_text/selected_ceo_letters/chevron/chevron_2018_ceo_letter.txt
 Chevron,2020,Strategic Leadership,4,3.228,02_extracted_text/selected_ceo_letters/chevron/chevron_2020_ceo_letter.txt
-Chevron,2020,Horizon Scanning / Sense-making,30,24.213,02_extracted_text/selected_ceo_letters/chevron/chevron_2020_ceo_letter.txt
+Chevron,2020,Horizon Scanning / Sense-making,31,25.020,02_extracted_text/selected_ceo_letters/chevron/chevron_2020_ceo_letter.txt
 Chevron,2020,"Purpose, Vision, and Governance",20,16.142,02_extracted_text/selected_ceo_letters/chevron/chevron_2020_ceo_letter.txt
 Chevron,2020,"Strategic Options, Experimentation, and Choices",16,12.914,02_extracted_text/selected_ceo_letters/chevron/chevron_2020_ceo_letter.txt
 Chevron,2020,Agile Execution and Organization,9,7.264,02_extracted_text/selected_ceo_letters/chevron/chevron_2020_ceo_letter.txt
@@ -55,7 +55,7 @@ Chevron,2021,"Purpose, Vision, and Governance",21,16.092,02_extracted_text/selec
 Chevron,2021,"Strategic Options, Experimentation, and Choices",15,11.494,02_extracted_text/selected_ceo_letters/chevron/chevron_2021_ceo_letter.txt
 Chevron,2021,Agile Execution and Organization,5,3.831,02_extracted_text/selected_ceo_letters/chevron/chevron_2021_ceo_letter.txt
 Chevron,2022,Strategic Leadership,1,0.784,02_extracted_text/selected_ceo_letters/chevron/chevron_2022_ceo_letter.txt
-Chevron,2022,Horizon Scanning / Sense-making,22,17.255,02_extracted_text/selected_ceo_letters/chevron/chevron_2022_ceo_letter.txt
+Chevron,2022,Horizon Scanning / Sense-making,24,18.824,02_extracted_text/selected_ceo_letters/chevron/chevron_2022_ceo_letter.txt
 Chevron,2022,"Purpose, Vision, and Governance",23,18.039,02_extracted_text/selected_ceo_letters/chevron/chevron_2022_ceo_letter.txt
 Chevron,2022,"Strategic Options, Experimentation, and Choices",16,12.549,02_extracted_text/selected_ceo_letters/chevron/chevron_2022_ceo_letter.txt
 Chevron,2022,Agile Execution and Organization,8,6.275,02_extracted_text/selected_ceo_letters/chevron/chevron_2022_ceo_letter.txt
@@ -70,12 +70,12 @@ Chevron,2024,"Purpose, Vision, and Governance",16,13.571,02_extracted_text/selec
 Chevron,2024,"Strategic Options, Experimentation, and Choices",6,5.089,02_extracted_text/selected_ceo_letters/chevron/chevron_2024_ceo_letter.txt
 Chevron,2024,Agile Execution and Organization,9,7.634,02_extracted_text/selected_ceo_letters/chevron/chevron_2024_ceo_letter.txt
 Nvidia,2017,Strategic Leadership,1,1.159,02_extracted_text/selected_ceo_letters/nvidia/nvidia_2017_ceo_letter.txt
-Nvidia,2017,Horizon Scanning / Sense-making,37,42.874,02_extracted_text/selected_ceo_letters/nvidia/nvidia_2017_ceo_letter.txt
+Nvidia,2017,Horizon Scanning / Sense-making,38,44.032,02_extracted_text/selected_ceo_letters/nvidia/nvidia_2017_ceo_letter.txt
 Nvidia,2017,"Purpose, Vision, and Governance",3,3.476,02_extracted_text/selected_ceo_letters/nvidia/nvidia_2017_ceo_letter.txt
 Nvidia,2017,"Strategic Options, Experimentation, and Choices",4,4.635,02_extracted_text/selected_ceo_letters/nvidia/nvidia_2017_ceo_letter.txt
 Nvidia,2017,Agile Execution and Organization,3,3.476,02_extracted_text/selected_ceo_letters/nvidia/nvidia_2017_ceo_letter.txt
 Nvidia,2018,Strategic Leadership,1,0.766,02_extracted_text/selected_ceo_letters/nvidia/nvidia_2018_ceo_letter.txt
-Nvidia,2018,Horizon Scanning / Sense-making,39,29.862,02_extracted_text/selected_ceo_letters/nvidia/nvidia_2018_ceo_letter.txt
+Nvidia,2018,Horizon Scanning / Sense-making,40,30.628,02_extracted_text/selected_ceo_letters/nvidia/nvidia_2018_ceo_letter.txt
 Nvidia,2018,"Purpose, Vision, and Governance",6,4.594,02_extracted_text/selected_ceo_letters/nvidia/nvidia_2018_ceo_letter.txt
 Nvidia,2018,"Strategic Options, Experimentation, and Choices",10,7.657,02_extracted_text/selected_ceo_letters/nvidia/nvidia_2018_ceo_letter.txt
 Nvidia,2018,Agile Execution and Organization,7,5.360,02_extracted_text/selected_ceo_letters/nvidia/nvidia_2018_ceo_letter.txt
@@ -90,17 +90,17 @@ Nvidia,2021,"Purpose, Vision, and Governance",7,2.131,02_extracted_text/selected
 Nvidia,2021,"Strategic Options, Experimentation, and Choices",28,8.524,02_extracted_text/selected_ceo_letters/nvidia/nvidia_2021_ceo_letter.txt
 Nvidia,2021,Agile Execution and Organization,24,7.306,02_extracted_text/selected_ceo_letters/nvidia/nvidia_2021_ceo_letter.txt
 Nvidia,2022,Strategic Leadership,1,0.475,02_extracted_text/selected_ceo_letters/nvidia/nvidia_2022_ceo_letter.txt
-Nvidia,2022,Horizon Scanning / Sense-making,94,44.613,02_extracted_text/selected_ceo_letters/nvidia/nvidia_2022_ceo_letter.txt
+Nvidia,2022,Horizon Scanning / Sense-making,95,45.088,02_extracted_text/selected_ceo_letters/nvidia/nvidia_2022_ceo_letter.txt
 Nvidia,2022,"Purpose, Vision, and Governance",7,3.322,02_extracted_text/selected_ceo_letters/nvidia/nvidia_2022_ceo_letter.txt
 Nvidia,2022,"Strategic Options, Experimentation, and Choices",14,6.645,02_extracted_text/selected_ceo_letters/nvidia/nvidia_2022_ceo_letter.txt
 Nvidia,2022,Agile Execution and Organization,15,7.119,02_extracted_text/selected_ceo_letters/nvidia/nvidia_2022_ceo_letter.txt
 Nvidia,2023,Strategic Leadership,1,0.395,02_extracted_text/selected_ceo_letters/nvidia/nvidia_2023_ceo_letter.txt
-Nvidia,2023,Horizon Scanning / Sense-making,171,67.562,02_extracted_text/selected_ceo_letters/nvidia/nvidia_2023_ceo_letter.txt
+Nvidia,2023,Horizon Scanning / Sense-making,177,69.933,02_extracted_text/selected_ceo_letters/nvidia/nvidia_2023_ceo_letter.txt
 Nvidia,2023,"Purpose, Vision, and Governance",12,4.741,02_extracted_text/selected_ceo_letters/nvidia/nvidia_2023_ceo_letter.txt
 Nvidia,2023,"Strategic Options, Experimentation, and Choices",16,6.322,02_extracted_text/selected_ceo_letters/nvidia/nvidia_2023_ceo_letter.txt
 Nvidia,2023,Agile Execution and Organization,30,11.853,02_extracted_text/selected_ceo_letters/nvidia/nvidia_2023_ceo_letter.txt
 Nvidia,2025,Strategic Leadership,4,1.203,02_extracted_text/selected_ceo_letters/nvidia/nvidia_2025_ceo_letter.txt
-Nvidia,2025,Horizon Scanning / Sense-making,230,69.194,02_extracted_text/selected_ceo_letters/nvidia/nvidia_2025_ceo_letter.txt
+Nvidia,2025,Horizon Scanning / Sense-making,241,72.503,02_extracted_text/selected_ceo_letters/nvidia/nvidia_2025_ceo_letter.txt
 Nvidia,2025,"Purpose, Vision, and Governance",18,5.415,02_extracted_text/selected_ceo_letters/nvidia/nvidia_2025_ceo_letter.txt
 Nvidia,2025,"Strategic Options, Experimentation, and Choices",36,10.830,02_extracted_text/selected_ceo_letters/nvidia/nvidia_2025_ceo_letter.txt
 Nvidia,2025,Agile Execution and Organization,45,13.538,02_extracted_text/selected_ceo_letters/nvidia/nvidia_2025_ceo_letter.txt
@@ -115,12 +115,12 @@ Shell,2015,"Purpose, Vision, and Governance",5,6.435,02_extracted_text/selected_
 Shell,2015,"Strategic Options, Experimentation, and Choices",10,12.870,02_extracted_text/selected_ceo_letters/shell/shell_2015_ceo_letter.txt
 Shell,2015,Agile Execution and Organization,1,1.287,02_extracted_text/selected_ceo_letters/shell/shell_2015_ceo_letter.txt
 Shell,2016,Strategic Leadership,5,5.274,02_extracted_text/selected_ceo_letters/shell/shell_2016_ceo_letter.txt
-Shell,2016,Horizon Scanning / Sense-making,9,9.494,02_extracted_text/selected_ceo_letters/shell/shell_2016_ceo_letter.txt
+Shell,2016,Horizon Scanning / Sense-making,10,10.549,02_extracted_text/selected_ceo_letters/shell/shell_2016_ceo_letter.txt
 Shell,2016,"Purpose, Vision, and Governance",6,6.329,02_extracted_text/selected_ceo_letters/shell/shell_2016_ceo_letter.txt
 Shell,2016,"Strategic Options, Experimentation, and Choices",15,15.823,02_extracted_text/selected_ceo_letters/shell/shell_2016_ceo_letter.txt
 Shell,2016,Agile Execution and Organization,3,3.165,02_extracted_text/selected_ceo_letters/shell/shell_2016_ceo_letter.txt
 Shell,2020,Strategic Leadership,4,3.546,02_extracted_text/selected_ceo_letters/shell/shell_2020_ceo_letter.txt
-Shell,2020,Horizon Scanning / Sense-making,11,9.752,02_extracted_text/selected_ceo_letters/shell/shell_2020_ceo_letter.txt
+Shell,2020,Horizon Scanning / Sense-making,12,10.638,02_extracted_text/selected_ceo_letters/shell/shell_2020_ceo_letter.txt
 Shell,2020,"Purpose, Vision, and Governance",20,17.730,02_extracted_text/selected_ceo_letters/shell/shell_2020_ceo_letter.txt
 Shell,2020,"Strategic Options, Experimentation, and Choices",3,2.660,02_extracted_text/selected_ceo_letters/shell/shell_2020_ceo_letter.txt
 Shell,2020,Agile Execution and Organization,3,2.660,02_extracted_text/selected_ceo_letters/shell/shell_2020_ceo_letter.txt

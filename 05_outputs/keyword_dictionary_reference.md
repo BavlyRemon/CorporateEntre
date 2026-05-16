@@ -35,7 +35,7 @@ The **actual words** scored in every theme, generated directly from `00_admin/le
 - `long-term owner` *(phrase)*
 
 ### Horizon Scanning / Sense-making
-*59 entries*
+*66 entries*
 
 - **disrupt** · disruption, disruptive, disruptions, disruptor, disruptors
 - **uncertain** · uncertainty, uncertainties
@@ -56,10 +56,17 @@ The **actual words** scored in every theme, generated directly from `00_admin/le
 - **cloud** · clouds
 - **data-driven**
 - **evolve** · evolves, evolved, evolving, evolution
-- **transform** · transforms, transformed, transforming, transformation, transformations, transformative
+- **transform** · transforms, transformed, transforming, transformation, transformations, transformative, transformational
 - **shift** · shifts, shifting, shifted
 - **inflection**
 - **anticipate** · anticipates, anticipated, anticipating, anticipation
+- **wander** · wanders, wandered, wandering
+- **foresight**
+- **foresee** · foresees, foreseeing, foreseeable, foresaw, foreseen
+- **signal** · signals, signaling, signalling, signaled, signalled
+- **foundation** · foundations, foundational
+- `day 2` *(phrase)*
+- `day two` *(phrase)*
 - **explore** · exploration, exploring, explored, exploratory
 - **discover** · discovery, discoveries, discovered, discovering
 - **experiment** · experimentation, experimental, experiments, experimented, experimenting · _excl:_ experience, experiences, experienced, experiencing
@@ -203,9 +210,11 @@ The **actual words** scored in every theme, generated directly from `00_admin/le
 Each pair yields a *share* = first / (first + second). These run over the top of the five IPM themes.
 
 ### explore
-*18 entries*
+*20 entries*
 
 - **explore** · exploration, exploring, explored, exploratory, explorer, explorers, explores
+- `day 1` *(phrase)*
+- `day one` *(phrase)*
 - **experiment** · experimentation, experimental, experiments, experimented, experimenting · _excl:_ experience, experiences, experienced, experiencing
 - **discover** · discovery, discoveries, discovered, discovering
 - **pilot** · pilots, piloted, piloting
@@ -387,7 +396,7 @@ Each IPM theme is further split into subthemes used by the submission-ready repo
 
 **Disruption/uncertainty** — **disrupt** · disruption, disruptive, disruptions, disruptor; **uncertain** · uncertainty, uncertainties; **volatile** · volatility, volatilities; **turbulent** · turbulence; **crisis** · crises; **shock** · shocks, shocked
 
-**Future orientation** — **future** · futures; `long-term` *(phrase)*; `long term` *(phrase)*; **decade** · decades; **emerge** · emerging, emerged, emerges, emergent; `tomorrow` *(phrase)*; `next wave` *(phrase)*; `next decade` *(phrase)*
+**Future orientation** — **future** · futures; `long-term` *(phrase)*; `long term` *(phrase)*; **decade** · decades; **emerge** · emerging, emerged, emerges, emergent; `tomorrow` *(phrase)*; `next wave` *(phrase)*; `next decade` *(phrase)*; `day 2` *(phrase)*; `day two` *(phrase)*; **foresight**; **foresee** · foresees, foreseeing, foreseeable, foresaw, foreseen; **signal** · signals, signaling, signalling, signaled, signalled; **wander** · wanders, wandered, wandering; **transform** · transforms, transformed, transforming, transformation, transformations, transformative, transformational; **foundation** · foundations, foundational
 
 **Discovery/exploration** — **discover** · discovery, discoveries, discovered, discovering; **explore** · exploration, exploring, explored, exploratory, explorer; **learn** · learning, learned, learner, learners, learns; **opportunity** · opportunities; **option** · options, optional, optionality; **experiment** · experimentation, experimental, experiments, experimented · _excl:_ experience, experiences, experienced, experiencing
 

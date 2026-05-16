@@ -19,12 +19,12 @@ export const COMPANY_SUMMARY = {
 }
 
 export const AMAZON_TIMELINE = [
-  { year: 1997, share: 0.538, era: 'Bezos founding',     label: 'Day-1 letter',          ceo: 'Bezos' },
-  { year: 2016, share: 0.938, era: 'Peak Bezos',         label: '"We are inventors"',    ceo: 'Bezos' },
-  { year: 2020, share: 0.500, era: 'Pandemic',           label: 'Safety + scale',         ceo: 'Bezos' },
-  { year: 2021, share: 0.802, era: 'Bezos farewell',     label: 'Differentiation = survival', ceo: 'Bezos' },
+  { year: 1997, share: 0.571, era: 'Bezos founding',     label: 'Day-1 letter',          ceo: 'Bezos' },
+  { year: 2016, share: 0.960, era: 'Peak Bezos',         label: '"We are inventors"',    ceo: 'Bezos' },
+  { year: 2020, share: 0.531, era: 'Pandemic',           label: 'Safety + scale',         ceo: 'Bezos' },
+  { year: 2021, share: 0.805, era: 'Bezos farewell',     label: 'Differentiation = survival', ceo: 'Bezos' },
   { year: 2022, share: 0.584, era: 'Jassy phase 1',      label: 'Cost discipline pivot',  ceo: 'Jassy' },
-  { year: 2024, share: 0.746, era: 'Jassy phase 2',      label: 'AI re-exploration',      ceo: 'Jassy' },
+  { year: 2024, share: 0.750, era: 'Jassy phase 2',      label: 'AI re-exploration',      ceo: 'Jassy' },
   { year: 2025, share: 0.580, era: 'Jassy continuing',   label: 'AI as infrastructure',   ceo: 'Jassy' },
 ]
 
@@ -78,7 +78,7 @@ export const SPECTRA = {
     headline: 'Tech explores. Oil exploits.',
     takeaway: 'Explore share splits cleanly by industry: tech at 0.64–0.67, energy at 0.09–0.25. A wide, empty gap in the middle.',
     verdict: 'split',
-    values: { Amazon: 0.674, Nvidia: 0.640, Shell: 0.090, Chevron: 0.253 },
+    values: { Amazon: 0.687, Nvidia: 0.640, Shell: 0.090, Chevron: 0.253 },
   },
   customerShareholder: {
     left: 'Shareholder-voiced', right: 'Customer-voiced',
@@ -103,8 +103,8 @@ export const FLIP = {
   horizon: {
     title: 'Horizon Scanning / 1k',
     headline: 'NVIDIA scans the future like nothing else.',
-    takeaway: 'NVIDIA at 48.2 /1k — 3–4× every other firm. All four scan the horizon, but NVIDIA narrates technological discontinuity at a scale no one else approaches.',
-    values: { Amazon: 12.92, Nvidia: 48.17, Shell: 12.06, Chevron: 15.56 },
+    takeaway: 'NVIDIA at 49.4 /1k — 3–4× every other firm. All four scan the horizon, but NVIDIA narrates technological discontinuity at a scale no one else approaches.',
+    values: { Amazon: 13.38, Nvidia: 49.38, Shell: 12.30, Chevron: 16.02 },
   },
   leadership: {
     title: 'Strategic Leadership / 1k',

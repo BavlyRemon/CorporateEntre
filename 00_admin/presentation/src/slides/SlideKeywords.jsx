@@ -41,10 +41,12 @@ function Tile({ panel, onActive }) {
 
 // Chip size auto-shrinks with entry count so the panel never overflows.
 function chipClass(n) {
-  if (n <= 14) return 'text-xl px-4 py-2 gap-3'
-  if (n <= 22) return 'text-lg px-3.5 py-1.5 gap-2.5'
-  if (n <= 34) return 'text-base px-3 py-1.5 gap-2'
-  return 'text-sm px-2.5 py-1 gap-2'
+  if (n <= 12) return 'text-xl px-4 py-2 gap-3'
+  if (n <= 20) return 'text-lg px-3.5 py-1.5 gap-2.5'
+  if (n <= 30) return 'text-base px-3 py-1.5 gap-2'
+  if (n <= 42) return 'text-sm px-2.5 py-1 gap-2'
+  if (n <= 55) return 'text-xs px-2 py-1 gap-1.5'
+  return 'text-[11px] px-2 py-0.5 gap-1.5'
 }
 
 function Chips({ entries, accent }) {
@@ -72,18 +74,18 @@ function FocusPanel({ panel }) {
   return (
     <motion.div
       layoutId={`kw-${panel.name}`}
-      className="absolute inset-0 rounded-2xl border p-9 overflow-hidden flex flex-col"
+      className="absolute inset-0 rounded-2xl border p-7 overflow-hidden flex flex-col"
       style={{ borderColor: panel.accent,
                background: 'linear-gradient(135deg, #0c1018 0%, #05070c 100%)' }}
       transition={{ duration: 0.6, ease: easings.expoOut }}
     >
-      <div className="flex items-baseline justify-between mb-6 flex-shrink-0">
+      <div className="flex items-baseline justify-between mb-4 flex-shrink-0">
         <div>
-          <div className="text-sm uppercase tracking-[0.3em] font-mono"
+          <div className="text-xs uppercase tracking-[0.3em] font-mono"
                style={{ color: panel.accent }}>
             {panel.kind === 'ipm' ? 'IPM theme · all keywords' : 'Cross-cutting lens · all keywords'}
           </div>
-          <h2 className="font-display font-bold text-5xl mt-2">{panel.name}</h2>
+          <h2 className="font-display font-bold text-4xl mt-1">{panel.name}</h2>
         </div>
         <div className="text-sm font-mono text-slate-500">
           {panel.kind === 'ipm'
@@ -110,7 +112,7 @@ function FocusPanel({ panel }) {
         )}
       </div>
 
-      <div className="mt-5 text-xs font-mono text-slate-500 flex-shrink-0">
+      <div className="mt-3 text-[11px] font-mono text-slate-500 flex-shrink-0">
         format: <span className="text-slate-300">base (aliases…)</span> ·
         <span className="text-slate-300"> "phrase"</span> = literal whole-word ·
         <span className="text-slate-300"> ·literal</span> = stemming disabled

@@ -40,6 +40,7 @@ function Tile({ panel, onActive }) {
 }
 
 // Chip size auto-shrinks with entry count so the panel never overflows.
+// Full-width (single-column IPM) size scale.
 function chipClass(n) {
   if (n <= 12) return 'text-xl px-4 py-2 gap-3'
   if (n <= 20) return 'text-lg px-3.5 py-1.5 gap-2.5'
@@ -49,8 +50,17 @@ function chipClass(n) {
   return 'text-[11px] px-2 py-0.5 gap-1.5'
 }
 
-function Chips({ entries, accent }) {
-  const cls = chipClass(entries.length)
+// Narrow (two-column cross-cutting pair) size scale — columns are ~half
+// width and many entries carry long alias lists, so cap the size lower.
+function chipClassNarrow(n) {
+  if (n <= 7) return 'text-base px-3 py-1 gap-2'
+  if (n <= 12) return 'text-sm px-2.5 py-1 gap-1.5'
+  if (n <= 20) return 'text-xs px-2 py-1 gap-1.5'
+  return 'text-[11px] px-2 py-0.5 gap-1.5'
+}
+
+function Chips({ entries, accent, narrow = false }) {
+  const cls = (narrow ? chipClassNarrow : chipClass)(entries.length)
   const [, , , gap] = cls.split(' ')
   return (
     <div className={`flex flex-wrap content-start ${gap}`}>
@@ -98,14 +108,14 @@ function FocusPanel({ panel }) {
         {panel.kind === 'ipm' ? (
           <Chips entries={panel.entries} accent={panel.accent} />
         ) : (
-          <div className="grid grid-cols-2 gap-12 h-full w-full">
+          <div className="grid grid-cols-2 gap-8 h-full w-full">
             {[panel.left, panel.right].map((side) => (
               <div key={side.label} className="min-h-0 overflow-hidden flex flex-col">
-                <div className="text-base uppercase tracking-[0.25em] font-mono mb-5 font-semibold"
+                <div className="text-sm uppercase tracking-[0.2em] font-mono mb-3 font-semibold"
                      style={{ color: panel.accent }}>
                   {side.label} · {side.entries.length}
                 </div>
-                <Chips entries={side.entries} accent={panel.accent} />
+                <Chips entries={side.entries} accent={panel.accent} narrow />
               </div>
             ))}
           </div>

@@ -17,7 +17,7 @@ export default function App() {
   const [error, setError] = useState(null)
 
   useEffect(() => {
-    fetch('/src/data/dataset.json')
+    fetch(`${import.meta.env.BASE_URL}data/dataset.json`)
       .then(r => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`)
         return r.json()

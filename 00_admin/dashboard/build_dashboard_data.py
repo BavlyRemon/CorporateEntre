@@ -2,8 +2,8 @@
 build_dashboard_data.py
 Reads every CSV in 05_outputs/tables/, the manifest, markdown briefs, and
 financial_report.md / letter_summaries.md, then writes:
-  src/data/dataset.json      — all structured data for the React app
-  src/data/briefs/*.md       — copies of markdown briefs for react-markdown rendering
+  public/data/dataset.json   — all structured data for the React app
+  public/data/briefs/*.md    — copies of markdown briefs for react-markdown rendering
 """
 import csv
 import json
@@ -16,7 +16,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 TABLES = ROOT / "05_outputs" / "tables"
 BRIEFS_SRC = ROOT / "05_outputs"
-OUT_DATA = Path(__file__).parent / "src" / "data"
+# Output to public/ so the files are copied verbatim into the production
+# build and are fetchable at runtime (src/ is not served by `vite build`).
+OUT_DATA = Path(__file__).parent / "public" / "data"
 OUT_BRIEFS = OUT_DATA / "briefs"
 OUT_DATA.mkdir(parents=True, exist_ok=True)
 OUT_BRIEFS.mkdir(parents=True, exist_ok=True)

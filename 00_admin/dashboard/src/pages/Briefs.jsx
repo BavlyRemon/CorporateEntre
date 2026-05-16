@@ -28,7 +28,7 @@ export default function Briefs() {
     if (!activeBrief) return
     setLoading(true)
     setContent('')
-    fetch(`/src/data/briefs/${activeBrief.filename}`)
+    fetch(`${import.meta.env.BASE_URL}data/briefs/${activeBrief.filename}`)
       .then(r => r.ok ? r.text() : Promise.reject(`HTTP ${r.status}`))
       .then(text => { setContent(text); setLoading(false) })
       .catch(() => { setContent('*Brief not found.*'); setLoading(false) })

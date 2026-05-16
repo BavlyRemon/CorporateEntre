@@ -2,7 +2,9 @@
 
 This workspace is the research groundwork for a paper comparing Amazon, NVIDIA, Shell, and Chevron across technology/digital platforms and oil & gas/energy. It is not the final paper.
 
-> **Live presentation:** <https://bavlyremon.github.io/CorporateEntre/> — auto-deployed from `00_admin/presentation/` on every push to `main` via GitHub Actions.
+> **Live presentation:** <https://bavlyremon.github.io/CorporateEntre/>
+> **Live command center (dashboard):** <https://bavlyremon.github.io/CorporateEntre/dashboard/>
+> Both auto-deployed from `00_admin/` on every push to `main` via GitHub Actions.
 
 ## Apps in this repo
 

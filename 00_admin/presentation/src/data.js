@@ -103,8 +103,8 @@ export const FLIP = {
   horizon: {
     title: 'Horizon Scanning / 1k',
     headline: 'NVIDIA scans the future like nothing else.',
-    takeaway: 'NVIDIA at 35.4 /1k — roughly 5× every other firm. Tech narrates discontinuity; energy is scanned for by commodity and regulatory cycles.',
-    values: { Amazon: 7.75, Nvidia: 35.40, Shell: 7.21, Chevron: 6.90 },
+    takeaway: 'NVIDIA at 48.2 /1k — 3–4× every other firm. All four scan the horizon, but NVIDIA narrates technological discontinuity at a scale no one else approaches.',
+    values: { Amazon: 12.92, Nvidia: 48.17, Shell: 12.06, Chevron: 15.56 },
   },
   leadership: {
     title: 'Strategic Leadership / 1k',

@@ -35,7 +35,7 @@ The **actual words** scored in every theme, generated directly from `00_admin/le
 - `long-term owner` *(phrase)*
 
 ### Horizon Scanning / Sense-making
-*48 entries*
+*59 entries*
 
 - **disrupt** · disruption, disruptive, disruptions, disruptor, disruptors
 - **uncertain** · uncertainty, uncertainties
@@ -45,9 +45,21 @@ The **actual words** scored in every theme, generated directly from `00_admin/le
 - **shock** · shocks, shocked
 - `long-term` *(phrase)*
 - `long term` *(phrase)*
-- `next decade` *(phrase)*
 - `next wave` *(phrase)*
-- `future generation` *(phrase)*
+- **future** · futures
+- **decade** · decades
+- **tomorrow**
+- **trend** · trends, trending
+- **technology** · technologies, technological, technologically
+- **digital** · digitally, digitize, digitized, digitization, digitalization
+- **internet**
+- **cloud** · clouds
+- **data-driven**
+- **evolve** · evolves, evolved, evolving, evolution
+- **transform** · transforms, transformed, transforming, transformation, transformations, transformative
+- **shift** · shifts, shifting, shifted
+- **inflection**
+- **anticipate** · anticipates, anticipated, anticipating, anticipation
 - **explore** · exploration, exploring, explored, exploratory
 - **discover** · discovery, discoveries, discovered, discovering
 - **experiment** · experimentation, experimental, experiments, experimented, experimenting · _excl:_ experience, experiences, experienced, experiencing
@@ -74,7 +86,6 @@ The **actual words** scored in every theme, generated directly from `00_admin/le
 - `AI infrastructure` *(phrase)*
 - `GPU` *(phrase)*
 - `accelerated computing` *(phrase)*
-- `cloud computing` *(phrase)*
 - **automate** · automation, automated, automating, automatic
 - **electrify** · electrification, electric, electrified, electrifying
 - `energy transition` *(phrase)*

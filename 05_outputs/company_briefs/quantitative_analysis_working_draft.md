@@ -8,10 +8,10 @@ Analysis date: 2026-04-18. Counts are strict lexical counts from the selected le
 
 | Company | Words | Leadership/1k | Horizon/1k | Purpose/1k | Options/1k | Execution/1k | Dominant IPM theme |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Amazon | 27870 | 1.7 | 7.8 | 13.2 | 8.3 | 5.3 | Purpose, Vision, and Governance |
-| Nvidia | 16443 | 0.7 | 35.4 | 3.5 | 8.0 | 9.6 | Horizon Scanning / Sense-making |
-| Shell | 8456 | 2.6 | 7.2 | 8.5 | 7.3 | 3.3 | Purpose, Vision, and Governance |
-| Chevron | 8549 | 1.6 | 6.9 | 14.0 | 8.9 | 6.4 | Purpose, Vision, and Governance |
+| Amazon | 27870 | 1.7 | 12.9 | 13.2 | 8.3 | 5.3 | Purpose, Vision, and Governance |
+| Nvidia | 16443 | 0.7 | 48.2 | 3.5 | 8.0 | 9.6 | Horizon Scanning / Sense-making |
+| Shell | 8456 | 2.6 | 12.1 | 8.5 | 7.3 | 3.3 | Horizon Scanning / Sense-making |
+| Chevron | 8549 | 1.6 | 15.6 | 14.0 | 8.9 | 6.4 | Horizon Scanning / Sense-making |
 
 ## Cross-Cutting Pair Pattern
 

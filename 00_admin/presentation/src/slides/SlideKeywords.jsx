@@ -39,28 +39,33 @@ function Tile({ panel, onActive }) {
   )
 }
 
-// Chip size auto-shrinks with entry count so the panel never overflows.
+// Chip size auto-shrinks with total *text volume* (not just entry count) —
+// entries with 6–7 long aliases wrap to 2 lines and are the real overflow
+// driver, so we tier off the summed character count.
 // Full-width (single-column IPM) size scale.
-function chipClass(n) {
-  if (n <= 12) return 'text-xl px-4 py-2 gap-3'
-  if (n <= 20) return 'text-lg px-3.5 py-1.5 gap-2.5'
-  if (n <= 30) return 'text-base px-3 py-1.5 gap-2'
-  if (n <= 42) return 'text-sm px-2.5 py-1 gap-2'
-  if (n <= 55) return 'text-xs px-2 py-1 gap-1.5'
-  return 'text-[11px] px-2 py-0.5 gap-1.5'
+function chipClass(c) {
+  if (c <= 350) return 'text-xl px-4 py-2 gap-3'
+  if (c <= 600) return 'text-lg px-3.5 py-1.5 gap-2.5'
+  if (c <= 850) return 'text-base px-3 py-1.5 gap-2'
+  if (c <= 1150) return 'text-sm px-2.5 py-1 gap-2'
+  if (c <= 1500) return 'text-xs px-2 py-1 gap-1.5'
+  if (c <= 1900) return 'text-[11px] px-2 py-0.5 gap-1'
+  return 'text-[10px] px-1.5 py-0.5 gap-1'
 }
 
 // Narrow (two-column cross-cutting pair) size scale — columns are ~half
-// width and many entries carry long alias lists, so cap the size lower.
-function chipClassNarrow(n) {
-  if (n <= 7) return 'text-base px-3 py-1 gap-2'
-  if (n <= 12) return 'text-sm px-2.5 py-1 gap-1.5'
-  if (n <= 20) return 'text-xs px-2 py-1 gap-1.5'
-  return 'text-[11px] px-2 py-0.5 gap-1.5'
+// width, so the same text volume needs roughly double the shrink.
+function chipClassNarrow(c) {
+  if (c <= 130) return 'text-base px-3 py-1 gap-2'
+  if (c <= 250) return 'text-sm px-2.5 py-1 gap-1.5'
+  if (c <= 400) return 'text-xs px-2 py-1 gap-1.5'
+  if (c <= 700) return 'text-[11px] px-2 py-0.5 gap-1'
+  return 'text-[10px] px-1.5 py-0.5 gap-1'
 }
 
 function Chips({ entries, accent, narrow = false }) {
-  const cls = (narrow ? chipClassNarrow : chipClass)(entries.length)
+  const chars = entries.reduce((s, e) => s + e.length, 0)
+  const cls = (narrow ? chipClassNarrow : chipClass)(chars)
   const [, , , gap] = cls.split(' ')
   return (
     <div className={`flex flex-wrap content-start ${gap}`}>
@@ -84,18 +89,18 @@ function FocusPanel({ panel }) {
   return (
     <motion.div
       layoutId={`kw-${panel.name}`}
-      className="absolute inset-0 rounded-2xl border p-7 overflow-hidden flex flex-col"
+      className="absolute inset-0 rounded-2xl border p-6 overflow-hidden flex flex-col"
       style={{ borderColor: panel.accent,
                background: 'linear-gradient(135deg, #0c1018 0%, #05070c 100%)' }}
       transition={{ duration: 0.6, ease: easings.expoOut }}
     >
-      <div className="flex items-baseline justify-between mb-4 flex-shrink-0">
+      <div className="flex items-baseline justify-between mb-3 flex-shrink-0">
         <div>
-          <div className="text-xs uppercase tracking-[0.3em] font-mono"
+          <div className="text-[11px] uppercase tracking-[0.3em] font-mono"
                style={{ color: panel.accent }}>
             {panel.kind === 'ipm' ? 'IPM theme · all keywords' : 'Cross-cutting lens · all keywords'}
           </div>
-          <h2 className="font-display font-bold text-4xl mt-1">{panel.name}</h2>
+          <h2 className="font-display font-bold text-3xl mt-1">{panel.name}</h2>
         </div>
         <div className="text-sm font-mono text-slate-500">
           {panel.kind === 'ipm'
@@ -111,7 +116,7 @@ function FocusPanel({ panel }) {
           <div className="grid grid-cols-2 gap-8 h-full w-full">
             {[panel.left, panel.right].map((side) => (
               <div key={side.label} className="min-h-0 overflow-hidden flex flex-col">
-                <div className="text-sm uppercase tracking-[0.2em] font-mono mb-3 font-semibold"
+                <div className="text-xs uppercase tracking-[0.2em] font-mono mb-2 font-semibold"
                      style={{ color: panel.accent }}>
                   {side.label} · {side.entries.length}
                 </div>
@@ -122,7 +127,7 @@ function FocusPanel({ panel }) {
         )}
       </div>
 
-      <div className="mt-3 text-[11px] font-mono text-slate-500 flex-shrink-0">
+      <div className="mt-2 text-[10px] font-mono text-slate-500 flex-shrink-0">
         format: <span className="text-slate-300">base (aliases…)</span> ·
         <span className="text-slate-300"> "phrase"</span> = literal whole-word ·
         <span className="text-slate-300"> ·literal</span> = stemming disabled

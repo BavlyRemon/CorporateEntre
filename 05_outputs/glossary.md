@@ -117,14 +117,14 @@ Binary opposition pairs that run *over the top* of the five IPM themes. Each yie
 
 ## Part C — Headline figures (canonical, regenerated 2026-05-16)
 
-Source: `quant_summary_by_company.csv`.
+Source: `quant_summary_by_company.csv` (regenerated 2026-05-16 after the multi-word-phrase matcher fix).
 
 | Company | Explore share | Customer share | Long-term share | Dominant IPM | SL/1k | HS/1k | PVG/1k | SO/1k | AEO/1k |
 |---|---|---|---|---|---|---|---|---|---|
-| Amazon | 0.684 | 0.931 | 0.843 | Purpose, Vision & Governance | 1.04 | 4.84 | 11.59 | 8.29 | 5.31 |
-| NVIDIA | 0.645 | 0.686 | 0.836 | Horizon Scanning | 0.67 | 26.82 | 3.22 | 8.03 | 9.61 |
-| Shell | 0.111 | 0.323 | 0.886 | Purpose, Vision & Governance | 2.25 | 3.67 | 7.81 | 6.62 | 3.19 |
-| Chevron | 0.273 | 0.268 | 0.894 | Purpose, Vision & Governance | 1.52 | 5.50 | 9.12 | 7.84 | 5.85 |
+| Amazon | 0.674 | 0.936 | 0.840 | Purpose, Vision & Governance | 1.65 | 7.75 | 13.17 | 8.29 | 5.31 |
+| NVIDIA | 0.640 | 0.694 | 0.838 | Horizon Scanning | 0.67 | 35.40 | 3.47 | 8.03 | 9.61 |
+| Shell | 0.090 | 0.323 | 0.896 | Purpose, Vision & Governance | 2.60 | 7.21 | 8.52 | 7.33 | 3.31 |
+| Chevron | 0.253 | 0.268 | 0.891 | Purpose, Vision & Governance | 1.64 | 6.90 | 14.04 | 8.89 | 6.43 |
 
 (SL = Strategic Leadership, HS = Horizon Scanning, PVG = Purpose/Vision/Governance, SO = Strategic Options, AEO = Agile Execution & Organization.)
 

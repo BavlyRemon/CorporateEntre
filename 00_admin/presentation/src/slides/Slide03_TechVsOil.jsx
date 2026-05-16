@@ -1,11 +1,10 @@
 import { motion, AnimatePresence } from 'framer-motion'
 import Slide from '../components/Slide'
-import { SPECTRA, FLIP, TECH, OIL } from '../data'
+import { SPECTRA, TECH, OIL } from '../data'
 import { PALETTE, easings } from '../theme'
 import Logo from '../components/Logo'
 
 const ALL = ['Amazon', 'Nvidia', 'Shell', 'Chevron']
-const isTech = (c) => TECH.includes(c)
 
 // ─── Spectrum: a 0–1 number line with the four firms placed on it ───────────
 function Spectrum({ spec }) {
@@ -111,40 +110,6 @@ function Spectrum({ spec }) {
   )
 }
 
-// ─── FlipBars: the two themes that invert in opposite directions ────────────
-function FlipChart({ data }) {
-  const max = Math.max(...ALL.map(c => data.values[c])) * 1.1
-  return (
-    <div className="flex-1">
-      <div className="text-xs uppercase tracking-[0.25em] font-mono text-slate-500 mb-4 text-center">
-        {data.title}
-      </div>
-      <div className="space-y-3">
-        {ALL.map((c, i) => (
-          <div key={c} className="grid grid-cols-[78px_1fr_46px] items-center gap-3">
-            <div className="text-[11px] uppercase tracking-wider text-right"
-                 style={{ color: PALETTE[c].accent }}>{c}</div>
-            <div className="h-5 rounded bg-white/5 overflow-hidden">
-              <motion.div
-                className="h-full rounded"
-                initial={{ width: 0 }}
-                animate={{ width: `${(data.values[c] / max) * 100}%` }}
-                transition={{ duration: 1, delay: 0.3 + i * 0.12, ease: easings.expoOut }}
-                style={{ background: PALETTE[c].accent,
-                         opacity: isTech(c) ? 1 : 0.85 }}
-              />
-            </div>
-            <div className="text-sm font-mono font-bold tabular-nums"
-                 style={{ color: PALETTE[c].accent }}>
-              {data.values[c].toFixed(2)}
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  )
-}
-
 // ─── Stage 0 intro: the two teams ───────────────────────────────────────────
 function TeamsIntro() {
   const Team = ({ label, members, tint, delay }) => (
@@ -176,7 +141,7 @@ function TeamsIntro() {
         className="text-center"
       >
         <div className="font-display font-bold text-4xl mb-2">Same five themes. Two dialects.</div>
-        <div className="text-slate-400">Six lenses, advanced one at a time — watch which ones split and which ones don't.</div>
+        <div className="text-slate-400">First where tech and oil diverge — then the common ground they share.</div>
       </motion.div>
       <div className="flex gap-8 w-full max-w-4xl">
         <Team label="Tech" members={TECH} tint="#76B900" delay={0.3} />
@@ -186,25 +151,20 @@ function TeamsIntro() {
   )
 }
 
+// Differences first, then the common ground.
 const STEPS = [
   { kind: 'intro' },
-  { kind: 'spectrum', spec: SPECTRA.longTerm },
-  { kind: 'spectrum', spec: SPECTRA.exploreExploit },
-  { kind: 'spectrum', spec: SPECTRA.customerShareholder },
-  { kind: 'flip' },
-  { kind: 'spectrum', spec: SPECTRA.options },
+  { kind: 'spectrum', spec: SPECTRA.exploreExploit,       section: 'Where they differ' },
+  { kind: 'spectrum', spec: SPECTRA.customerShareholder,  section: 'Where they differ' },
+  { kind: 'spectrum', spec: SPECTRA.longTerm,             section: 'What they share' },
+  { kind: 'spectrum', spec: SPECTRA.options,              section: 'What they share' },
 ]
 
 export default function Slide03_TechVsOil({ stage = 0 }) {
   const step = STEPS[Math.min(stage, STEPS.length - 1)]
-  const headline =
-    step.kind === 'intro' ? null :
-    step.kind === 'flip' ? 'Two themes flip in opposite directions.' :
-    step.spec.headline
-  const takeaway =
-    step.kind === 'intro' ? null :
-    step.kind === 'flip' ? 'Horizon Scanning is a tech moat; Strategic Leadership is the lone theme where energy out-talks tech.' :
-    step.spec.takeaway
+  const headline = step.kind === 'intro' ? null : step.spec.headline
+  const takeaway = step.kind === 'intro' ? null : step.spec.takeaway
+  const diff = step.section === 'Where they differ'
 
   return (
     <Slide
@@ -225,6 +185,13 @@ export default function Slide03_TechVsOil({ stage = 0 }) {
             >
               {headline && (
                 <div className="text-center mb-8 max-w-4xl">
+                  <div className={`inline-block px-3 py-1 mb-4 rounded-full text-[11px] uppercase tracking-[0.3em] font-mono border ${
+                    diff
+                      ? 'border-rose-500/40 text-rose-300 bg-rose-500/10'
+                      : 'border-emerald-500/40 text-emerald-300 bg-emerald-500/10'
+                  }`}>
+                    {step.section}
+                  </div>
                   <h2 className="font-display font-bold text-4xl leading-tight mb-3">{headline}</h2>
                   <p className="text-slate-400 text-base leading-relaxed">{takeaway}</p>
                 </div>
@@ -232,13 +199,6 @@ export default function Slide03_TechVsOil({ stage = 0 }) {
 
               {step.kind === 'intro' && <TeamsIntro />}
               {step.kind === 'spectrum' && <Spectrum spec={step.spec} />}
-              {step.kind === 'flip' && (
-                <div className="w-full max-w-5xl flex gap-12">
-                  <FlipChart data={FLIP.horizon} />
-                  <div className="w-px bg-white/10" />
-                  <FlipChart data={FLIP.leadership} />
-                </div>
-              )}
             </motion.div>
           </AnimatePresence>
         </div>

@@ -20,7 +20,7 @@ import SlideNav from './components/SlideNav'
 const SLIDES = [
   { Component: Slide01_Hook,           label: 'Hook',                    stages: 1 },
   { Component: Slide02_Companies,      label: 'Scope — 4 firms, 2 industries', stages: 1 },
-  { Component: SlideTechVsOil,         label: 'Tech vs Oil',             stages: 6 },
+  { Component: SlideTechVsOil,         label: 'Tech vs Oil',             stages: 5 },
   { Component: SlideAmazon,            label: 'Amazon — eras',           stages: 3 },
   { Component: SlideNvidia,            label: 'NVIDIA — AI flip',        stages: 3 },
   { Component: SlideShellVsChevron,    label: 'Shell vs Chevron',        stages: 3 },

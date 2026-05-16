@@ -15,13 +15,14 @@ function Watermark({ company, position = 'tr', size = 360 }) {
   }
 
   // Each logo gets a unique on-enter motion: scale-in, soft rotate, fade.
+  // Genuinely low opacity so it never obscures chart content.
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.6, rotate: -6 }}
-      animate={{ opacity: 0.85, scale: 1, rotate: 0 }}
+      animate={{ opacity: 0.06, scale: 1, rotate: 0 }}
       transition={{ duration: 1.2, ease: easings.expoOut, delay: 0.15 }}
       className="absolute pointer-events-none"
-      style={{ ...positions[position], filter: `drop-shadow(0 0 32px ${PALETTE[company].accent}66)` }}
+      style={{ ...positions[position] }}
     >
       <Logo company={company} size={size} />
     </motion.div>

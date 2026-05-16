@@ -19,35 +19,35 @@ export const COMPANY_SUMMARY = {
 }
 
 export const AMAZON_TIMELINE = [
-  { year: 1997, share: 0.54, era: 'Bezos founding',     label: 'Day-1 letter',          ceo: 'Bezos' },
-  { year: 2016, share: 0.94, era: 'Peak Bezos',         label: '"We are inventors"',    ceo: 'Bezos' },
-  { year: 2020, share: 0.50, era: 'Pandemic',           label: 'Safety + scale',         ceo: 'Bezos' },
-  { year: 2021, share: 0.80, era: 'Bezos farewell',     label: 'Differentiation = survival', ceo: 'Bezos' },
-  { year: 2022, share: 0.60, era: 'Jassy phase 1',      label: 'Cost discipline pivot',  ceo: 'Jassy' },
-  { year: 2024, share: 0.76, era: 'Jassy phase 2',      label: 'AI re-exploration',      ceo: 'Jassy' },
-  { year: 2025, share: 0.60, era: 'Jassy continuing',   label: 'AI as infrastructure',   ceo: 'Jassy' },
+  { year: 1997, share: 0.538, era: 'Bezos founding',     label: 'Day-1 letter',          ceo: 'Bezos' },
+  { year: 2016, share: 0.938, era: 'Peak Bezos',         label: '"We are inventors"',    ceo: 'Bezos' },
+  { year: 2020, share: 0.500, era: 'Pandemic',           label: 'Safety + scale',         ceo: 'Bezos' },
+  { year: 2021, share: 0.802, era: 'Bezos farewell',     label: 'Differentiation = survival', ceo: 'Bezos' },
+  { year: 2022, share: 0.584, era: 'Jassy phase 1',      label: 'Cost discipline pivot',  ceo: 'Jassy' },
+  { year: 2024, share: 0.746, era: 'Jassy phase 2',      label: 'AI re-exploration',      ceo: 'Jassy' },
+  { year: 2025, share: 0.580, era: 'Jassy continuing',   label: 'AI as infrastructure',   ceo: 'Jassy' },
 ]
 
 export const NVIDIA_TIMELINE = [
-  { year: 2017, share: 0.82, dc: 0.83,  note: '"GPU computing has arrived"' },
-  { year: 2018, share: 0.67, dc: 2.9,   note: 'AI + autonomous + cloud' },
-  { year: 2020, share: 0.68, dc: 6.7,   note: 'Mellanox + scale' },
-  { year: 2021, share: 0.86, dc: 10.6,  note: 'Peak exploratory' },
-  { year: 2022, share: 0.65, dc: 15.0,  note: 'Crypto winter pause' },
-  { year: 2023, share: 0.72, dc: 47.5,  note: 'Post-ChatGPT narrative' },
-  { year: 2025, share: 0.36, dc: 115.2, note: 'Exploit flip — AI is infrastructure' },
+  { year: 2017, share: 0.824, dc: 0.83,  note: '"GPU computing has arrived"' },
+  { year: 2018, share: 0.667, dc: 2.9,   note: 'AI + autonomous + cloud' },
+  { year: 2020, share: 0.680, dc: 6.7,   note: 'Mellanox + scale' },
+  { year: 2021, share: 0.864, dc: 10.6,  note: 'Peak exploratory' },
+  { year: 2022, share: 0.654, dc: 15.0,  note: 'Crypto winter pause' },
+  { year: 2023, share: 0.721, dc: 47.5,  note: 'Post-ChatGPT narrative' },
+  { year: 2025, share: 0.348, dc: 115.2, note: 'Exploit flip — AI is infrastructure' },
 ]
 
 export const SHELL_TIMELINE = [
-  { year: 2014, share: 0.12 }, { year: 2015, share: 0.00 }, { year: 2016, share: 0.06 },
-  { year: 2020, share: 0.10 }, { year: 2022, share: 0.17 }, { year: 2024, share: 0.10 },
-  { year: 2025, share: 0.22 },
+  { year: 2014, share: 0.105 }, { year: 2015, share: 0.000 }, { year: 2016, share: 0.050 },
+  { year: 2020, share: 0.083 }, { year: 2022, share: 0.118 }, { year: 2024, share: 0.071 },
+  { year: 2025, share: 0.182 },
 ]
 
 export const CHEVRON_TIMELINE = [
-  { year: 2013, share: 0.31 }, { year: 2018, share: 0.26 }, { year: 2020, share: 0.25 },
-  { year: 2021, share: 0.45 }, { year: 2022, share: 0.27 }, { year: 2023, share: 0.17 },
-  { year: 2024, share: 0.15 },
+  { year: 2013, share: 0.267 }, { year: 2018, share: 0.250 }, { year: 2020, share: 0.226 },
+  { year: 2021, share: 0.375 }, { year: 2022, share: 0.267 }, { year: 2023, share: 0.167 },
+  { year: 2024, share: 0.143 },
 ]
 
 export const HEADLINE_CONTRAST = [
@@ -69,32 +69,32 @@ export const SPECTRA = {
   longTerm: {
     left: 'Short-term', right: 'Long-term',
     headline: 'All four are long-term.',
-    takeaway: 'Long-term share sits at 0.84–0.89 for everyone. It is the wallpaper of CEO letters — it does not separate these strategies.',
+    takeaway: 'Long-term share sits at 0.84–0.90 for everyone. It is the wallpaper of CEO letters — it does not separate these strategies.',
     verdict: 'shared',
-    values: { Amazon: 0.843, Nvidia: 0.836, Shell: 0.886, Chevron: 0.894 },
+    values: { Amazon: 0.840, Nvidia: 0.838, Shell: 0.896, Chevron: 0.891 },
   },
   exploreExploit: {
     left: 'Exploit', right: 'Explore',
     headline: 'Tech explores. Oil exploits.',
-    takeaway: 'Explore share splits cleanly by industry: tech at 0.65–0.68, energy at 0.11–0.27. A wide, empty gap in the middle.',
+    takeaway: 'Explore share splits cleanly by industry: tech at 0.64–0.67, energy at 0.09–0.25. A wide, empty gap in the middle.',
     verdict: 'split',
-    values: { Amazon: 0.684, Nvidia: 0.645, Shell: 0.111, Chevron: 0.273 },
+    values: { Amazon: 0.674, Nvidia: 0.640, Shell: 0.090, Chevron: 0.253 },
   },
   customerShareholder: {
     left: 'Shareholder-voiced', right: 'Customer-voiced',
     headline: 'Tech speaks to customers. Oil speaks to shareholders.',
-    takeaway: 'Customer share: tech 0.69–0.93, energy 0.27–0.32. Survives the B2C/B2B objection — NVIDIA is B2B and still 0.69.',
+    takeaway: 'Customer share: tech 0.69–0.94, energy 0.27–0.32. Survives the B2C/B2B objection — NVIDIA is B2B and still 0.69.',
     verdict: 'split',
-    values: { Amazon: 0.931, Nvidia: 0.686, Shell: 0.323, Chevron: 0.268 },
+    values: { Amazon: 0.936, Nvidia: 0.694, Shell: 0.323, Chevron: 0.268 },
   },
   options: {
     left: 'Low', right: 'High',
     headline: 'One common ground: strategic options.',
-    takeaway: 'Strategic Options language is 6.6–8.3 /1k for all four — the one IPM theme where the industries converge. Everyone weighs choices the same; they just choose differently.',
+    takeaway: 'Strategic Options language is 7.3–8.9 /1k for all four — the one IPM theme where the industries converge. Everyone weighs choices the same; they just choose differently.',
     verdict: 'shared',
     // Normalised: Strategic Options /1k ÷ 10 so it maps onto the 0–1 track.
-    values: { Amazon: 0.829, Nvidia: 0.803, Shell: 0.662, Chevron: 0.784 },
-    rawLabel: { Amazon: '8.3', Nvidia: '8.0', Shell: '6.6', Chevron: '7.8' },
+    values: { Amazon: 0.829, Nvidia: 0.803, Shell: 0.733, Chevron: 0.889 },
+    rawLabel: { Amazon: '8.3', Nvidia: '8.0', Shell: '7.3', Chevron: '8.9' },
   },
 }
 
@@ -103,13 +103,13 @@ export const FLIP = {
   horizon: {
     title: 'Horizon Scanning / 1k',
     headline: 'NVIDIA scans the future like nothing else.',
-    takeaway: 'NVIDIA at 26.8 /1k — roughly 5× every other firm. Tech narrates discontinuity; energy is scanned for by commodity and regulatory cycles.',
-    values: { Amazon: 4.84, Nvidia: 26.82, Shell: 3.67, Chevron: 5.50 },
+    takeaway: 'NVIDIA at 35.4 /1k — roughly 5× every other firm. Tech narrates discontinuity; energy is scanned for by commodity and regulatory cycles.',
+    values: { Amazon: 7.75, Nvidia: 35.40, Shell: 7.21, Chevron: 6.90 },
   },
   leadership: {
     title: 'Strategic Leadership / 1k',
     headline: 'Oil performs leadership. Tech assumes it.',
-    takeaway: 'The one theme that inverts: energy is thicker (Shell 2.25, Chevron 1.52) than tech (Amazon 1.04, NVIDIA 0.67). Slow physical businesses narrate leadership; fast ones let the product carry it.',
-    values: { Amazon: 1.04, Nvidia: 0.67, Shell: 2.25, Chevron: 1.52 },
+    takeaway: 'Energy out-talks tech here: Shell 2.60 and Chevron 1.64 vs NVIDIA 0.67. Slow physical businesses narrate leadership; fast ones let the product carry it.',
+    values: { Amazon: 1.65, Nvidia: 0.67, Shell: 2.60, Chevron: 1.64 },
   },
 }

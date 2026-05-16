@@ -42,9 +42,13 @@ def _stem(word: str) -> str:
 
 
 def _literal_pattern(term: str) -> re.Pattern[str]:
-    escaped = re.escape(term.strip())
-    escaped = escaped.replace(r"\ ", r"[\s\-]+").replace(r"\-", r"[\s\-]+")
-    return re.compile(rf"(?<![A-Za-z0-9]){escaped}(?![A-Za-z0-9])", re.IGNORECASE)
+    # Split the phrase on spaces/hyphens, escape each token, then rejoin with
+    # a "[\s-]+" separator so "AI factory" also matches "AI-factory".
+    # NB: do NOT do this with chained str.replace — escaping a space to "\ "
+    # and then replacing "\-" corrupts the just-inserted "[\s\-]+" group.
+    parts = [p for p in re.split(r"[\s\-]+", term.strip()) if p]
+    body = r"[\s\-]+".join(re.escape(p) for p in parts)
+    return re.compile(rf"(?<![A-Za-z0-9]){body}(?![A-Za-z0-9])", re.IGNORECASE)
 
 
 def _is_literal_only(term: str) -> bool:
@@ -172,6 +176,24 @@ IPM_TERMS: dict[str, list] = {
         {"base": "pilot", "aliases": ["pilots", "piloted", "piloting"]},
         "artificial intelligence",
         "AI",
+        "generative AI",
+        "generative artificial intelligence",
+        "gen AI",
+        "machine learning",
+        "deep learning",
+        "neural network",
+        "neural networks",
+        "large language model",
+        "large language models",
+        "LLM",
+        "LLMs",
+        "foundation model",
+        "foundation models",
+        "artificial general intelligence",
+        "AGI",
+        "AI factory",
+        "AI factories",
+        "AI infrastructure",
         "GPU",
         "accelerated computing",
         "cloud computing",
@@ -503,7 +525,11 @@ THEME_SUBTHEMES: list[dict[str, object]] = [
      ]},
     {"theme": "Horizon Scanning / Sense-making", "subtheme": "Technology transition",
      "terms": [
-         "artificial intelligence", "AI", "cloud", "GPU", "energy transition",
+         "artificial intelligence", "AI", "generative AI", "gen AI",
+         "machine learning", "deep learning", "neural network", "neural networks",
+         "large language model", "LLM", "foundation model",
+         "artificial general intelligence", "AGI", "AI factory", "AI infrastructure",
+         "cloud", "GPU", "energy transition",
          {"base": "digital", "aliases": ["digitally", "digitalization", "digitization", "digitized"]},
          {"base": "automate", "aliases": ["automation", "automated", "automating", "automatic"]},
          {"base": "electrify", "aliases": ["electrification", "electric", "electrified"]},

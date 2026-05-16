@@ -117,7 +117,7 @@ function CombinedTimeline({ visible }) {
           <text x={chevronPeak.x} y={chevronPeak.y + 86}
                 textAnchor="middle"
                 fontSize={10} fill="#FBBF24" fillOpacity="0.75">
-            the one ambidextrous year
+            Chevron's exploration peak
           </text>
         </motion.g>
       )}
@@ -239,7 +239,7 @@ export default function Slide06_ShellVsChevron({ stage = 0 }) {
                   <h3 className="font-display font-bold text-xl mt-0.5">Discipline-as-virtue</h3>
                 </div>
                 <div className="text-right">
-                  <div className="font-display text-2xl font-bold leading-none" style={{ color: SHELL }}>0.11</div>
+                  <div className="font-display text-2xl font-bold leading-none" style={{ color: SHELL }}>0.09</div>
                   <div className="text-[9px] uppercase tracking-widest text-slate-400 mt-0.5">explore share</div>
                 </div>
               </div>
@@ -251,7 +251,7 @@ export default function Slide06_ShellVsChevron({ stage = 0 }) {
                 delay={0.15}
               />
               <ul className="mt-2 space-y-1 text-xs text-slate-300 leading-relaxed">
-                <li>• <span className="text-yellow-200">Strategic Leadership 2.25 /1k</span> — highest in the corpus</li>
+                <li>• <span className="text-yellow-200">Strategic Leadership 2.60 /1k</span> — highest in the corpus</li>
                 <li>• Lower-carbon vocabulary <span className="text-yellow-200">persistent</span> from 2014 onward</li>
               </ul>
             </div>
@@ -263,7 +263,7 @@ export default function Slide06_ShellVsChevron({ stage = 0 }) {
                   <h3 className="font-display font-bold text-xl mt-0.5">Operational excellence</h3>
                 </div>
                 <div className="text-right">
-                  <div className="font-display text-2xl font-bold leading-none" style={{ color: CHEVRON }}>0.27</div>
+                  <div className="font-display text-2xl font-bold leading-none" style={{ color: CHEVRON }}>0.25</div>
                   <div className="text-[9px] uppercase tracking-widest text-slate-400 mt-0.5">explore share</div>
                 </div>
               </div>
@@ -275,7 +275,7 @@ export default function Slide06_ShellVsChevron({ stage = 0 }) {
                 delay={0.3}
               />
               <ul className="mt-2 space-y-1 text-xs text-slate-300 leading-relaxed">
-                <li>• <span className="text-blue-300">Agile Execution 5.85 /1k</span> — higher than Shell; the operational spine</li>
+                <li>• <span className="text-blue-300">Agile Execution 6.43 /1k</span> — higher than Shell; the operational spine</li>
                 <li>• Lower-carbon language <span className="text-blue-300">episodic</span> — spikes 2021, recedes by 2024</li>
               </ul>
             </div>
@@ -298,11 +298,11 @@ export default function Slide06_ShellVsChevron({ stage = 0 }) {
                 Same lens · different choice
               </div>
               <StatRow visible={stage >= 2} delay={0.05} label="Strategic Leadership /1k"
-                left={{ v: 2.25, label: '2.25', color: SHELL }}
-                right={{ v: 1.52, label: '1.52', color: CHEVRON }} />
+                left={{ v: 2.60, label: '2.60', color: SHELL }}
+                right={{ v: 1.64, label: '1.64', color: CHEVRON }} />
               <StatRow visible={stage >= 2} delay={0.15} label="Agile Execution /1k"
-                left={{ v: 3.19, label: '3.19', color: SHELL }}
-                right={{ v: 5.85, label: '5.85', color: CHEVRON }} />
+                left={{ v: 3.31, label: '3.31', color: SHELL }}
+                right={{ v: 6.43, label: '6.43', color: CHEVRON }} />
               <StatRow visible={stage >= 2} delay={0.25} label="Customer share"
                 left={{ v: 0.323, label: '0.32', color: SHELL }}
                 right={{ v: 0.268, label: '0.27', color: CHEVRON }} />

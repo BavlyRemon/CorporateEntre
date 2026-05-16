@@ -35,7 +35,7 @@ The **actual words** scored in every theme, generated directly from `00_admin/le
 - `long-term owner` *(phrase)*
 
 ### Horizon Scanning / Sense-making
-*30 entries*
+*48 entries*
 
 - **disrupt** · disruption, disruptive, disruptions, disruptor, disruptors
 - **uncertain** · uncertainty, uncertainties
@@ -54,6 +54,24 @@ The **actual words** scored in every theme, generated directly from `00_admin/le
 - **pilot** · pilots, piloted, piloting
 - `artificial intelligence` *(phrase)*
 - `AI` *(phrase)*
+- `generative AI` *(phrase)*
+- `generative artificial intelligence` *(phrase)*
+- `gen AI` *(phrase)*
+- `machine learning` *(phrase)*
+- `deep learning` *(phrase)*
+- `neural network` *(phrase)*
+- `neural networks` *(phrase)*
+- `large language model` *(phrase)*
+- `large language models` *(phrase)*
+- `LLM` *(phrase)*
+- `LLMs` *(phrase)*
+- `foundation model` *(phrase)*
+- `foundation models` *(phrase)*
+- `artificial general intelligence` *(phrase)*
+- `AGI` *(phrase)*
+- `AI factory` *(phrase)*
+- `AI factories` *(phrase)*
+- `AI infrastructure` *(phrase)*
 - `GPU` *(phrase)*
 - `accelerated computing` *(phrase)*
 - `cloud computing` *(phrase)*
@@ -362,7 +380,7 @@ Each IPM theme is further split into subthemes used by the submission-ready repo
 
 **Discovery/exploration** — **discover** · discovery, discoveries, discovered, discovering; **explore** · exploration, exploring, explored, exploratory, explorer; **learn** · learning, learned, learner, learners, learns; **opportunity** · opportunities; **option** · options, optional, optionality; **experiment** · experimentation, experimental, experiments, experimented · _excl:_ experience, experiences, experienced, experiencing
 
-**Technology transition** — `artificial intelligence` *(phrase)*; `AI` *(phrase)*; `cloud` *(phrase)*; `GPU` *(phrase)*; `energy transition` *(phrase)*; **digital** · digitally, digitalization, digitization, digitized; **automate** · automation, automated, automating, automatic; **electrify** · electrification, electric, electrified
+**Technology transition** — `artificial intelligence` *(phrase)*; `AI` *(phrase)*; `generative AI` *(phrase)*; `gen AI` *(phrase)*; `machine learning` *(phrase)*; `deep learning` *(phrase)*; `neural network` *(phrase)*; `neural networks` *(phrase)*; `large language model` *(phrase)*; `LLM` *(phrase)*; `foundation model` *(phrase)*; `artificial general intelligence` *(phrase)*; `AGI` *(phrase)*; `AI factory` *(phrase)*; `AI infrastructure` *(phrase)*; `cloud` *(phrase)*; `GPU` *(phrase)*; `energy transition` *(phrase)*; **digital** · digitally, digitalization, digitization, digitized; **automate** · automation, automated, automating, automatic; **electrify** · electrification, electric, electrified
 
 **External environment** — **regulate** · regulation, regulatory, regulator, regulators, regulations, regulated; **geopolitical** · geopolitics; **macro**; **policy** · policies; **demand** · demands, demanded, demanding; **commodity** · commodities; **competition** · competitions, compete, competes, competing, competitive, competitor, competitors
 

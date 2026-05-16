@@ -531,6 +531,57 @@ def build_appendix_counts() -> tuple[list[dict[str, str]], list[dict[str, str]],
                 "Shell": str(counts["Shell"]), "Chevron": str(counts["Chevron"]),
                 "Total": str(total),
             })
+    # Remaining cross-cutting paired lenses (customer/shareholder, long/short
+    # term, entrepreneurial/managerial, internal/external innovation,
+    # risk/performance) — so their keywords appear in the keyword appendix
+    # and the dashboard keyword table, not just explore/exploit.
+    CROSS_PAIRS = [
+        ("Customer vs Shareholder", "customer", "shareholder"),
+        ("Long-term vs Short-term", "long_term", "short_term"),
+        ("Entrepreneurial vs Managerial", "entrepreneurial", "managerial"),
+        ("Internal vs External innovation", "internal_innovation", "external_innovation"),
+        ("Risk vs Performance", "risk_challenge", "success_performance"),
+    ]
+    PAIR_LABELS = {
+        "customer": "Customer", "shareholder": "Shareholder",
+        "long_term": "Long-term", "short_term": "Short-term",
+        "entrepreneurial": "Entrepreneurial", "managerial": "Managerial",
+        "internal_innovation": "Internal innovation",
+        "external_innovation": "External innovation",
+        "risk_challenge": "Risk / challenge", "success_performance": "Success / performance",
+    }
+    for theme, *keys in CROSS_PAIRS:
+        for key in keys:
+            subtheme = PAIR_LABELS[key]
+            for entry in CROSS_TERMS[key]:
+                label = format_entry_for_csv(entry)
+                per_letter: dict[tuple[str, int], int] = {}
+                counts = {c: 0 for c in companies}
+                total = 0
+                for (company, year), text in letters.items():
+                    toks, stems = letter_tokens[(company, year)]
+                    n = _count_entry(entry, text, toks, stems)
+                    per_letter[(company, year)] = n
+                    counts[company] += n
+                    total += n
+                if total == 0:
+                    continue
+                for c in companies:
+                    subtheme_acc[(theme, subtheme)][c] += counts[c]
+                subtheme_acc[(theme, subtheme)]["Total"] += total
+                for (company, year), text in sorted(letters.items()):
+                    keyword_year_rows.append({
+                        "company": company, "year": str(year),
+                        "theme": theme, "subtheme": subtheme,
+                        "keyword": label, "count": str(per_letter[(company, year)]),
+                    })
+                keyword_rows.append({
+                    "theme": theme, "subtheme": subtheme, "keyword": label,
+                    "Amazon": str(counts["Amazon"]), "Nvidia": str(counts["Nvidia"]),
+                    "Shell": str(counts["Shell"]), "Chevron": str(counts["Chevron"]),
+                    "Total": str(total),
+                })
+
     subtheme_rows: list[dict[str, str]] = []
     for (theme, subtheme), counts in sorted(subtheme_acc.items()):
         subtheme_rows.append(

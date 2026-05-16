@@ -8,10 +8,10 @@ Analysis date: 2026-04-18. Counts are strict lexical counts from the selected le
 
 | Company | Words | Leadership/1k | Horizon/1k | Purpose/1k | Options/1k | Execution/1k | Dominant IPM theme |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Amazon | 27870 | 1.0 | 4.8 | 11.6 | 8.3 | 5.3 | Purpose, Vision, and Governance |
-| Nvidia | 16443 | 0.7 | 26.8 | 3.2 | 8.0 | 9.6 | Horizon Scanning / Sense-making |
-| Shell | 8456 | 2.2 | 3.7 | 7.8 | 6.6 | 3.2 | Purpose, Vision, and Governance |
-| Chevron | 8549 | 1.5 | 5.5 | 9.1 | 7.8 | 5.8 | Purpose, Vision, and Governance |
+| Amazon | 27870 | 1.7 | 7.8 | 13.2 | 8.3 | 5.3 | Purpose, Vision, and Governance |
+| Nvidia | 16443 | 0.7 | 35.4 | 3.5 | 8.0 | 9.6 | Horizon Scanning / Sense-making |
+| Shell | 8456 | 2.6 | 7.2 | 8.5 | 7.3 | 3.3 | Purpose, Vision, and Governance |
+| Chevron | 8549 | 1.6 | 6.9 | 14.0 | 8.9 | 6.4 | Purpose, Vision, and Governance |
 
 ## Cross-Cutting Pair Pattern
 
@@ -19,10 +19,10 @@ Shares below represent the first term as a share of the paired total. For exampl
 
 | Company | Explore share | Customer share | Long-term share | Entrepreneurial share | Internal innovation share | Risk/challenge share |
 | --- | --- | --- | --- | --- | --- | --- |
-| Amazon | 0.684 | 0.931 | 0.843 | 0.548 | 0.908 | 0.295 |
-| Nvidia | 0.645 | 0.686 | 0.836 | 0.407 | 0.810 | 0.265 |
-| Shell | 0.111 | 0.323 | 0.886 | 0.031 | 0.512 | 0.168 |
-| Chevron | 0.273 | 0.268 | 0.894 | 0.047 | 0.466 | 0.220 |
+| Amazon | 0.674 | 0.936 | 0.840 | 0.576 | 0.908 | 0.288 |
+| Nvidia | 0.640 | 0.694 | 0.838 | 0.407 | 0.810 | 0.261 |
+| Shell | 0.090 | 0.323 | 0.896 | 0.030 | 0.458 | 0.148 |
+| Chevron | 0.253 | 0.268 | 0.891 | 0.046 | 0.438 | 0.212 |
 
 ## Interpretation
 

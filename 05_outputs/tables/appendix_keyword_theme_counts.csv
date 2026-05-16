@@ -2,6 +2,8 @@ theme,subtheme,keyword,Amazon,Nvidia,Shell,Chevron,Total
 Strategic Leadership,Founder/ownership mentality,"founder [founders, founding, founded] !found",4,8,0,0,12
 Strategic Leadership,Founder/ownership mentality,ownership,1,0,0,0,1
 Strategic Leadership,Founder/ownership mentality,owner [owners],11,0,0,0,11
+Strategic Leadership,Founder/ownership mentality,day 1,13,0,0,0,13
+Strategic Leadership,Founder/ownership mentality,day one,1,0,0,0,1
 Strategic Leadership,Founder/ownership mentality,builder [builders],12,1,0,0,13
 Strategic Leadership,Ambidexterity/tension,tension [tensions],1,1,0,2,4
 Strategic Leadership,Ambidexterity/tension,both,14,2,4,8,28
@@ -9,6 +11,8 @@ Strategic Leadership,Boldness/discipline,"bold [boldly, boldness]",4,0,0,0,4
 Strategic Leadership,Boldness/discipline,"disciplined [discipline, disciplines]",0,2,14,10,26
 Strategic Leadership,Boldness/discipline,conviction [convictions],5,0,2,0,7
 Strategic Leadership,Boldness/discipline,"decisive [decisiveness, decisively] !decision, decisions",1,1,1,0,3
+Strategic Leadership,Boldness/discipline,high standards,3,0,0,0,3
+Strategic Leadership,Boldness/discipline,capital discipline,0,0,3,1,4
 Strategic Leadership,Stewardship/accountability,"accountable [accountability] !account, accounts, accounting",2,0,0,1,3
 Strategic Leadership,Stewardship/accountability,"responsible [responsibility, responsibly, responsibilities]",6,11,3,5,25
 Strategic Leadership,Stewardship/accountability,safety,8,13,13,9,43
@@ -25,18 +29,33 @@ Horizon Scanning / Sense-making,Disruption/uncertainty,turbulent [turbulence],1,
 Horizon Scanning / Sense-making,Disruption/uncertainty,crisis [crises],1,1,0,0,2
 Horizon Scanning / Sense-making,Future orientation,future [futures],25,24,12,29,90
 Horizon Scanning / Sense-making,Future orientation,long-term,30,5,9,5,49
+Horizon Scanning / Sense-making,Future orientation,long term,30,5,9,5,49
 Horizon Scanning / Sense-making,Future orientation,decade [decades],13,14,10,8,45
 Horizon Scanning / Sense-making,Future orientation,"emerge [emerging, emerged, emerges, emergent]",6,2,1,5,14
 Horizon Scanning / Sense-making,Future orientation,tomorrow,1,2,0,4,7
+Horizon Scanning / Sense-making,Future orientation,next wave,1,8,0,0,9
+Horizon Scanning / Sense-making,Future orientation,next decade,1,0,3,0,4
 Horizon Scanning / Sense-making,Discovery/exploration,"discover [discovery, discoveries, discovered, discovering]",2,12,1,3,18
 Horizon Scanning / Sense-making,Discovery/exploration,"explore [exploration, exploring, explored, exploratory, explorer]",2,5,3,9,19
 Horizon Scanning / Sense-making,Discovery/exploration,"learn [learning, learned, learner, learners, learns]",52,44,3,1,100
 Horizon Scanning / Sense-making,Discovery/exploration,opportunity [opportunities],22,10,8,10,50
 Horizon Scanning / Sense-making,Discovery/exploration,"option [options, optional, optionality]",8,1,1,1,11
 Horizon Scanning / Sense-making,Discovery/exploration,"experiment [experimentation, experimental, experiments, experimented] !experience, experiences, experienced, experiencing",15,1,0,0,16
+Horizon Scanning / Sense-making,Technology transition,artificial intelligence,2,7,1,0,10
 Horizon Scanning / Sense-making,Technology transition,AI,62,341,0,1,404
+Horizon Scanning / Sense-making,Technology transition,generative AI,9,18,0,0,27
+Horizon Scanning / Sense-making,Technology transition,machine learning,26,5,0,0,31
+Horizon Scanning / Sense-making,Technology transition,deep learning,1,11,0,0,12
+Horizon Scanning / Sense-making,Technology transition,neural network,0,3,0,0,3
+Horizon Scanning / Sense-making,Technology transition,neural networks,0,3,0,0,3
+Horizon Scanning / Sense-making,Technology transition,large language model,0,2,0,0,2
+Horizon Scanning / Sense-making,Technology transition,LLM,0,6,0,0,6
+Horizon Scanning / Sense-making,Technology transition,foundation model,0,2,0,0,2
+Horizon Scanning / Sense-making,Technology transition,AI factory,0,5,0,0,5
+Horizon Scanning / Sense-making,Technology transition,AI infrastructure,0,13,0,0,13
 Horizon Scanning / Sense-making,Technology transition,cloud,16,40,0,1,57
 Horizon Scanning / Sense-making,Technology transition,GPU,2,47,0,0,49
+Horizon Scanning / Sense-making,Technology transition,energy transition,0,0,15,3,18
 Horizon Scanning / Sense-making,Technology transition,"digital [digitally, digitalization, digitization, digitized]",12,46,1,3,62
 Horizon Scanning / Sense-making,Technology transition,"automate [automation, automated, automating, automatic]",4,18,0,0,22
 Horizon Scanning / Sense-making,Technology transition,"electrify [electrification, electric, electrified]",9,4,6,1,20
@@ -54,16 +73,23 @@ Horizon Scanning / Sense-making,External environment,"competition [competitions,
 "Purpose, Vision, and Governance",Shareholder/value orientation,shareholder [shareholders],23,5,26,3,57
 "Purpose, Vision, and Governance",Shareholder/value orientation,stockholder [stockholders],0,0,0,30,30
 "Purpose, Vision, and Governance",Shareholder/value orientation,"return [returns, returning, returned]",13,7,10,27,57
+"Purpose, Vision, and Governance",Shareholder/value orientation,cash flow,5,2,15,6,28
+"Purpose, Vision, and Governance",Shareholder/value orientation,value creation,8,1,0,0,9
 "Purpose, Vision, and Governance",Shareholder/value orientation,dividend [dividends],0,5,14,18,37
 "Purpose, Vision, and Governance",Market/category leadership,"leader [leaders, leadership]",40,9,4,5,58
+"Purpose, Vision, and Governance",Market/category leadership,market leadership,7,1,0,0,8
 "Purpose, Vision, and Governance",Market/category leadership,"scale [scales, scaled, scaling]",18,35,2,3,58
 "Purpose, Vision, and Governance",Market/category leadership,ecosystem [ecosystems],1,11,0,0,12
 "Purpose, Vision, and Governance",Mission/purpose/identity,mission [missions],8,1,0,0,9
 "Purpose, Vision, and Governance",Mission/purpose/identity,"purpose [purposes, purposeful]",1,5,0,4,10
 "Purpose, Vision, and Governance",Mission/purpose/identity,values,0,3,3,3,9
+"Purpose, Vision, and Governance",Mission/purpose/identity,human progress,0,2,0,6,8
+"Purpose, Vision, and Governance",Mission/purpose/identity,day one,1,0,0,0,1
+"Purpose, Vision, and Governance",Mission/purpose/identity,day 1,13,0,0,0,13
 "Purpose, Vision, and Governance",Governance/responsibility,"govern [governance, governing, governed] !government, governments",0,1,1,1,3
 "Purpose, Vision, and Governance",Governance/responsibility,board [boards],1,1,2,8,12
 "Purpose, Vision, and Governance",Governance/responsibility,"responsible [responsibility, responsibly, responsibilities]",6,11,3,5,25
+"Purpose, Vision, and Governance",Governance/responsibility,lower carbon,0,0,6,33,39
 "Strategic Options, Experimentation, and Choices",Internal invention/R&D,"invent [invention, inventions, inventing, invented, inventive] !inventory, inventories",74,18,0,0,92
 "Strategic Options, Experimentation, and Choices",Internal invention/R&D,"research [researcher, researchers, researching, researched]",6,32,0,1,39
 "Strategic Options, Experimentation, and Choices",Internal invention/R&D,R&D,0,2,0,0,2
@@ -101,6 +127,7 @@ Agile Execution and Organization,Resilience/adaptability,"resilient [resilience,
 Agile Execution and Organization,Resilience/adaptability,"adapt [adaptable, adaptation, adapting, adapted, adaptive, adaptability, adapts]",2,3,1,1,7
 Agile Execution and Organization,Resilience/adaptability,"flexible [flexibility, flexibly]",4,1,4,4,13
 Agile Execution and Organization,Resilience/adaptability,"recover [recovery, recoveries, recovered, recovering, recoverable]",1,0,0,5,6
+Agile Execution and Organization,Operational excellence,operational excellence,0,0,0,3,3
 Agile Execution and Organization,Operational excellence,"efficient [efficiency, efficiencies, efficiently]",7,8,7,10,32
 Agile Execution and Organization,Operational excellence,"reliable [reliability, reliably]",4,2,2,15,23
 Agile Execution and Organization,Operational excellence,"productive [productivity, productively] !product, products, production, productions",7,8,0,1,16
@@ -113,6 +140,7 @@ Agile Execution and Organization,Talent/capabilities,"organization [organization
 Agile Execution and Organization,Talent/capabilities,"skill [skills, skilled]",2,14,0,0,16
 Agile Execution and Organization,Infrastructure/scaling,infrastructure [infrastructures],17,32,0,1,50
 Agile Execution and Organization,Infrastructure/scaling,capacity [capacities],14,1,5,8,28
+Agile Execution and Organization,Infrastructure/scaling,supply chain,0,6,0,0,6
 Agile Execution and Organization,Infrastructure/scaling,"deploy [deployment, deployments, deployed, deploying]",2,24,0,3,29
 Agile Execution and Organization,Infrastructure/scaling,"execute [execution, executions, executed, executing, executes] !executive, executives",7,2,1,7,17
 Explore vs Exploit,Explore,"explore [exploration, exploring, explored, exploratory, explorer, explorers, explores]",2,5,3,9,19
@@ -132,14 +160,91 @@ Explore vs Exploit,Explore,"pioneer [pioneers, pioneered, pioneering]",1,10,0,0,
 Explore vs Exploit,Explore,"reinvent [reinvention, reinvented, reinventing, reinvents]",11,14,0,0,25
 Explore vs Exploit,Explore,"disrupt [disruption, disruptions, disruptive, disruptor, disruptors, disrupted, disrupting]",2,0,0,6,8
 Explore vs Exploit,Explore,"revolutionize [revolution, revolutionary, revolutions, revolutionized, revolutionizing]",4,14,0,0,18
+Explore vs Exploit,Exploit,operational excellence,0,0,0,3,3
+Explore vs Exploit,Exploit,capital discipline,0,0,3,1,4
 Explore vs Exploit,Exploit,"return [returns, returning, returned]",13,7,10,27,57
 Explore vs Exploit,Exploit,"efficient [efficiency, efficiencies, efficiently]",7,8,7,10,32
 Explore vs Exploit,Exploit,"productive [productivity, productively] !product, products, production, productions",7,8,0,1,16
 Explore vs Exploit,Exploit,"reliable [reliability, reliably]",4,2,2,15,23
+Explore vs Exploit,Exploit,cash flow,5,2,15,6,28
 Explore vs Exploit,Exploit,dividend [dividends],0,5,14,18,37
 Explore vs Exploit,Exploit,buyback [buybacks],0,1,2,1,4
+Explore vs Exploit,Exploit,record production,0,0,1,1,2
 Explore vs Exploit,Exploit,"cost [costs, costing] !costume, costumes",37,8,20,9,74
 Explore vs Exploit,Exploit,margin [margins],7,4,1,1,13
 Explore vs Exploit,Exploit,safety,8,13,13,9,43
 Explore vs Exploit,Exploit,"execute [execution, executions, executed, executing, executes] !executive, executives",7,2,1,7,17
 Explore vs Exploit,Exploit,"scale [scales, scaled, scaling]",18,35,2,3,58
+Customer vs Shareholder,Customer,customer obsession,3,0,0,0,3
+Customer vs Shareholder,Customer,customer experience,20,1,0,0,21
+Customer vs Shareholder,Customer,"customer [customers] !custom, customize, customized, customizing, customizes",288,14,20,18,340
+Customer vs Shareholder,Customer,user [users],2,7,0,0,9
+Customer vs Shareholder,Customer,"consumer [consumers] !consume, consumed, consuming, consumables, consumes, consumption",21,3,0,1,25
+Customer vs Shareholder,Shareholder,shareholder [shareholders],23,5,26,3,57
+Customer vs Shareholder,Shareholder,stockholder [stockholders],0,0,0,30,30
+Customer vs Shareholder,Shareholder,dividend [dividends],0,5,14,18,37
+Customer vs Shareholder,Shareholder,buyback [buybacks],0,1,2,1,4
+Long-term vs Short-term,Long-term,long-term,30,5,9,5,49
+Long-term vs Short-term,Long-term,long term,30,5,9,5,49
+Long-term vs Short-term,Long-term,decade [decades],13,14,10,8,45
+Long-term vs Short-term,Long-term,future [futures],25,24,12,29,90
+Long-term vs Short-term,Long-term,next generation,1,6,0,2,9
+Long-term vs Short-term,Long-term,multi-year,2,3,0,0,5
+Long-term vs Short-term,Long-term,years ahead,4,0,3,0,7
+Long-term vs Short-term,Short-term,short-term,7,1,1,1,10
+Long-term vs Short-term,Short-term,short term,7,1,1,1,10
+Long-term vs Short-term,Short-term,near-term,0,1,0,0,1
+Long-term vs Short-term,Short-term,near term,0,1,0,0,1
+Long-term vs Short-term,Short-term,"quarter [quarters, quarterly]",5,7,3,4,19
+Long-term vs Short-term,Short-term,immediate [immediately],1,0,0,0,1
+Entrepreneurial vs Managerial,Entrepreneurial,"founder [founders, founded, founding] !found",4,8,0,0,12
+Entrepreneurial vs Managerial,Entrepreneurial,day 1,13,0,0,0,13
+Entrepreneurial vs Managerial,Entrepreneurial,day one,1,0,0,0,1
+Entrepreneurial vs Managerial,Entrepreneurial,"invent [invention, inventions, inventing, invented] !inventory, inventories",74,18,0,0,92
+Entrepreneurial vs Managerial,Entrepreneurial,"experiment [experimentation, experiments, experimented, experimenting] !experience, experiences, experienced, experiencing",15,1,0,0,16
+Entrepreneurial vs Managerial,Entrepreneurial,builder [builders],12,1,0,0,13
+Entrepreneurial vs Managerial,Entrepreneurial,risk-taking,1,0,0,1,2
+Entrepreneurial vs Managerial,Entrepreneurial,"bold [boldly, boldness]",4,0,0,0,4
+Entrepreneurial vs Managerial,Entrepreneurial,startup [startups],9,7,2,2,20
+Entrepreneurial vs Managerial,Managerial,"disciplined [discipline, disciplines]",0,2,14,10,26
+Entrepreneurial vs Managerial,Managerial,"efficient [efficiency, efficiencies, efficiently]",7,8,7,10,32
+Entrepreneurial vs Managerial,Managerial,"productive [productivity, productively] !product, products, production, productions",7,8,0,1,16
+Entrepreneurial vs Managerial,Managerial,"process [processes] !processor, processors, processing, processed",31,8,3,6,48
+Entrepreneurial vs Managerial,Managerial,"govern [governance, governing, governed] !government, governments, governmental",0,1,1,1,3
+Entrepreneurial vs Managerial,Managerial,"cost [costs, costing] !costume, costumes",37,8,20,9,74
+Entrepreneurial vs Managerial,Managerial,"control [controls, controlling, controlled]",4,1,2,0,7
+Entrepreneurial vs Managerial,Managerial,capital discipline,0,0,3,1,4
+Entrepreneurial vs Managerial,Managerial,"reliable [reliability, reliably]",4,2,2,15,23
+Entrepreneurial vs Managerial,Managerial,safety,8,13,13,9,43
+Internal vs External innovation,Internal innovation,"invent [invention, inventions, inventing, invented] !inventory, inventories",74,18,0,0,92
+Internal vs External innovation,Internal innovation,R&D,0,2,0,0,2
+Internal vs External innovation,Internal innovation,"research [researcher, researchers, researching, researched]",6,32,0,1,39
+Internal vs External innovation,Internal innovation,"engineer [engineering, engineered, engineers] !engine, engines",1,11,0,2,14
+Internal vs External innovation,Internal innovation,"build [builds, built, building, builder, builders] !buildings",80,85,11,16,192
+Internal vs External innovation,Internal innovation,"develop [development, developments, developed, developing, developer, developers]",17,53,11,15,96
+Internal vs External innovation,Internal innovation,technology development,0,0,0,1,1
+Internal vs External innovation,External innovation,"acquire [acquisition, acquisitions, acquired, acquiring, acquires]",4,5,13,18,40
+Internal vs External innovation,External innovation,"merger [mergers, merge, merged, merging]",1,0,0,0,1
+Internal vs External innovation,External innovation,"partner [partners, partnership, partnerships, partnered, partnering]",9,24,7,18,58
+Internal vs External innovation,External innovation,alliance [alliances],0,0,1,0,1
+Internal vs External innovation,External innovation,joint venture,0,0,5,6,11
+Internal vs External innovation,External innovation,"collaborate [collaboration, collaborations, collaborative, collaborating, collaborated]",3,7,0,3,13
+Internal vs External innovation,External innovation,ecosystem [ecosystems],1,11,0,0,12
+Risk vs Performance,Risk / challenge,crisis [crises],1,1,0,0,2
+Risk vs Performance,Risk / challenge,"volatile [volatility, volatilities]",0,0,3,6,9
+Risk vs Performance,Risk / challenge,"uncertain [uncertainty, uncertainties]",3,1,4,6,14
+Risk vs Performance,Risk / challenge,"disrupt [disruption, disruptions, disruptive]",2,0,0,6,8
+Risk vs Performance,Risk / challenge,geopolitical [geopolitics],1,1,2,6,10
+Risk vs Performance,Risk / challenge,"risk [risks, risky]",8,1,0,1,10
+Risk vs Performance,Risk / challenge,"challenge [challenges, challenging, challenged]",30,18,6,8,62
+Risk vs Performance,Risk / challenge,pandemic [pandemics],12,9,3,5,29
+Risk vs Performance,Success / performance,cash flow,5,2,15,6,28
+Risk vs Performance,Success / performance,dividend [dividends],0,5,14,18,37
+Risk vs Performance,Success / performance,buyback [buybacks],0,1,2,1,4
+Risk vs Performance,Success / performance,"productive [productivity, productively] !product, products, production, productions",7,8,0,1,16
+Risk vs Performance,Success / performance,"record [records, recording, recorded]",5,9,7,15,36
+Risk vs Performance,Success / performance,margin [margins],7,4,1,1,13
+Risk vs Performance,Success / performance,"return [returns, returning, returned]",13,7,10,27,57
+Risk vs Performance,Success / performance,"profit [profits, profitable, profitably, profitability]",8,1,8,3,20
+Risk vs Performance,Success / performance,"growth [grow, grows, growing, grown, grew]",79,24,27,52,182
+Risk vs Performance,Success / performance,performance [performances],17,27,20,17,81

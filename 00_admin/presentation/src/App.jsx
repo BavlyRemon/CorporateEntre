@@ -22,7 +22,7 @@ const SLIDES = [
   { Component: Slide02_Companies,       label: 'Scope — 4 firms, 2 industries', stages: 1 },
   { Component: Slide03_Themes,          label: 'Framework — IPM themes',     stages: 1 },
   { Component: Slide04_Methodology,     label: 'Methodology',                stages: 1 },
-  { Component: Slide05_TechVsOil,       label: 'Tech vs Oil',                stages: 1 },
+  { Component: Slide05_TechVsOil,       label: 'Tech vs Oil',                stages: 6 },
   { Component: Slide06_Amazon,          label: 'Amazon — eras',              stages: 3 },
   { Component: Slide07_Nvidia,          label: 'NVIDIA — AI flip',           stages: 3 },
   { Component: Slide08_ShellVsChevron,  label: 'Shell vs Chevron',           stages: 3 },

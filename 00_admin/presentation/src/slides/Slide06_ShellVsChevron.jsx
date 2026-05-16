@@ -251,7 +251,7 @@ export default function Slide06_ShellVsChevron({ stage = 0 }) {
                 delay={0.15}
               />
               <ul className="mt-2 space-y-1 text-xs text-slate-300 leading-relaxed">
-                <li>• <span className="text-yellow-200">Strategic Leadership 6.1 /1k</span> — twice Chevron's</li>
+                <li>• <span className="text-yellow-200">Strategic Leadership 2.25 /1k</span> — highest in the corpus</li>
                 <li>• Lower-carbon vocabulary <span className="text-yellow-200">persistent</span> from 2014 onward</li>
               </ul>
             </div>
@@ -275,7 +275,7 @@ export default function Slide06_ShellVsChevron({ stage = 0 }) {
                 delay={0.3}
               />
               <ul className="mt-2 space-y-1 text-xs text-slate-300 leading-relaxed">
-                <li>• <span className="text-blue-300">Agile Execution 10.9 /1k</span> — top of the corpus</li>
+                <li>• <span className="text-blue-300">Agile Execution 5.85 /1k</span> — higher than Shell; the operational spine</li>
                 <li>• Lower-carbon language <span className="text-blue-300">episodic</span> — spikes 2021, recedes by 2024</li>
               </ul>
             </div>
@@ -298,14 +298,14 @@ export default function Slide06_ShellVsChevron({ stage = 0 }) {
                 Same lens · different choice
               </div>
               <StatRow visible={stage >= 2} delay={0.05} label="Strategic Leadership /1k"
-                left={{ v: 6.1, label: '6.1', color: SHELL }}
-                right={{ v: 3.0, label: '3.0', color: CHEVRON }} />
+                left={{ v: 2.25, label: '2.25', color: SHELL }}
+                right={{ v: 1.52, label: '1.52', color: CHEVRON }} />
               <StatRow visible={stage >= 2} delay={0.15} label="Agile Execution /1k"
-                left={{ v: 6.4, label: '6.4', color: SHELL }}
-                right={{ v: 10.9, label: '10.9', color: CHEVRON }} />
+                left={{ v: 3.19, label: '3.19', color: SHELL }}
+                right={{ v: 5.85, label: '5.85', color: CHEVRON }} />
               <StatRow visible={stage >= 2} delay={0.25} label="Customer share"
-                left={{ v: 0.38, label: '0.38', color: SHELL }}
-                right={{ v: 0.30, label: '0.30', color: CHEVRON }} />
+                left={{ v: 0.323, label: '0.32', color: SHELL }}
+                right={{ v: 0.268, label: '0.27', color: CHEVRON }} />
             </div>
             <div className="text-xs leading-relaxed text-slate-300 min-w-0">
               <div className="text-[10px] uppercase tracking-widest font-mono text-slate-400 mb-2">

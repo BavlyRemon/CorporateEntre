@@ -182,7 +182,7 @@ def parse_financials(md_text: str) -> dict:
     # Map uppercase section names to canonical names
     NAME_MAP = {
         "AMAZON": "Amazon",
-        "NVIDIA": "NVIDIA",
+        "NVIDIA": "Nvidia",
         "SHELL": "Shell",
         "CHEVRON": "Chevron",
         "CROSS-COMPANY COMPARISON — KEY METRICS": "Cross-Company",

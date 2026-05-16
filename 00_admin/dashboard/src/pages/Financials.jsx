@@ -8,7 +8,7 @@ import {
   ResponsiveContainer, Tooltip, Legend, Cell
 } from 'recharts'
 
-const COMPANIES_FIN = ['Amazon', 'NVIDIA', 'Shell', 'Chevron']
+const COMPANIES_FIN = ['Amazon', 'Nvidia', 'Shell', 'Chevron']
 
 // Strip markdown formatting and parse to number; returns null if not numeric
 function parseVal(s) {
@@ -242,7 +242,7 @@ const COMPANY_METRICS = {
       'FCF': ['Free Cash Flow'],
     },
   },
-  NVIDIA: {
+  Nvidia: {
     income: {
       'Revenue': ['Total Revenue'],
       'Gross Profit': ['Gross Profit'],
@@ -302,7 +302,7 @@ function CompanyFinancials({ company, data }) {
   const cashChart = buildChart(cashTable, cfg.cash || {})
 
   // Segment revenue chart for NVIDIA
-  const segmentChart = company === 'NVIDIA'
+  const segmentChart = company === 'Nvidia'
     ? buildChart(incomeTable, {
         'Gaming': ['— Gaming'],
         'Data Center': ['— Data Center'],

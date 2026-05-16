@@ -37,12 +37,12 @@ const FIRMS = [
 export default function Slide02_Companies() {
   return (
     <Slide
-      companies={['Amazon', 'Nvidia', 'Shell', 'Chevron']}
       eyebrow="Section 01 · Scope"
       title="Two industries. Two firms each. Built for contrast."
       kicker="A 2×2 design: industry differences across rows, within-industry differences across columns."
     >
-      <div className="mt-2 grid grid-cols-2 grid-rows-2 gap-5 h-full">
+      <div className="h-full flex flex-col min-h-0">
+      <div className="grid grid-cols-2 grid-rows-2 gap-5 flex-1 min-h-0">
         {FIRMS.map((f, i) => {
           const p = PALETTE[f.company]
           return (
@@ -92,13 +92,14 @@ export default function Slide02_Companies() {
         initial={{ opacity: 0, y: 12 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.1, duration: 0.7 }}
-        className="mt-5 text-sm text-slate-400 leading-relaxed max-w-5xl"
+        className="mt-4 flex-shrink-0 text-sm text-slate-400 leading-relaxed max-w-5xl"
       >
         <span className="text-white/80 font-semibold">Tech vs. Energy</span> for the industry contrast.
         Within each: a <span className="text-white/80">B2C / B2B</span> pair on the tech side and a{' '}
         <span className="text-white/80">European / American</span> pair on the energy side — so any pattern
         we find has to survive both the industry boundary and the within-industry difference.
       </motion.div>
+      </div>
     </Slide>
   )
 }

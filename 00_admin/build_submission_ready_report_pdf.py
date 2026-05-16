@@ -993,6 +993,12 @@ def add_report(pdf: PDF) -> None:
 
     pdf.text("Corporate Entrepreneurship and Innovation", 17, "Helvetica-Bold")
     pdf.text("CEO/Shareholder Letter Analysis of Amazon, Nvidia, Shell, and Chevron", 15, "Helvetica-Bold")
+    pdf.blank(8)
+
+    pdf.text("Interactive companion materials (live online):", 10, "Helvetica-Bold")
+    pdf.para("Slide presentation (the talk):  https://bavlyremon.github.io/CorporateEntre/", 10)
+    pdf.para("Analysis command-center dashboard:  https://bavlyremon.github.io/CorporateEntre/dashboard/", 10)
+    pdf.para("The dashboard lets readers browse all 28 letters, the per-1,000 IPM theme rates, explore/exploit and customer/shareholder shares, the era matrices, and the full keyword dictionary behind every figure in this report.", 9)
     pdf.blank(10)
 
     pdf.h1("1. Introduction")

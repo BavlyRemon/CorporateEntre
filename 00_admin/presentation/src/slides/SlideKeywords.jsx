@@ -39,19 +39,26 @@ function Tile({ panel, onActive }) {
   )
 }
 
-function Chips({ entries, accent, size = 'lg' }) {
-  const cls = size === 'lg'
-    ? 'text-lg px-3.5 py-1.5'
-    : 'text-base px-3 py-1'
+// Chip size auto-shrinks with entry count so the panel never overflows.
+function chipClass(n) {
+  if (n <= 14) return 'text-xl px-4 py-2 gap-3'
+  if (n <= 22) return 'text-lg px-3.5 py-1.5 gap-2.5'
+  if (n <= 34) return 'text-base px-3 py-1.5 gap-2'
+  return 'text-sm px-2.5 py-1 gap-2'
+}
+
+function Chips({ entries, accent }) {
+  const cls = chipClass(entries.length)
+  const [, , , gap] = cls.split(' ')
   return (
-    <div className="flex flex-wrap gap-2.5 content-start">
+    <div className={`flex flex-wrap content-start ${gap}`}>
       {entries.map((e, i) => (
         <motion.span
           key={e + i}
           initial={{ opacity: 0, y: 6 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2 + Math.min(i, 40) * 0.01, duration: 0.3 }}
-          className={`font-mono rounded-md leading-tight font-medium ${cls}`}
+          transition={{ delay: 0.2 + Math.min(i, 40) * 0.008, duration: 0.28 }}
+          className={`font-mono rounded-md leading-tight font-medium ${cls.split(' ').slice(0, 3).join(' ')}`}
           style={{ background: `${accent}33`, border: `1px solid ${accent}`, color: '#ffffff' }}
         >
           {e}
@@ -85,7 +92,7 @@ function FocusPanel({ panel }) {
         </div>
       </div>
 
-      <div className="flex-1 min-h-0 overflow-hidden flex items-center">
+      <div className="flex-1 min-h-0 overflow-hidden">
         {panel.kind === 'ipm' ? (
           <Chips entries={panel.entries} accent={panel.accent} />
         ) : (
@@ -96,7 +103,7 @@ function FocusPanel({ panel }) {
                      style={{ color: panel.accent }}>
                   {side.label} · {side.entries.length}
                 </div>
-                <Chips entries={side.entries} accent={panel.accent} size="md" />
+                <Chips entries={side.entries} accent={panel.accent} />
               </div>
             ))}
           </div>

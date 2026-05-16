@@ -39,17 +39,20 @@ function Tile({ panel, onActive }) {
   )
 }
 
-function Chips({ entries, accent }) {
+function Chips({ entries, accent, size = 'lg' }) {
+  const cls = size === 'lg'
+    ? 'text-lg px-3.5 py-1.5'
+    : 'text-base px-3 py-1'
   return (
-    <div className="flex flex-wrap gap-1.5 content-start">
+    <div className="flex flex-wrap gap-2.5 content-start">
       {entries.map((e, i) => (
         <motion.span
           key={e + i}
           initial={{ opacity: 0, y: 6 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.25 + Math.min(i, 40) * 0.012, duration: 0.35 }}
-          className="text-[11px] font-mono px-2 py-0.5 rounded leading-tight"
-          style={{ background: `${accent}14`, border: `1px solid ${accent}33`, color: '#e5e7eb' }}
+          transition={{ delay: 0.2 + Math.min(i, 40) * 0.01, duration: 0.3 }}
+          className={`font-mono rounded-md leading-tight font-medium ${cls}`}
+          style={{ background: `${accent}33`, border: `1px solid ${accent}`, color: '#ffffff' }}
         >
           {e}
         </motion.span>
@@ -62,43 +65,48 @@ function FocusPanel({ panel }) {
   return (
     <motion.div
       layoutId={`kw-${panel.name}`}
-      className="absolute inset-0 rounded-2xl border p-7 overflow-hidden flex flex-col"
-      style={{ borderColor: `${panel.accent}55`,
-               background: `linear-gradient(135deg, ${panel.accent}1f 0%, #05070c 75%)` }}
+      className="absolute inset-0 rounded-2xl border p-9 overflow-hidden flex flex-col"
+      style={{ borderColor: panel.accent,
+               background: 'linear-gradient(135deg, #0c1018 0%, #05070c 100%)' }}
       transition={{ duration: 0.6, ease: easings.expoOut }}
     >
-      <div className="flex items-baseline justify-between mb-4 flex-shrink-0">
+      <div className="flex items-baseline justify-between mb-6 flex-shrink-0">
         <div>
-          <div className="text-[11px] uppercase tracking-[0.3em] font-mono"
+          <div className="text-sm uppercase tracking-[0.3em] font-mono"
                style={{ color: panel.accent }}>
             {panel.kind === 'ipm' ? 'IPM theme · all keywords' : 'Cross-cutting lens · all keywords'}
           </div>
-          <h2 className="font-display font-bold text-3xl mt-1">{panel.name}</h2>
+          <h2 className="font-display font-bold text-5xl mt-2">{panel.name}</h2>
+        </div>
+        <div className="text-sm font-mono text-slate-500">
+          {panel.kind === 'ipm'
+            ? `${panel.entries.length} entries`
+            : `${panel.left.entries.length + panel.right.entries.length} entries`}
         </div>
       </div>
 
-      <div className="flex-1 min-h-0 overflow-hidden">
+      <div className="flex-1 min-h-0 overflow-hidden flex items-center">
         {panel.kind === 'ipm' ? (
           <Chips entries={panel.entries} accent={panel.accent} />
         ) : (
-          <div className="grid grid-cols-2 gap-8 h-full">
+          <div className="grid grid-cols-2 gap-12 h-full w-full">
             {[panel.left, panel.right].map((side) => (
               <div key={side.label} className="min-h-0 overflow-hidden flex flex-col">
-                <div className="text-xs uppercase tracking-[0.25em] font-mono mb-3"
+                <div className="text-base uppercase tracking-[0.25em] font-mono mb-5 font-semibold"
                      style={{ color: panel.accent }}>
                   {side.label} · {side.entries.length}
                 </div>
-                <Chips entries={side.entries} accent={panel.accent} />
+                <Chips entries={side.entries} accent={panel.accent} size="md" />
               </div>
             ))}
           </div>
         )}
       </div>
 
-      <div className="mt-3 text-[10px] font-mono text-slate-600 flex-shrink-0">
-        format: <span className="text-slate-400">base (aliases…)</span> ·
-        <span className="text-slate-400"> "phrase"</span> = literal whole-word ·
-        <span className="text-slate-400"> ·literal</span> = stemming disabled
+      <div className="mt-5 text-xs font-mono text-slate-500 flex-shrink-0">
+        format: <span className="text-slate-300">base (aliases…)</span> ·
+        <span className="text-slate-300"> "phrase"</span> = literal whole-word ·
+        <span className="text-slate-300"> ·literal</span> = stemming disabled
       </div>
     </motion.div>
   )

@@ -569,7 +569,6 @@ THEME_SUBTHEMES: list[dict[str, object]] = [
          {"base": "regulate", "aliases": ["regulation", "regulatory", "regulator", "regulators", "regulations", "regulated"]},
          {"base": "geopolitical", "aliases": ["geopolitics"]},
          {"base": "macro"}, {"base": "policy", "aliases": ["policies"]},
-         {"base": "demand", "aliases": ["demands", "demanded", "demanding"]},
          {"base": "commodity", "aliases": ["commodities"]},
          {"base": "competition", "aliases": ["competitions", "compete", "competes", "competing", "competitive", "competitor", "competitors"]},
      ]},

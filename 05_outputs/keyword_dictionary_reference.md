@@ -402,7 +402,7 @@ Each IPM theme is further split into subthemes used by the submission-ready repo
 
 **Technology transition** — `artificial intelligence` *(phrase)*; `AI` *(phrase)*; `generative AI` *(phrase)*; `gen AI` *(phrase)*; `machine learning` *(phrase)*; `deep learning` *(phrase)*; `neural network` *(phrase)*; `neural networks` *(phrase)*; `large language model` *(phrase)*; `LLM` *(phrase)*; `foundation model` *(phrase)*; `artificial general intelligence` *(phrase)*; `AGI` *(phrase)*; `AI factory` *(phrase)*; `AI infrastructure` *(phrase)*; `cloud` *(phrase)*; `GPU` *(phrase)*; `energy transition` *(phrase)*; **digital** · digitally, digitalization, digitization, digitized; **automate** · automation, automated, automating, automatic; **electrify** · electrification, electric, electrified
 
-**External environment** — **regulate** · regulation, regulatory, regulator, regulators, regulations, regulated; **geopolitical** · geopolitics; **macro**; **policy** · policies; **demand** · demands, demanded, demanding; **commodity** · commodities; **competition** · competitions, compete, competes, competing, competitive, competitor, competitors
+**External environment** — **regulate** · regulation, regulatory, regulator, regulators, regulations, regulated; **geopolitical** · geopolitics; **macro**; **policy** · policies; **commodity** · commodities; **competition** · competitions, compete, competes, competing, competitive, competitor, competitors
 
 ### Purpose, Vision, and Governance
 

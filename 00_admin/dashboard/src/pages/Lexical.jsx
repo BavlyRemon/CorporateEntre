@@ -31,6 +31,16 @@ function ThemeTab({ data }) {
     return { company: c, explore: +explore.toFixed(3), exploit: +exploit.toFixed(3), share: +share.toFixed(3) }
   })
 
+  // Customer vs shareholder — paired lens, per 1,000 words (company aggregate)
+  const csData = COMPANIES.map(c => {
+    const row = data.quant.byCompany.find(r => r.company === c)
+    const w = row?.total_word_count || 1
+    const customer = +((1000 * (row?.customer_count ?? 0)) / w).toFixed(3)
+    const shareholder = +((1000 * (row?.shareholder_count ?? 0)) / w).toFixed(3)
+    const share = +(row?.customer_share_of_customer_shareholder ?? 0).toFixed(3)
+    return { company: c, customer, shareholder, share }
+  })
+
   return (
     <div className="space-y-6">
       <div className="card p-5">
@@ -74,6 +84,43 @@ function ThemeTab({ data }) {
         <div className="text-sm font-semibold text-slate-300 mb-3">Explore Share Summary</div>
         <div className="space-y-3">
           {eeData.map(d => (
+            <div key={d.company} className="flex items-center gap-4">
+              <div className="w-16 text-sm font-medium" style={{ color: COMPANY_COLORS[d.company] }}>{d.company}</div>
+              <div className="flex-1 bg-slate-800 rounded-full h-3 overflow-hidden">
+                <div
+                  className="h-full rounded-full"
+                  style={{ width: `${d.share * 100}%`, background: COMPANY_COLORS[d.company] }}
+                />
+              </div>
+              <div className="text-sm font-mono text-slate-300 w-12 text-right">{(d.share * 100).toFixed(1)}%</div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="card p-5">
+        <div className="text-sm font-semibold text-slate-300 mb-1">Customer vs Shareholder — Per 1,000 Words</div>
+        <div className="text-xs text-slate-500 mb-4">Cross-cutting paired lens · company aggregate across all letters</div>
+        <div style={{ height: 200 }}>
+          <ResponsiveContainer width="100%" height="100%">
+            <BarChart data={csData} layout="vertical" margin={{ top: 5, right: 60, bottom: 5, left: 60 }}>
+              <CartesianGrid strokeDasharray="3 3" stroke="#1e293b" />
+              <XAxis type="number" tick={{ fill: '#64748b', fontSize: 10 }} />
+              <YAxis type="category" dataKey="company" tick={{ fill: '#94a3b8', fontSize: 12 }} />
+              <Bar dataKey="customer" name="Customer" fill="#10b981" radius={[0, 2, 2, 0]} />
+              <Bar dataKey="shareholder" name="Shareholder" fill="#a855f7" radius={[0, 2, 2, 0]} />
+              <Tooltip cursor={{ fill: 'rgba(148,163,184,0.07)' }} content={<ChartTooltip />} />
+              <Legend />
+            </BarChart>
+          </ResponsiveContainer>
+        </div>
+      </div>
+
+      <div className="card p-5">
+        <div className="text-sm font-semibold text-slate-300 mb-3">Customer Share Summary</div>
+        <div className="text-xs text-slate-500 mb-3">Customer ÷ (customer + shareholder). Higher = more customer-voiced.</div>
+        <div className="space-y-3">
+          {csData.map(d => (
             <div key={d.company} className="flex items-center gap-4">
               <div className="w-16 text-sm font-medium" style={{ color: COMPANY_COLORS[d.company] }}>{d.company}</div>
               <div className="flex-1 bg-slate-800 rounded-full h-3 overflow-hidden">

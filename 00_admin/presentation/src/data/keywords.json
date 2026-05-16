@@ -1,0 +1,381 @@
+{
+  "ipm": [
+    {
+      "name": "Strategic Leadership",
+      "entries": [
+        "founder (founders, founding, founded)",
+        "ownership",
+        "owner (owners)",
+        "entrepreneurial (entrepreneur, entrepreneurs, entrepreneurship)",
+        "\"day 1\"",
+        "\"day one\"",
+        "stewardship (steward, stewards)",
+        "ambidextrous (ambidexterity)",
+        "paradox (paradoxes, paradoxical)",
+        "\"trade-off\"",
+        "\"tradeoff\"",
+        "\"dual mandate\"",
+        "conviction (convictions)",
+        "disciplined (discipline, disciplines)",
+        "\"high standards\"",
+        "\"capital discipline\"",
+        "decisive (decisiveness, decisively)",
+        "accountable (accountability)",
+        "integrity \u00b7literal",
+        "bold (boldly, boldness)",
+        "\"risk-taking\"",
+        "\"long-term owner\""
+      ]
+    },
+    {
+      "name": "Horizon Scanning / Sense-making",
+      "entries": [
+        "disrupt (disruption, disruptive, disruptions, disruptor, disruptors)",
+        "uncertain (uncertainty, uncertainties)",
+        "volatile (volatility, volatilities)",
+        "turbulent (turbulence)",
+        "crisis (crises)",
+        "shock (shocks, shocked)",
+        "\"long-term\"",
+        "\"long term\"",
+        "\"next decade\"",
+        "\"next wave\"",
+        "\"future generation\"",
+        "explore (exploration, exploring, explored, exploratory)",
+        "discover (discovery, discoveries, discovered, discovering)",
+        "experiment (experimentation, experimental, experiments, experimented, experimenting)",
+        "pilot (pilots, piloted, piloting)",
+        "\"artificial intelligence\"",
+        "\"AI\"",
+        "\"generative AI\"",
+        "\"generative artificial intelligence\"",
+        "\"gen AI\"",
+        "\"machine learning\"",
+        "\"deep learning\"",
+        "\"neural network\"",
+        "\"neural networks\"",
+        "\"large language model\"",
+        "\"large language models\"",
+        "\"LLM\"",
+        "\"LLMs\"",
+        "\"foundation model\"",
+        "\"foundation models\"",
+        "\"artificial general intelligence\"",
+        "\"AGI\"",
+        "\"AI factory\"",
+        "\"AI factories\"",
+        "\"AI infrastructure\"",
+        "\"GPU\"",
+        "\"accelerated computing\"",
+        "\"cloud computing\"",
+        "automate (automation, automated, automating, automatic)",
+        "electrify (electrification, electric, electrified, electrifying)",
+        "\"energy transition\"",
+        "decarbonize (decarbonization, decarbonized, decarbonizing)",
+        "regulate (regulation, regulatory, regulator, regulators, regulations, regulated, regulating)",
+        "policy (policies)",
+        "geopolitical (geopolitics)",
+        "\"commodity cycle\"",
+        "\"energy security\"",
+        "\"export controls\""
+      ]
+    },
+    {
+      "name": "Purpose, Vision, and Governance",
+      "entries": [
+        "\"customer obsession\"",
+        "\"customer experience\"",
+        "customer (customers)",
+        "client (clients)",
+        "user (users)",
+        "shareholder (shareholders)",
+        "stockholder (stockholders)",
+        "dividend (dividends)",
+        "\"share repurchase\"",
+        "buyback (buybacks)",
+        "\"total shareholder return\"",
+        "\"cash return\"",
+        "\"category leadership\"",
+        "\"market leadership\"",
+        "\"competitive advantage\"",
+        "ecosystem (ecosystems)",
+        "\"scale advantage\"",
+        "mission (missions)",
+        "purpose (purposes, purposeful)",
+        "values \u00b7literal",
+        "identity (identities)",
+        "\"human progress\"",
+        "\"energy progress\"",
+        "\"day 1\"",
+        "\"day one\"",
+        "govern (governance, governing, governed)",
+        "\"board oversight\"",
+        "ethic (ethics, ethical, ethically)",
+        "\"lower carbon\"",
+        "\"climate oversight\""
+      ]
+    },
+    {
+      "name": "Strategic Options, Experimentation, and Choices",
+      "entries": [
+        "invent (invention, inventions, inventing, invented, inventive, inventor, inventors)",
+        "\"research and development\"",
+        "\"R&D\"",
+        "engineer (engineering, engineered, engineers)",
+        "\"technology development\"",
+        "innovate (innovation, innovative, innovations, innovating, innovator, innovators, innovated)",
+        "partner (partners, partnership, partnerships, partnered, partnering)",
+        "alliance (alliances)",
+        "collaborate (collaboration, collaborations, collaborative, collaborating, collaborated, collaborator, collaborators)",
+        "\"joint venture\"",
+        "ecosystem (ecosystems)",
+        "\"developer ecosystem\"",
+        "\"supplier partnership\"",
+        "acquire (acquisition, acquisitions, acquired, acquiring, acquires)",
+        "merger (mergers, merge, merged, merging)",
+        "integrate (integration, integrated, integrating, integrations)",
+        "divest (divestment, divestments, divested, divesting, divestiture, divestitures)",
+        "\"portfolio optimization\"",
+        "experiment (experimentation, experiments, experimented, experimenting, experimental)",
+        "pilot (pilots, piloted, piloting)",
+        "prototype (prototypes, prototyping, prototyped)",
+        "\"test-and-learn\"",
+        "iterate (iteration, iterations, iterating, iterative, iterated)",
+        "\"strategic option\"",
+        "\"investment option\"",
+        "\"selective bet\"",
+        "\"capital allocation\"",
+        "prioritize (prioritization, prioritized, prioritizing, prioritizes)",
+        "commercialize (commercialization, commercialized, commercializing)",
+        "deploy (deployment, deployments, deployed, deploying, deploys)",
+        "\"phase out\"",
+        "exit (exits, exited, exiting)"
+      ]
+    },
+    {
+      "name": "Agile Execution and Organization",
+      "entries": [
+        "agile (agility)",
+        "\"high-velocity\"",
+        "\"rapid execution\"",
+        "accelerate (accelerated, accelerating, acceleration, accelerator, accelerators, accelerates)",
+        "adapt (adaptable, adaptation, adapting, adapted, adaptive, adaptability, adapts)",
+        "pivot (pivots, pivoted, pivoting)",
+        "flexible (flexibility, flexibly)",
+        "\"operational excellence\"",
+        "efficient (efficiency, efficiently, efficiencies)",
+        "productive (productivity, productively)",
+        "reliable (reliability, reliably)",
+        "\"process safety\"",
+        "\"execution discipline\"",
+        "talent (talents, talented)",
+        "\"capability building\"",
+        "\"workforce capability\"",
+        "culture (cultures, cultural, culturally)",
+        "deploy (deployment, deployments, deployed, deploying)",
+        "implement (implementation, implementations, implementing, implemented, implements)",
+        "\"infrastructure buildout\"",
+        "\"capacity expansion\"",
+        "\"ramp-up\"",
+        "speed (speeds, speeding)",
+        "fast (faster, fastest)",
+        "rapid (rapidly)"
+      ]
+    }
+  ],
+  "cross": [
+    {
+      "name": "Explore vs Exploit",
+      "left": {
+        "label": "explore",
+        "entries": [
+          "explore (exploration, exploring, explored, exploratory, explorer, explorers, explores)",
+          "experiment (experimentation, experimental, experiments, experimented, experimenting)",
+          "discover (discovery, discoveries, discovered, discovering)",
+          "pilot (pilots, piloted, piloting)",
+          "\"new business\"",
+          "emerge (emerging, emerged, emerges, emergent)",
+          "option (options, optional, optionality)",
+          "invent (invention, inventions, inventing, invented, inventive, inventor, inventors)",
+          "innovate (innovation, innovative, innovations, innovating, innovator, innovators, innovated)",
+          "\"R&D\"",
+          "research (researcher, researchers, researching, researched)",
+          "prototype (prototypes, prototyping, prototyped)",
+          "iterate (iteration, iterations, iterating, iterative, iterated)",
+          "learn (learning, learned, learner, learners, learns)",
+          "pioneer (pioneers, pioneered, pioneering)",
+          "reinvent (reinvention, reinvented, reinventing, reinvents)",
+          "disrupt (disruption, disruptions, disruptive, disruptor, disruptors, disrupted, disrupting)",
+          "revolutionize (revolution, revolutionary, revolutions, revolutionized, revolutionizing)"
+        ]
+      },
+      "right": {
+        "label": "exploit",
+        "entries": [
+          "\"operational excellence\"",
+          "\"cash generation\"",
+          "\"capital discipline\"",
+          "return (returns, returning, returned)",
+          "efficient (efficiency, efficiencies, efficiently)",
+          "productive (productivity, productively)",
+          "reliable (reliability, reliably)",
+          "\"cash flow\"",
+          "dividend (dividends)",
+          "buyback (buybacks)",
+          "\"record production\"",
+          "cost (costs, costing)",
+          "margin (margins)",
+          "safety",
+          "execute (execution, executions, executed, executing, executes)",
+          "scale (scales, scaled, scaling)"
+        ]
+      }
+    },
+    {
+      "name": "Customer vs Shareholder",
+      "left": {
+        "label": "customer",
+        "entries": [
+          "\"customer obsession\"",
+          "\"customer experience\"",
+          "customer (customers)",
+          "client (clients)",
+          "user (users)",
+          "consumer (consumers)"
+        ]
+      },
+      "right": {
+        "label": "shareholder",
+        "entries": [
+          "shareholder (shareholders)",
+          "stockholder (stockholders)",
+          "dividend (dividends)",
+          "buyback (buybacks)",
+          "\"share repurchase\"",
+          "\"cash return\"",
+          "\"total shareholder return\""
+        ]
+      }
+    },
+    {
+      "name": "Long-term vs Short-term",
+      "left": {
+        "label": "long term",
+        "entries": [
+          "\"long-term\"",
+          "\"long term\"",
+          "decade (decades)",
+          "future (futures)",
+          "\"next generation\"",
+          "\"multi-year\"",
+          "\"years ahead\""
+        ]
+      },
+      "right": {
+        "label": "short term",
+        "entries": [
+          "\"short-term\"",
+          "\"short term\"",
+          "\"near-term\"",
+          "\"near term\"",
+          "quarter (quarters, quarterly)",
+          "immediate (immediately)",
+          "temporary (temporarily)"
+        ]
+      }
+    },
+    {
+      "name": "Entrepreneurial vs Managerial",
+      "left": {
+        "label": "entrepreneurial",
+        "entries": [
+          "entrepreneurial (entrepreneur, entrepreneurs, entrepreneurship)",
+          "founder (founders, founded, founding)",
+          "\"day 1\"",
+          "\"day one\"",
+          "invent (invention, inventions, inventing, invented)",
+          "experiment (experimentation, experiments, experimented, experimenting)",
+          "builder (builders)",
+          "\"risk-taking\"",
+          "bold (boldly, boldness)",
+          "startup (startups)"
+        ]
+      },
+      "right": {
+        "label": "managerial",
+        "entries": [
+          "disciplined (discipline, disciplines)",
+          "efficient (efficiency, efficiencies, efficiently)",
+          "productive (productivity, productively)",
+          "process (processes)",
+          "govern (governance, governing, governed)",
+          "cost (costs, costing)",
+          "control (controls, controlling, controlled)",
+          "\"capital discipline\"",
+          "reliable (reliability, reliably)",
+          "safety"
+        ]
+      }
+    },
+    {
+      "name": "Internal vs External innovation",
+      "left": {
+        "label": "internal innovation",
+        "entries": [
+          "invent (invention, inventions, inventing, invented)",
+          "\"R&D\"",
+          "research (researcher, researchers, researching, researched)",
+          "engineer (engineering, engineered, engineers)",
+          "build (builds, built, building, builder, builders)",
+          "develop (development, developments, developed, developing, developer, developers)",
+          "\"technology development\""
+        ]
+      },
+      "right": {
+        "label": "external innovation",
+        "entries": [
+          "acquire (acquisition, acquisitions, acquired, acquiring, acquires)",
+          "merger (mergers, merge, merged, merging)",
+          "partner (partners, partnership, partnerships, partnered, partnering)",
+          "alliance (alliances)",
+          "\"joint venture\"",
+          "collaborate (collaboration, collaborations, collaborative, collaborating, collaborated)",
+          "ecosystem (ecosystems)"
+        ]
+      }
+    },
+    {
+      "name": "Risk vs Performance",
+      "left": {
+        "label": "risk challenge",
+        "entries": [
+          "crisis (crises)",
+          "shock (shocks, shocked)",
+          "volatile (volatility, volatilities)",
+          "uncertain (uncertainty, uncertainties)",
+          "disrupt (disruption, disruptions, disruptive)",
+          "geopolitical (geopolitics)",
+          "risk (risks, risky)",
+          "challenge (challenges, challenging, challenged)",
+          "pandemic (pandemics)",
+          "\"supply constraint\""
+        ]
+      },
+      "right": {
+        "label": "success performance",
+        "entries": [
+          "\"cash flow\"",
+          "dividend (dividends)",
+          "buyback (buybacks)",
+          "productive (productivity, productively)",
+          "record (records, recording, recorded)",
+          "margin (margins)",
+          "return (returns, returning, returned)",
+          "profit (profits, profitable, profitably, profitability)",
+          "growth (grow, grows, growing, grown, grew)",
+          "performance (performances)"
+        ]
+      }
+    }
+  ]
+}

@@ -4,30 +4,30 @@ import { easings } from './theme'
 
 import Slide01_Hook from './slides/Slide01_Hook'
 import Slide02_Companies from './slides/Slide02_Companies'
-import Slide03_Themes from './slides/Slide03_Themes'
-import Slide04_Methodology from './slides/Slide02_Methodology'
-import Slide05_TechVsOil from './slides/Slide03_TechVsOil'
-import Slide06_Amazon from './slides/Slide04_Amazon'
-import Slide07_Nvidia from './slides/Slide05_Nvidia'
-import Slide08_ShellVsChevron from './slides/Slide06_ShellVsChevron'
-import Slide09_Patterns from './slides/Slide07_Patterns'
-import Slide10_Conclusions from './slides/Slide08_Conclusions'
+import SlideTechVsOil from './slides/Slide03_TechVsOil'
+import SlideAmazon from './slides/Slide04_Amazon'
+import SlideNvidia from './slides/Slide05_Nvidia'
+import SlideShellVsChevron from './slides/Slide06_ShellVsChevron'
+import SlideThankYou from './slides/SlideThankYou'
+import SlideMethodology from './slides/Slide02_Methodology'
+import SlideKeywords, { KEYWORD_STAGES } from './slides/SlideKeywords'
 import SlideNav from './components/SlideNav'
 
-// Each slide declares how many stages it has. The space bar / right-arrow
-// advances stage within a slide; once at the last stage, advancing moves
-// to the next slide. left-arrow walks back one stage at a time.
+// ── Main talk (7 slides) ──────────────────────────────────────────────
+// Hook · Scope · Tech vs Oil · Amazon · NVIDIA · Shell vs Chevron · Thank You
+// ── Appendix (after Thank You — NOT part of the timed talk) ───────────
+// Methodology · Full keyword dictionary
 const SLIDES = [
-  { Component: Slide01_Hook,            label: 'Hook',                       stages: 1 },
-  { Component: Slide02_Companies,       label: 'Scope — 4 firms, 2 industries', stages: 1 },
-  { Component: Slide03_Themes,          label: 'Framework — IPM themes',     stages: 1 },
-  { Component: Slide04_Methodology,     label: 'Methodology',                stages: 1 },
-  { Component: Slide05_TechVsOil,       label: 'Tech vs Oil',                stages: 6 },
-  { Component: Slide06_Amazon,          label: 'Amazon — eras',              stages: 3 },
-  { Component: Slide07_Nvidia,          label: 'NVIDIA — AI flip',           stages: 3 },
-  { Component: Slide08_ShellVsChevron,  label: 'Shell vs Chevron',           stages: 3 },
-  { Component: Slide09_Patterns,        label: 'Patterns',                   stages: 1 },
-  { Component: Slide10_Conclusions,     label: 'Conclusions',                stages: 1 },
+  { Component: Slide01_Hook,           label: 'Hook',                    stages: 1 },
+  { Component: Slide02_Companies,      label: 'Scope — 4 firms, 2 industries', stages: 1 },
+  { Component: SlideTechVsOil,         label: 'Tech vs Oil',             stages: 6 },
+  { Component: SlideAmazon,            label: 'Amazon — eras',           stages: 3 },
+  { Component: SlideNvidia,            label: 'NVIDIA — AI flip',        stages: 3 },
+  { Component: SlideShellVsChevron,    label: 'Shell vs Chevron',        stages: 3 },
+  { Component: SlideThankYou,          label: 'Thank you',               stages: 1 },
+  // appendix
+  { Component: SlideMethodology,       label: 'Appendix · Methodology',  stages: 1 },
+  { Component: SlideKeywords,          label: 'Appendix · All keywords', stages: KEYWORD_STAGES },
 ]
 
 function parseHash() {
@@ -47,7 +47,6 @@ export default function App() {
 
   const totalStages = SLIDES[index].stages || 1
 
-  // Keep the URL hash in sync so refresh and deep-link work.
   useEffect(() => {
     window.location.hash = `#${index + 1}.${stage + 1}`
   }, [index, stage])
@@ -78,7 +77,6 @@ export default function App() {
       setDir(-1)
       const prevIdx = index - 1
       setIndex(prevIdx)
-      // Land on the *last* stage of the previous slide so backward feels continuous.
       setStage((SLIDES[prevIdx].stages || 1) - 1)
     }
   }, [stage, index])
@@ -93,9 +91,6 @@ export default function App() {
         e.preventDefault(); goToSlide(0)
       } else if (e.key === 'End') {
         e.preventDefault(); goToSlide(SLIDES.length - 1)
-      } else if (/^[1-9]$/.test(e.key)) {
-        const n = parseInt(e.key, 10) - 1
-        if (n < SLIDES.length) goToSlide(n)
       }
     }
     window.addEventListener('keydown', onKey)
